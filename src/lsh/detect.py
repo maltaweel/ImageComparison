@@ -3,9 +3,12 @@ This is a Locality Sensitive Hashing implementation.
 
 Code modified from:  https://github.com/mendesk/image-ndd-lsh
 
+<<<<<<< HEAD
 
 Created on Nov 15, 2019
 
+=======
+>>>>>>> b19e74050cae298a5837a8ff63c3af8b58427cb5
 '''
 
 import argparse

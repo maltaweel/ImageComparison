@@ -125,7 +125,7 @@ def printResults(near_duplicates):
     pn=os.path.abspath(__file__)
     pn=pn.split("src")[0]
     
-    pathway=os.path.join(pn,'output','output.csv')
+    pathway=os.path.join(pn,'output_lsh','output.csv')
     
     fieldnames = ['Similarity','File 1','File 2']
     #print results out

@@ -3,16 +3,15 @@ This is a Locality Sensitive Hashing implementation.
 
 Code modified from:  https://github.com/mendesk/image-ndd-lsh
 
-<<<<<<< HEAD
 
 Created on Nov 15, 2019
 
-=======
->>>>>>> b19e74050cae298a5837a8ff63c3af8b58427cb5
+
 '''
 
 import argparse
 import sys
+import os
 from os import listdir
 from os.path import isfile, join
 from typing import Dict, List, Optional, Tuple
@@ -20,6 +19,7 @@ from typing import Dict, List, Optional, Tuple
 import imagehash
 import numpy as np
 from PIL import Image
+import csv
 
 
 def calculate_signature(image_file: str, hash_size: int) -> np.ndarray:
@@ -121,7 +121,37 @@ def find_near_duplicates(input_dir: str, threshold: float, hash_size: int, bands
     return near_duplicates
 
 
+def printResults(near_duplicates):
+    pn=os.path.abspath(__file__)
+    pn=pn.split("src")[0]
+    
+    pathway=os.path.join(pn,'output','output.csv')
+    
+    fieldnames = ['Similarity','File 1','File 2']
+    #print results out
+    try:
+        with open(pathway, 'w') as csvf:
+             
+            writer = csv.DictWriter(csvf, fieldnames=fieldnames)
 
+            writer.writeheader()
+            
+            for a,b,s in near_duplicates:
+                sp1=a.split(os.sep)
+                f1=sp1[len(sp1)-1]
+                
+                sp2=b.split(os.sep)
+                f2=sp2[len(sp1)-1]
+                
+                writer.writerow({'Similarity': str(s),'File 1':str(f1),
+                            'File 2':str(f2)})
+                
+                print('Similarity: '+str(s)+ " File 1: "+str(f1)+" File 2: "+str(f2))
+            
+    except IOError:
+        print ("Could not read file:", csv)
+    
+    
 def run(argv):
     # Argument parser
 
@@ -140,8 +170,8 @@ def run(argv):
     try:
         near_duplicates = find_near_duplicates(input_dir, threshold, hash_size, bands)
         if near_duplicates:
-            for a,b,s in near_duplicates:
-                print(str(s)+".2 similarity: file 1: " +str(a)+" - file 2: "+ str(b))
+            printResults(near_duplicates)
+            
         else:
             print("No near-duplicates found in" +str(input_dir) + str(threshold)+".2%")
     except OSError:

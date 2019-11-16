@@ -125,7 +125,7 @@ def printResults(near_duplicates):
     pn=os.path.abspath(__file__)
     pn=pn.split("src")[0]
     
-    pathway=os.path.join(pn,'output_lsh','output.csv')
+    pathway=os.path.join(pn,'output','output_lsh.csv')
     
     fieldnames = ['Similarity','File 1','File 2']
     #print results out
@@ -149,7 +149,7 @@ def printResults(near_duplicates):
                 print('Similarity: '+str(s)+ " File 1: "+str(f1)+" File 2: "+str(f2))
             
     except IOError:
-        print ("Could not read file:", csv)
+        print ("Could not read file:", IOError)
     
     
 def run(argv):

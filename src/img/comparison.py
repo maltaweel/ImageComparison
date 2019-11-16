@@ -65,8 +65,8 @@ def compare_images(imageA, imageB, title):
     s =  ssim.compare_ssim(imageA, imageB)
 
     # setup the figure
-    fig = plt.figure(title)
-    plt.suptitle("MSE: %.2f, SSIM: %.2f" % (m, s))
+ #   fig = plt.figure(title)
+ #   plt.suptitle("MSE: %.2f, SSIM: %.2f" % (m, s))
     
     return m, s
 

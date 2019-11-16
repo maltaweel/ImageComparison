@@ -1,0 +1,14 @@
+Similarity,File 1,File 2
+1.0,girl_lights.jpg,girl_lights_waldo.jpg
+1.0,1.jpg,3.jpg
+1.0,girl_lights.jpg,girl_lights_shrunk_to_1334x889.jpg
+1.0,girl_lights_shrunk_to_1334x889.jpg,girl_lights_waldo.jpg
+0.875,girl_lights.jpg,girl_lights_cropped_bottom.jpg
+0.875,girl_lights_cropped_bottom.jpg,girl_lights_waldo.jpg
+0.875,girl_lights_cropped_bottom.jpg,girl_lights_shrunk_to_1334x889.jpg
+0.8125,girl_lights_cropped.jpg,girl_lights_shrunk_to_1334x889.jpg
+0.8125,girl_lights_cropped.jpg,girl_lights_waldo.jpg
+0.8125,girl_lights.jpg,girl_lights_cropped.jpg
+0.8125,girl_lights_cropped.jpg,girl_lights_cropped_bottom.jpg
+0.4375,2.jpg,3.jpg
+0.4375,1.jpg,2.jpg

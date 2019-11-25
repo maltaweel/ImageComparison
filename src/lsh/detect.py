@@ -21,6 +21,8 @@ import numpy as np
 from PIL import Image
 import csv
 
+historical={}
+
 
 def calculate_signature(image_file: str, hash_size: int) -> np.ndarray:
     """ 
@@ -120,7 +122,34 @@ def find_near_duplicates(input_dir: str, threshold: float, hash_size: int, bands
     near_duplicates.sort(key=lambda x:x[2], reverse=True)
     return near_duplicates
 
+def printHistorical():
+    pn=os.path.abspath(__file__)
+    pn=pn.split("src")[0]
+    
+    pathway=os.path.join(pn,'output','output_historical_lsh.csv')
+    
+    fieldnames = ['Similarity_Total','File 1','File 2']
+    #print results out
+    try:
+        with open(pathway, 'w') as csvf:
+             
+            writer = csv.DictWriter(csvf, fieldnames=fieldnames)
 
+            writer.writeheader()
+            
+            for k in historical:
+                v=historical[k]
+                s1=k.split(":")[0]
+                s2=k.split(":")[1]
+                
+                v_mean=v/100.0
+            
+                writer.writerow({'Similarity_Total': str(v_mean),'File 1':str(s1),
+                            'File 2':str(s2)})
+            
+    except IOError:
+        print ("Could not read file:", IOError)        
+    
 def printResults(near_duplicates):
     pn=os.path.abspath(__file__)
     pn=pn.split("src")[0]
@@ -143,6 +172,16 @@ def printResults(near_duplicates):
                 sp2=b.split(os.sep)
                 f2=sp2[len(sp1)-1]
                 
+                combined=f1+":"+f2
+                
+                if combined in historical:
+                    v=historical[combined]
+                    historical[combined]=v+s
+                    s=v+s
+                
+                else:
+                    historical[combined]=s
+                    
                 writer.writerow({'Similarity': str(s),'File 1':str(f1),
                             'File 2':str(f2)})
                 
@@ -155,28 +194,37 @@ def printResults(near_duplicates):
 def run(argv):
     # Argument parser
 
-    parser = argparse.ArgumentParser(description="Efficient detection of near-duplicate images using locality sensitive hashing")
-    parser.add_argument("-i", "--inputdir", type=str, default="", help="directory containing images to check")
-    parser.add_argument("-t", "--threshold", type=float, default=0.9, help="similarity threshold")
-    parser.add_argument("-s", "--hash-size", type=int, default=16, help="hash size to use, signature length = hash_size^2", dest="hash_size")
-    parser.add_argument("-b", "--bands", type=int, default=16, help="number of bands")
+#     parser = argparse.ArgumentParser(description="Efficient detection of near-duplicate images using locality sensitive hashing")
+#    parser.add_argument("-i", "--inputdir", type=str, default="", help="directory containing images to check")
+#    parser.add_argument("-t", "--threshold", type=float, default=0.9, help="similarity threshold")
+#    parser.add_argument("-s", "--hash-size", type=int, default=16, help="hash size to use, signature length = hash_size^2", dest="hash_size")
+#    parser.add_argument("-b", "--bands", type=int, default=16, help="number of bands")
 
-    args = parser.parse_args()
-    input_dir = args.inputdir
-    threshold = args.threshold
-    hash_size = args.hash_size
-    bands = args.bands
-
-    try:
-        near_duplicates = find_near_duplicates(input_dir, threshold, hash_size, bands)
-        if near_duplicates:
-            printResults(near_duplicates)
+#    args = parser.parse_args()
+#    input_dir = args.inputdir
+#    threshold = args.threshold
+#    hash_size = args.hash_size
+#    bands = args.bands
+    pn=os.path.abspath(__file__)
+    pn=pn.split("src")[0]
+    
+    input_dir=os.path.join(pn,'input')
+    threshold=0.0
+    hash_size=12
+    bands=12
+    
+    for i in range(0,100):
+        try:
+            near_duplicates = find_near_duplicates(input_dir, threshold, hash_size, bands)
+            if near_duplicates:
+                printResults(near_duplicates)
             
-        else:
-            print("No near-duplicates found in" +str(input_dir) + str(threshold)+".2%")
-    except OSError:
-        print("Couldn't open input directory {input_dir}")
-                    
+            else:
+                print("No near-duplicates found in " +str(input_dir) +" : "+ str(threshold))
+        except OSError:
+            print("Couldn't open input directory {input_dir}")
+     
+    printHistorical()               
 
 if __name__ == "__main__":
     run(sys.argv)

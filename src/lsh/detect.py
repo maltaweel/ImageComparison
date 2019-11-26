@@ -142,7 +142,7 @@ def printHistorical():
                 s1=k.split(":")[0]
                 s2=k.split(":")[1]
                 
-                v_mean=v/100.0
+                v_mean=v/300.0
             
                 writer.writerow({'Similarity_Total': str(v_mean),'File 1':str(s1),
                             'File 2':str(s2)})
@@ -209,11 +209,11 @@ def run(argv):
     pn=pn.split("src")[0]
     
     input_dir=os.path.join(pn,'input')
-    threshold=0.0
-    hash_size=12
-    bands=12
+    threshold=0.7
+    hash_size=10
+    bands=10
     
-    for i in range(0,100):
+    for i in range(0,300):
         try:
             near_duplicates = find_near_duplicates(input_dir, threshold, hash_size, bands)
             if near_duplicates:

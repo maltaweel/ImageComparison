@@ -194,7 +194,7 @@ def printResults(near_duplicates):
 def run(argv):
     # Argument parser
 
-#     parser = argparse.ArgumentParser(description="Efficient detection of near-duplicate images using locality sensitive hashing")
+#    parser = argparse.ArgumentParser(description="Efficient detection of near-duplicate images using locality sensitive hashing")
 #    parser.add_argument("-i", "--inputdir", type=str, default="", help="directory containing images to check")
 #    parser.add_argument("-t", "--threshold", type=float, default=0.9, help="similarity threshold")
 #    parser.add_argument("-s", "--hash-size", type=int, default=16, help="hash size to use, signature length = hash_size^2", dest="hash_size")

@@ -14,7 +14,7 @@ class ImageFile():
         self.cultureData={}
         self.periodData={}
         self.timeData={}
-        
+        self.region={}
         self.runFile()
         
         with open(self.input_dir,mode='rU') as csvfile:
@@ -25,10 +25,13 @@ class ImageFile():
                     timeD=row['Time']
                     period=row['Period']
                     culture=row['Culture']
+                    reg=row['Region']
+                    
                     
                     self.cultureData[fileN]=culture
                     self.periodData[fileN]=period
                     self.timeData[fileN]=timeD
+                    self.region[fileN]=reg
                     
 
     def runFile(self):
@@ -53,14 +56,16 @@ class ImageFile():
             time1=self.timeData[file1]
             period1=self.periodData[file1] 
             culture1=self.cultureData[file1]
+            region1=self.region[file1]
             
         
         if file2 in self.cultureData:
             time2=self.timeData[file2]
             period2=self.periodData[file2]
             culture2=self.cultureData[file2]
+            region2=self.region[file2]
              
         
-        return time1, period1, culture1, time2, period2, culture2
+        return time1, period1, culture1, region1, time2, period2, culture2, region2
     
         

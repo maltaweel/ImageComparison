@@ -149,7 +149,7 @@ def printHistorical(imageFile):
                
                 v_mean=v/300.0
             
-                time1, period1, culture1, region1, time2, period2, culture2, region2=imageFile.checkResults(f1,f2)
+                time1, period1, culture1, region1, time2, period2, culture2, region2=imageFile.checkResults(s1,s2)
                 
                 writer.writerow({'Similarity': str(s),'File 1':str(f1),
                             'File 2':str(f2),'Time 1':time1,'Period 1':period1,'Culture 1':culture1,'Region 1':region1,'Time 2':time2,'Period 2':period2,

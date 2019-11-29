@@ -151,8 +151,8 @@ def printHistorical(imageFile):
             
                 time1, period1, culture1, region1, time2, period2, culture2, region2=imageFile.checkResults(s1,s2)
                 
-                writer.writerow({'Similarity': str(s),'File 1':str(f1),
-                            'File 2':str(f2),'Time 1':time1,'Period 1':period1,'Culture 1':culture1,'Region 1':region1,'Time 2':time2,'Period 2':period2,
+                writer.writerow({'Similarity': str(v_mean),'File 1':str(s1),
+                            'File 2':str(s2),'Time 1':time1,'Period 1':period1,'Culture 1':culture1,'Region 1':region1,'Time 2':time2,'Period 2':period2,
                             'Culture 2':culture2,'Region 2':region2})
             
     except IOError:
@@ -238,6 +238,7 @@ def run(argv):
                 print("No near-duplicates found in " +str(input_dir) +" : "+ str(threshold))
         except OSError:
             print("Couldn't open input directory {input_dir}")
+        
      
     printHistorical(imageFile)               
 

@@ -1,0 +1,66 @@
+Similarity,File 1,File 2,Time 1,Time 1 End,Period 1,Culture 1,Region 1,Time 2,Time 2 End,Period 2,Culture 2,Region 2
+0.85,cyprus_3rd_8.jpg,cyprus_4th_c_4.jpg,300,100,Hellenistic,Cypriot,Cyprus,400,300,Achaemenid,Cypriot,Cyprus
+0.84,cypriot_6th_8.jpg,idlion_6th_15.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,600,500,Neo-Babylonian,Cypriot,Cyprus
+0.8,cyprus_6th_c_21.jpg,ptolemaic_2.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,200,100,Hellenistic,Greco-Egyptian,Egypt
+0.8,egypt_3rdcentury_BC_67.jpg,greek2nd_4.jpg,300,200,Hellenistic,Greco-Egyptian,Egypt,200,100,Hellenistic,Greek,Aegean
+0.79,egypt_12dynasty_7.jpg,new_kingdom_egypt2.jpg,2000,1800,Middle Kingdom,Egyptian,Egypt,1300,1200,New Kingdom,Egyptian,Egypt
+0.79,egypt_13th_century.jpg,egypt_26th_dynasty1.jpg,1800,1600,Middle Kingdom,Egyptian,Egypt,700,500,Saite Period,Egyptian,Egypt
+0.78,cyprus_6th_c_21.jpg,cyprus_roman_15.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,100,0,Roman,Cypriot,Cyprus
+0.78,cyprus_4th_c_4.jpg,egypt_13th_century.jpg,400,300,Achaemenid,Cypriot,Cyprus,1800,1600,Middle Kingdom,Egyptian,Egypt
+0.78,cyprus_6th_c_21.jpg,egypt_22_3.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,1000,700,Third Intermediate,Egyptian,Egypt
+0.77,achaemenid4.jpg,cyprus_4th_8.jpg,500,400,Achaemenid,Achaemenid,Iran,400,300,Achaemenid,Cypriot,Cyprus
+0.77,cyprus_2nd_4.jpg,cyprus_6th_c_21.jpg,200,100,Hellenistic,Cypriot,Cyprus,600,500,Neo-Babylonian,Cypriot,Cyprus
+0.77,achaemenid4.jpg,egypt_3rdcentury_BC_67.jpg,500,400,Achaemenid,Achaemenid,Iran,300,200,Hellenistic,Greco-Egyptian,Egypt
+0.77,cypriot_6th_10.jpeg,egypt_22_3.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,1000,700,Third Intermediate,Egyptian,Egypt
+0.77,achaemenid_1.jpg,assyrian4.jpg,500,400,Achaemenid,Achaemenid,Iran,700,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.76,cypriot_6th_7.jpg,egypt_5th_dynasty1.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,2500,2300,Old Kingdom,Egyptian,Egypt
+0.76,cypriot_6th_10.jpeg,cypriot_6th_8.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,600,500,Neo-Babylonian,Cypriot,Cyprus
+0.75,achaemenid2.jpg,achaemenid4.jpg,500,400,Achaemenid,Achaemenid,Iran,500,400,Achaemenid,Achaemenid,Iran
+0.75,cyprus_4th_c_4.jpg,egypt_26th_dynasty1.jpg,400,300,Achaemenid,Cypriot,Cyprus,700,500,Saite Period,Egyptian,Egypt
+0.75,cyprus_2nd_4.jpg,ptolemaic_2.jpg,200,100,Hellenistic,Cypriot,Cyprus,200,100,Hellenistic,Greco-Egyptian,Egypt
+0.75,cyprus_5th_8.jpg,egypt_3rdcentury_BC_67.jpg,500,400,Achaemenid,Cypriot,Cyprus,300,200,Hellenistic,Greco-Egyptian,Egypt
+0.75,cyprus_5th_8.jpg,egypt_3rd_10.jpg,500,400,Achaemenid,Cypriot,Cyprus,300,200,Hellenistic,Greco-Egyptian,Egypt
+0.75,egypt_13th_century.jpg,egypt_19_5.jpg,1800,1600,Middle Kingdom,Egyptian,Egypt,1300,1200,New Kingdom,Egyptian,Egypt
+0.75,egypt_12dynasty_7.jpg,egypt_3rdcentury_BC_67.jpg,2000,1800,Middle Kingdom,Egyptian,Egypt,300,200,Hellenistic,Greco-Egyptian,Egypt
+0.75,achaemenid6.jpg,cyprus_2nd_13.jpg,500,400,Achaemenid,Achaemenid,Iran,200,100,Hellenistic,Cypriot,Cyprus
+0.74,cyprus_roman_15.jpg,ptolemaic_2.jpg,100,0,Roman,Cypriot,Cyprus,200,100,Hellenistic,Greco-Egyptian,Egypt
+0.74,achaemenid4.jpg,achaemenid6.jpg,500,400,Achaemenid,Achaemenid,Iran,500,400,Achaemenid,Achaemenid,Iran
+0.74,achaemenid5.jpg,phoenician_4_2.jpg,500,400,Achaemenid,Achaemenid,Iran,400,300,Achaemenid,Phoenician,Levant
+0.74,egypt_3rd_12.jpg,greek4th_1.jpg,300,200,Hellenistic,Greco-Egyptian,Egypt,400,300,Hellenistic,Greek,Aegean
+0.74,egypt_13th_century.jpg,neo_assyrian4.jpg,1800,1600,Middle Kingdom,Egyptian,Egypt,900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.74,cyprus_3rd_8.jpg,egypt_26th_dynasty1.jpg,300,100,Hellenistic,Cypriot,Cyprus,700,500,Saite Period,Egyptian,Egypt
+0.74,achaemenid4.jpg,egypt_12dynasty_7.jpg,500,400,Achaemenid,Achaemenid,Iran,2000,1800,Middle Kingdom,Egyptian,Egypt
+0.73,cyprus_5th_8.jpg,cyprus_roman_15.jpg,500,400,Achaemenid,Cypriot,Cyprus,100,0,Roman,Cypriot,Cyprus
+0.73,cyprus_5th_8.jpg,egypt_19th_5.jpg,500,400,Achaemenid,Cypriot,Cyprus,1300,1200,New Kingdom,Egyptian,Egypt
+0.73,cyprus_4th_8.jpg,phoenician_5_2.jpg,400,300,Achaemenid,Cypriot,Cyprus,500,400,Achaemenid,Phoenician,Levant
+0.73,greek1st_4.jpg,greek2nd_4.jpg,100,0,Roman,Greek,Aegean,200,100,Hellenistic,Greek,Aegean
+0.73,cyprus_5th_8.jpg,ptolemaic_2.jpg,500,400,Achaemenid,Cypriot,Cyprus,200,100,Hellenistic,Greco-Egyptian,Egypt
+0.73,assyrian4.jpg,phoenician_5_3.jpg,700,600,Neo-Assyrian,Assyrian,Mesopotamia,500,400,Achaemenid,Phoenician,Levant
+0.73,cypriot_6th_10.jpeg,cyprus_7-6th_BC-5.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,700,600,Neo-Assyrian,Cypriot,Cyprus
+0.73,cypriot_6th_10.jpeg,cyprus_4th_c_4.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,400,300,Achaemenid,Cypriot,Cyprus
+0.73,egypt_19_5.jpg,egypt_19th_5.jpg,1300,1200,New Kingdom,Egyptian,Egypt,1300,1200,New Kingdom,Egyptian,Egypt
+0.73,cyprus_4th_8.jpg,cyprus_5th_8.jpg,400,300,Achaemenid,Cypriot,Cyprus,500,400,Achaemenid,Cypriot,Cyprus
+0.72,egypt_19th_5.jpg,ptolemaic_2.jpg,1300,1200,New Kingdom,Egyptian,Egypt,200,100,Hellenistic,Greco-Egyptian,Egypt
+0.72,cyprus_roman_15.jpg,new_kingdom_egypt2.jpg,100,0,Roman,Cypriot,Cyprus,1300,1200,New Kingdom,Egyptian,Egypt
+0.72,achaemenid2.jpg,egypt_3rdcentury_BC_67.jpg,500,400,Achaemenid,Achaemenid,Iran,300,200,Hellenistic,Greco-Egyptian,Egypt
+0.72,cyprus_6-5c_43.jpg,egypt_26th_dynasty1.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,700,500,Saite Period,Egyptian,Egypt
+0.72,cypriot_5th.jpg,cyprus_7-6th_BC-5.jpg,500,400,Achaemenid,Cypriot,Cyprus,700,600,Neo-Assyrian,Cypriot,Cyprus
+0.72,cyprus_3_77.jpg,greek4th_1.jpg,300,100,Hellenistic,Cypriot,Cyprus,400,300,Hellenistic,Greek,Aegean
+0.72,egypt_1st_2.jpg,greek4th_1.jpg,100,0,Roman,Roman-Egyptian,Egypt,400,300,Hellenistic,Greek,Aegean
+0.72,achaemenid3.jpg,cypriot_6th_8.jpg,500,400,Achaemenid,Achaemenid,Iran,600,500,Neo-Babylonian,Cypriot,Cyprus
+0.72,cypriot-5thcentury_3.jpg,greek1st_4.jpg,500,400,Achaemenid,Cypriot,Cyprus,100,0,Roman,Greek,Aegean
+0.72,egypt_13th_century.jpg,egypt_6_1.jpg,1800,1600,Middle Kingdom,Egyptian,Egypt,2400,2200,Old Kingdom,Egyptian,Egypt
+0.72,cyprus_roman_15.jpg,greek2nd_5.jpg,100,0,Roman,Cypriot,Cyprus,200,100,Hellenistic,Greek,Aegean
+0.72,idalion_2_6thCentury.jpg,phoenician_5_3.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,500,400,Achaemenid,Phoenician,Levant
+0.72,cyprus_2nd_13.jpg,greek2nd_4.jpg,200,100,Hellenistic,Cypriot,Cyprus,200,100,Hellenistic,Greek,Aegean
+0.71,cypro_6th_centuryBC1.jpg,greek2nd_4.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,200,100,Hellenistic,Greek,Aegean
+0.71,egypt_12dynasty_7.jpg,egypt_19th_5.jpg,2000,1800,Middle Kingdom,Egyptian,Egypt,1300,1200,New Kingdom,Egyptian,Egypt
+0.71,cyprus_6th_13.jpg,egypt_3rdcentury.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,300,200,Hellenistic,Greco-Egyptian,Egypt
+0.71,egypt_19th_5.jpg,egypt_3rdcentury.jpg,1300,1200,New Kingdom,Egyptian,Egypt,300,200,Hellenistic,Greco-Egyptian,Egypt
+0.71,cyprus_2nd_4.jpg,cyprus_roman_15.jpg,200,100,Hellenistic,Cypriot,Cyprus,100,0,Roman,Cypriot,Cyprus
+0.71,cypriot_6th_10.jpeg,cyprus_2_67.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,200,100,Hellenistic,Cypriot,Cyprus
+0.71,idalion_4_4thCentury.jpg,phoenician_5_2.jpg,400,300,Achaemenid,Cypriot,Cyprus,500,400,Achaemenid,Phoenician,Levant
+0.71,egypt_12dynasty_7.jpg,idalion_2_6thCentury.jpg,2000,1800,Middle Kingdom,Egyptian,Egypt,600,500,Neo-Babylonian,Cypriot,Cyprus
+0.71,cypriot_6th_8.jpg,egypt_22_3.jpg,600,500,Neo-Babylonian,Cypriot,Cyprus,1000,700,Third Intermediate,Egyptian,Egypt
+0.71,achaemenid6.jpg,cyprus_roman_15.jpg,500,400,Achaemenid,Achaemenid,Iran,100,0,Roman,Cypriot,Cyprus
+0.71,cyprus_4th_c_4.jpg,cyprus_6-5c_43.jpg,400,300,Achaemenid,Cypriot,Cyprus,600,500,Neo-Babylonian,Cypriot,Cyprus

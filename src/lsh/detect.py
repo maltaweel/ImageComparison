@@ -15,12 +15,13 @@ import os
 from os import listdir
 from os.path import isfile, join
 from typing import Dict, List, Optional, Tuple
+import time
 
 import imagehash
 import numpy as np
 from PIL import Image
 import csv
-from lsh.imageFileDataLoader import ImageFile
+from imageFileDataLoader import ImageFile
 
 historical={}
 
@@ -167,7 +168,8 @@ def printResults(near_duplicates,imageFile):
     pn=os.path.abspath(__file__)
     pn=pn.split("src")[0]
     
-    pathway=os.path.join(pn,'output','output_lsh.csv')
+    timeT=str(int(time.time()))
+    pathway=os.path.join(pn,'output','output_lsh'+timeT+'.csv')
     
     fieldnames = ['Similarity','File 1','File 2',"Time 1",'Time 1 End','Period 1',"Culture 1","Region 1","Time 2",'Time 2 End',"Period 2","Culture 2",
                   "Region 2"]
@@ -191,7 +193,6 @@ def printResults(near_duplicates,imageFile):
                 if combined in historical:
                     v=historical[combined]
                     historical[combined]=v+s
-                    s=v+s
                 
                 else:
                     historical[combined]=s
@@ -239,20 +240,19 @@ def run(argv):
     
     imageFile=ImageFile()
     imageFile.readFile()
-    
-    for i in range(0,300):
-        try:
-            near_duplicates = find_near_duplicates(input_dir, threshold, hash_size, bands)
-            if near_duplicates:
-                printResults(near_duplicates,imageFile)
+  
+    try:
+        near_duplicates = find_near_duplicates(input_dir, threshold, hash_size, bands)
+        if near_duplicates:
+            printResults(near_duplicates,imageFile)
             
-            else:
-                print("No near-duplicates found in " +str(input_dir) +" : "+ str(threshold))
-        except OSError:
-            print("Couldn't open input directory {input_dir}")
+        else:
+            print("No near-duplicates found in " +str(input_dir) +" : "+ str(threshold))
+    except OSError:
+        print("Couldn't open input directory {input_dir}")
         
      
-    printHistorical(imageFile)               
+#   printHistorical(imageFile)               
 
 if __name__ == "__main__":
     run(sys.argv)

@@ -22,7 +22,7 @@ class ImageFile():
  
                 for row in reader:
                     fileN=row['File']
-                    timeD=row['Time'].split(":")
+                    timeD=row['Time']
                     period=row['Period']
                     culture=row['Culture']
                     

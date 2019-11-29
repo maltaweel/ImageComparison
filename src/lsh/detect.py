@@ -129,7 +129,7 @@ def printHistorical(imageFile):
     
     pathway=os.path.join(pn,'output','output_historical_lsh.csv')
     
-    fieldnames = ['Similarity','File 1','File 2',"Time 1",'Period 1',"Culture 1","Region 1","Time 2","Period 2","Culture 2",
+    fieldnames = ['Similarity','File 1','File 2',"Time 1",'Time 1 End','Period 1',"Culture 1","Region 1","Time 2",'Time 2 End',"Period 2","Culture 2",
                   "Region 2"]
      
     #print results out
@@ -145,15 +145,20 @@ def printHistorical(imageFile):
                 s1=k.split(":")[0]
                 s2=k.split(":")[1]
                 
-                
-               
                 v_mean=v/300.0
             
                 time1, period1, culture1, region1, time2, period2, culture2, region2=imageFile.checkResults(s1,s2)
                 
+                st1=time1.split(':')[0]
+                st2=time1.split(":")[1]
+                
+                et1=time2.split(":")[0]
+                et2=time2.split(":")[1]
+                
                 writer.writerow({'Similarity': str(v_mean),'File 1':str(s1),
-                            'File 2':str(s2),'Time 1':time1,'Period 1':period1,'Culture 1':culture1,'Region 1':region1,'Time 2':time2,'Period 2':period2,
-                            'Culture 2':culture2,'Region 2':region2})
+                            'File 2':str(s2),'Time 1':st1,'Time 1 End':st2,
+                            'Period 1':period1,'Culture 1':culture1,'Region 1':region1,'Time 2':et1,'Time 2 End':et2,
+                            'Period 2':period2,'Culture 2':culture2,'Region 2':region2})
             
     except IOError:
         print ("Could not read file:", IOError)        
@@ -164,7 +169,7 @@ def printResults(near_duplicates,imageFile):
     
     pathway=os.path.join(pn,'output','output_lsh.csv')
     
-    fieldnames = ['Similarity','File 1','File 2',"Time 1",'Period 1',"Culture 1","Region 1","Time 2","Period 2","Culture 2",
+    fieldnames = ['Similarity','File 1','File 2',"Time 1",'Time 1 End','Period 1',"Culture 1","Region 1","Time 2",'Time 2 End',"Period 2","Culture 2",
                   "Region 2"]
     #print results out
     try:
@@ -182,7 +187,7 @@ def printResults(near_duplicates,imageFile):
                 f2=sp2[len(sp1)-1]
                 
                 combined=f1+":"+f2
-                
+                cv_v=s
                 if combined in historical:
                     v=historical[combined]
                     historical[combined]=v+s
@@ -193,9 +198,16 @@ def printResults(near_duplicates,imageFile):
                 
                 time1, period1, culture1, region1, time2, period2, culture2, region2=imageFile.checkResults(f1,f2)
                 
-                writer.writerow({'Similarity': str(s),'File 1':str(f1),
-                            'File 2':str(f2),'Time 1':time1,'Period 1':period1,'Culture 1':culture1,'Region 1':region1,'Time 2':time2,'Period 2':period2,
-                            'Culture 2':culture2,'Region 2':region2})
+                st1=time1.split(':')[0]
+                st2=time1.split(":")[1]
+                
+                et1=time2.split(":")[0]
+                et2=time2.split(":")[1]
+                
+                writer.writerow({'Similarity': str(cv_v),'File 1':str(f1),
+                            'File 2':str(f2),'Time 1':st1,'Time 1 End':st2,
+                            'Period 1':period1,'Culture 1':culture1,'Region 1':region1,'Time 2':et1,'Time 2 End':et2,
+                            'Period 2':period2,'Culture 2':culture2,'Region 2':region2})
                 
                 print('Similarity: '+str(s)+ " File 1: "+str(f1)+" File 2: "+str(f2))
             

@@ -17,7 +17,7 @@ class ImageFile():
         
         self.runFile()
         
-        with open(self.input_dir,'rU') as csvfile:
+        with open(self.input_dir,mode='rU') as csvfile:
                 reader = csv.DictReader(csvfile)
  
                 for row in reader:
@@ -27,7 +27,7 @@ class ImageFile():
                     culture=row['Culture']
                     
                     self.cultureData[fileN]=culture
-                    self.periodData=[fileN]=period
+                    self.periodData[fileN]=period
                     self.timeData[fileN]=timeD
                     
 
@@ -50,11 +50,15 @@ class ImageFile():
         culture2=''
         
         if file1 in self.cultureData:
-            time1=self.timeData[file1], period1=self.periodDat[file1], culture1=self.cultureData[file1]
+            time1=self.timeData[file1]
+            period1=self.periodData[file1] 
+            culture1=self.cultureData[file1]
             
         
         if file2 in self.cultureData:
-            time2=self.timeData[file2], period2=self.periodDat[file2], culture2=self.cultureData[file2]
+            time2=self.timeData[file2]
+            period2=self.periodData[file2]
+            culture2=self.cultureData[file2]
              
         
         return time1, period1, culture1, time2, period2, culture2

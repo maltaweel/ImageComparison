@@ -168,7 +168,7 @@ def printResults(near_duplicates,imageFile):
     pn=os.path.abspath(__file__)
     pn=pn.split("src")[0]
     
-    timeT=str(int(time.time()))
+    timeT=str(float(time.time()))
     pathway=os.path.join(pn,'output','output_lsh'+timeT+'.csv')
     
     fieldnames = ['Similarity','File 1','File 2',"Time 1",'Time 1 End','Period 1',"Culture 1","Region 1","Time 2",'Time 2 End',"Period 2","Culture 2",

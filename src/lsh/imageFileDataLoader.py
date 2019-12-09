@@ -21,7 +21,7 @@ class ImageFile():
                 reader = csv.DictReader(csvfile)
  
                 for row in reader:
-                    fileN=row['File']
+                    fileN=row['File'].split('.jp')[0]
                     timeD=row['Time']
                     period=row['Period']
                     culture=row['Culture']
@@ -30,6 +30,7 @@ class ImageFile():
                     
                     self.cultureData[fileN]=culture
                     self.periodData[fileN]=period
+                    
                     self.timeData[fileN]=timeD
                     self.region[fileN]=reg
                     
@@ -43,14 +44,17 @@ class ImageFile():
         
     
     def checkResults(self,file1,file2):
-        
+        file1=file1.split('jp')[0]
+        file2=file2.split('.jp')[0]
         time1=''
         period1=''
         culture1=''
+        region1=''
         
         time2=''
         period2=''
         culture2=''
+        region2=''
         
         if file1 in self.cultureData:
             time1=self.timeData[file1]
@@ -64,8 +68,11 @@ class ImageFile():
             period2=self.periodData[file2]
             culture2=self.cultureData[file2]
             region2=self.region[file2]
+
+        else:
+            print('stop')   
              
-        
+    
         return time1, period1, culture1, region1, time2, period2, culture2, region2
     
         

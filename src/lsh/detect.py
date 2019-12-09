@@ -183,12 +183,12 @@ def printResults(near_duplicates,imageFile):
             
             for a,b,s in near_duplicates:
                 sp1=a.split(os.sep)
-                f1=sp1[len(sp1)-1]
+                f1=sp1[len(sp1)-1].split('.jp')[0]
                 
                 sp2=b.split(os.sep)
-                f2=sp2[len(sp1)-1]
+                f2=sp2[len(sp2)-1].split('.jp')[0]
                 
-                combined=f1+":"+f2
+                combined=f1.strip()+":"+f2.strip()
                 cv_v=s
                 if combined in historical:
                     v=historical[combined]
@@ -202,6 +202,7 @@ def printResults(near_duplicates,imageFile):
                 st1=time1.split(':')[0]
                 st2=time1.split(":")[1]
                 
+                #print(time1+":"+time2)
                 et1=time2.split(":")[0]
                 et2=time2.split(":")[1]
                 

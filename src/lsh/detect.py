@@ -235,7 +235,7 @@ def run(argv):
     pn=pn.split("src")[0]
     
     input_dir=os.path.join(pn,'input')
-    threshold=0.7
+    threshold=0.5
     hash_size=10
     bands=10
     

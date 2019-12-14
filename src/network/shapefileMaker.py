@@ -28,4 +28,7 @@ def writePoint(w,file):
      
     return w
     
+def runData(points,lines):
     
+    
+    print('points finished')

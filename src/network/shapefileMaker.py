@@ -44,7 +44,7 @@ def readInputShape():
         
     
     
-def runData(points,lines):
+def runData():
     
     print('points finished')
 

@@ -51,6 +51,8 @@ def runData():
 def run():
     readInputShape()
     
+    runData()
+    
     print('finished')
 
 if __name__ == '__main__':

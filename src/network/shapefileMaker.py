@@ -25,10 +25,10 @@ def makePoint(x,y,number):
     w.record(number,'Point')
    
    
-def makeLine(x1,y1,x2,y2,number):
+def makeLine(points,number):
     path=os.path.join(pn,'network_output','network.shp')
     w = shapefile.Writer(path,shapefile.POLYLINE)
-    w.line([[[x1,y1],[x2,y2]]])
+    w.line([points])
     w.record(number,'Line')
     
 
@@ -119,8 +119,9 @@ def createOutput():
             x2=g2.x
             y2=g2.y
         
+        points=[x1,y1,x2,y2]
         if x1 and y2 is not None:
-            makeLine(x1,y1,x2,y2,v)
+            makeLine(points,v)
         
           
 def run():

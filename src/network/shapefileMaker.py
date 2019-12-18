@@ -19,17 +19,18 @@ geoValues={}
 country_file={}
 
 
-def makePoint(x,y,number):
-    w = shapefile.Writer(shapefile.POINT)
+def makePoint(w,x,y,number):    
     w.point(x,y)
-    w.record(number,'Point')
+    w.record(value=number)
    
    
-def makeLine(points,number):
-    path=os.path.join(pn,'network_output','network.shp')
-    w = shapefile.Writer(path,shapefile.POLYLINE)
-    w.line([points])
-    w.record(number,'Line')
+def makeLine(w,points,number):
+    
+    w.line([[[points[0],points[1]],[points[2],points[3]]]])
+#   w.record(ID=n)
+    w.record(value=number)
+    
+    
     
 
 def writePoint(w,file):
@@ -83,7 +84,7 @@ def matchOutput():
                     f1 = row['File 1'].split(".")[0]
                     f2 = row['File 2'].split(".")[0]
 
-                    v=row['Similarity']
+                    v=float(row['Similarity'])
                 
                     cntry1=country_file[f1]
                     cntry2=country_file[f2]
@@ -101,7 +102,20 @@ def matchOutput():
         print ("Could not read file:", IOError) 
         
 def createOutput():
+    pointC={}
     
+    path=os.path.join(pn,'network_output','network.shp')
+    path2=os.path.join(pn,'network_output','points.shp')
+    
+    w = shapefile.Writer(path,shapefile.POLYLINE)
+    w2 = shapefile.Writer(path2,shapefile.POINT)
+    
+    
+    w.field('value','F',10,decimal=10)
+ #  w.field('ID','N',10)
+    w2.field('value','F',10,decimal=10)
+    
+    n=0
     for k in geoValues.keys():
         v=geoValues[k]
         
@@ -113,16 +127,31 @@ def createOutput():
             g1=countries[sp1]
             x1=g1.x
             y1=g1.y
-        
+            
+            pc=str(x1)+":"+str(y1)
+            
+            if pc not in pointC:
+                pointC[pc]=pc
+                makePoint(w2,x1,y1,v)
+                
         if sp2 in countries:
             g2=countries[sp2]
             x2=g2.x
             y2=g2.y
+            
+            pc=str(x2)+":"+str(y2)
+            
+            if pc not in pointC:
+                pointC[pc]=pc
+                makePoint(w2,x2,y2,v)
         
         points=[x1,y1,x2,y2]
         if x1 and y2 is not None:
-            makeLine(points,v)
+            makeLine(w,points,v)
         
+        n+=1
+#      w.save(path)
+#      w2.save(path2)
           
 def run():
    

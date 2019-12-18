@@ -235,9 +235,9 @@ def run(argv):
     pn=pn.split("src")[0]
     
     input_dir=os.path.join(pn,'input')
-    threshold=0.5
-    hash_size=10
-    bands=10
+    threshold=0.0
+    hash_size=16
+    bands=20
     
     imageFile=ImageFile()
     imageFile.readFile()

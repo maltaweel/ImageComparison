@@ -9,6 +9,7 @@ import shapefile
 import geopandas as gpd
 import os
 import csv
+import numpy as np
 
 
 pn=os.path.abspath(__file__)
@@ -17,6 +18,8 @@ pn=pn.split("src")[0]
 countries={}
 geoValues={}
 country_file={}
+
+totalsPoint={}
 
 
 def makePoint(w,x,y,number):    
@@ -90,12 +93,35 @@ def matchOutput():
                     cntry2=country_file[f2]
                 
                     key=cntry1+":"+cntry2
+                    
+                   
                 
                     if key in geoValues:
-                        vv=geoValues[key]
-                        geoValues[key]=v+vv
+                        values=geoValues[key]
+                        values.append(v)
+                        geoValues[key]=values
+                       
                     else:
-                        geoValues[key]=v
+                        values=[v]
+                        geoValues[key]=values
+                        
+                    
+                    if cntry1 in totalsPoint:
+                        vs=totalsPoint[cntry1]
+                        vs.append(v)
+                        totalsPoint[cntry1]=vs
+                    
+                    else:
+                        vs=[v]
+                        totalsPoint[cntry1]=vs
+                    
+                    if cntry2 in totalsPoint:
+                        vs1=totalsPoint[cntry2]
+                        vs1.append(v)
+                        totalsPoint[cntry2]=vs1
+                    else:
+                        vs1=[v]
+                        totalsPoint[cntry2]=vs1
                 
 
     except IOError:
@@ -117,10 +143,12 @@ def createOutput():
     
     
     for k in geoValues.keys():
-        v=geoValues[k]
+        values=geoValues[k]
+        v=np.median(values)
         
         sp1=k.split(":")[0]
         sp2=k.split(":")[1]
+        
         
         
         if sp1 in countries:
@@ -131,8 +159,8 @@ def createOutput():
             pc=str(x1)+":"+str(y1)
             
             if pc not in pointC:
-                pointC[pc]=pc
-                makePoint(w2,x1,y1,v)
+                vs=totalsPoint[sp1]
+                makePoint(w2,x1,y1,float(np.median(vs)))
                 
         if sp2 in countries:
             g2=countries[sp2]
@@ -142,12 +170,13 @@ def createOutput():
             pc=str(x2)+":"+str(y2)
             
             if pc not in pointC:
-                pointC[pc]=pc
-                makePoint(w2,x2,y2,v)
+                vs=totalsPoint[sp2]
+                makePoint(w2,x2,y2,float(np.median(vs)))
         
         points=[x1,y1,x2,y2]
         if x1 and x2 and y1 and y2 is not None:
             makeLine(w,points,round(v,2))
+            print(k+":"+str(v))
         
        
 #      w.save(path)

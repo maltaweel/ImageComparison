@@ -1,0 +1,419 @@
+Similarity,File 1,File 2,Time 1,Time 1 End,Period 1,Culture 1,Region 1,Time 2,Time 2 End,Period 2,Culture 2,Region 2
+0.8359375,cyprus_3rd_8,cyprus_4th_c_4,-300,100,Hellenistic,Cypriot,Cyprus,-400,300,Achaemenid,Cypriot,Cyprus
+0.80078125,Palmyra47,egypt_12dynasty_7,-100,300,Roman,Palmyrian,Mesopotamia,-2000,1800,Middle Kingdom,Egyptian,Egypt
+0.79296875,cypriot_6th_8,idlion_6th_15,-600,500,Neo-Babylonian,Cypriot,Cyprus,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.78515625,cyprus_2nd_4,cyprus_4th_c_4,-200,100,Hellenistic,Cypriot,Cyprus,-400,300,Achaemenid,Cypriot,Cyprus
+0.765625,cyprus_2nd_13,cyprus_2nd_4,-200,100,Hellenistic,Cypriot,Cyprus,-200,100,Hellenistic,Cypriot,Cyprus
+0.7578125,Palmyra47,Palmyra49,-100,300,Roman,Palmyrian,Mesopotamia,-100,300,Roman,Palmyrian,Mesopotamia
+0.75,Palmyra47,cyprus_4th_c_4,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.75,Palmyra47,levant_5c_43,-100,300,Roman,Palmyrian,Mesopotamia,-500,400,Achaemenid,Phoenician,Levant
+0.75,Palmyra30,egypt_19th_5,-100,300,Roman,Palmyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.74609375,egypt_12dynasty_7,levant_5c_43,-2000,1800,Middle Kingdom,Egyptian,Egypt,-500,400,Achaemenid,Phoenician,Levant
+0.7421875,egypt3rd_9,levant_5c_43,-300,200,Hellenistic,Egyptian,Egypt,-500,400,Achaemenid,Phoenician,Levant
+0.7421875,cyprus_4th_c_4,cyprus_roman_15,-400,300,Achaemenid,Cypriot,Cyprus,-100,200,Roman,Cypriot,Cyprus
+0.7421875,Palmyra39_male,cyprus_2nd_13,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Cypriot,Cyprus
+0.7421875,cyprus_4th_2,cyprus_roman_15,-400,300,Achaemenid,Cypriot,Cyprus,-100,200,Roman,Cypriot,Cyprus
+0.73046875,cyprus_5th_8,phoenician_5_2,-500,400,Achaemenid,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.73046875,greek4-14,phoenician_5_2,-400,300,Hellenistic,Greek,Aegean,-500,400,Achaemenid,Phoenician,Levant
+0.73046875,Palmyra47,cyprus_2nd_13,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Cypriot,Cyprus
+0.7265625,egypt_18d_44,phoenician_5_2,-1500,1400,New Kingdom,Egyptian,Egypt,-500,400,Achaemenid,Phoenician,Levant
+0.7265625,cyprus_4th_2,greek4-14,-400,300,Achaemenid,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.7265625,Palmyra46,greek4-14,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Hellenistic,Greek,Aegean
+0.72265625,egypt_4thd_15,greek4-14,-2600,2500,Old Kingdom,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.72265625,Palmyra38,egypt3rd_9,-100,300,Roman,Palmyrian,Mesopotamia,-300,200,Hellenistic,Egyptian,Egypt
+0.72265625,egypt_12dynasty_7,egypt_19th_5,-2000,1800,Middle Kingdom,Egyptian,Egypt,-1300,1200,New Kingdom,Egyptian,Egypt
+0.72265625,Palmyra39_male,cyprus_4th_c_4,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.71484375,Palmyra48,egypt_19_5,-100,300,Roman,Palmyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.71484375,Palmyra30,Palmyra39_male,-100,300,Roman,Palmyrian,Mesopotamia,-100,300,Roman,Palmyrian,Mesopotamia
+0.7109375,Palmyra39_male,egypt5d_31,-100,300,Roman,Palmyrian,Mesopotamia,-2600,2400,Old Kingdom,Egyptian,Egypt
+0.7109375,cyprus_4th_2,egypt13c_3,-400,300,Achaemenid,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.7109375,Palmyra48,cyprus_5th_8,-100,300,Roman,Palmyrian,Mesopotamia,-500,400,Achaemenid,Cypriot,Cyprus
+0.7109375,Palmyra47,egypt_19th_5,-100,300,Roman,Palmyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.7109375,achaemenid2,egypt_12thC_19,-500,400,Achaemenid,Achaemenid,Iran,-1200,1100,New Kingdom,Egyptian,Egypt
+0.7109375,Palmyra46,cyprus_4th_2,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.70703125,Palmyra30,Palmyra38,-100,300,Roman,Palmyrian,Mesopotamia,-100,300,Roman,Palmyrian,Mesopotamia
+0.70703125,cyprus_roman_15,egypt_18th_1,-100,200,Roman,Cypriot,Cyprus,-1600,1300,New Kingdom,Egyptian,Egypt
+0.70703125,Palmyra39_male,egypt_3rdcentury_BC_67,-100,300,Roman,Palmyrian,Mesopotamia,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.70703125,Palmyra39_male,greek4-14,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Hellenistic,Greek,Aegean
+0.70703125,cyprus_5th_8,egypt_18d_44,-500,400,Achaemenid,Cypriot,Cyprus,-1500,1400,New Kingdom,Egyptian,Egypt
+0.70703125,Palmyra49,egypt_12dynasty_7,-100,300,Roman,Palmyrian,Mesopotamia,-2000,1800,Middle Kingdom,Egyptian,Egypt
+0.703125,Palmyra25,phoenician_5_2,-100,300,Roman,Palmyrian,Mesopotamia,-500,400,Achaemenid,Phoenician,Levant
+0.703125,Palmyra25,egypt_4thd_15,-100,300,Roman,Palmyrian,Mesopotamia,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.703125,egypt_6thC_14,greek2nd_4,-600,500,Saite Period,Egyptian,Egypt,-200,100,Hellenistic,Greek,Aegean
+0.69921875,Palmyra39_male,cyprus_roman_15,-100,300,Roman,Palmyrian,Mesopotamia,-100,200,Roman,Cypriot,Cyprus
+0.69921875,cyprus_roman_15,ptolemaic_2,-100,200,Roman,Cypriot,Cyprus,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.69921875,greek4-14,ramsesII,-400,300,Hellenistic,Greek,Aegean,-1300,1200,New Kingdom,Egyptian,Egypt
+0.69921875,Palmyra39_male,cypriot_6th_10,-100,300,Roman,Palmyrian,Mesopotamia,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.6953125,egypt13c_3,greek4-14,-1300,1200,New Kingdom,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.6953125,assyria8c_1,neo_assyrian5,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.6953125,Palmyra47,achaemenid4,-100,300,Roman,Palmyrian,Mesopotamia,-500,400,Achaemenid,Achaemenid,Iran
+0.6953125,egypt_18d_44,egypt_4thd_15,-1500,1400,New Kingdom,Egyptian,Egypt,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.6953125,Palmyra38,Palmyra39_male,-100,300,Roman,Palmyrian,Mesopotamia,-100,300,Roman,Palmyrian,Mesopotamia
+0.6953125,Palmyra39_male,ptolemaic_2,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.69140625,Palmyra46,ramsesII,-100,300,Roman,Palmyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.69140625,Palmyra46,greek3rc3,-100,300,Roman,Palmyrian,Mesopotamia,-300,200,Hellenistic,Greek,Aegean
+0.69140625,cyprus_4th_2,greek5th_6,-400,300,Achaemenid,Cypriot,Cyprus,-500,400,Hellenistic,Greek,Aegean
+0.6875,egypt3rd_9,new_kingdom_egypt2,-300,200,Hellenistic,Egyptian,Egypt,-1300,1200,New Kingdom,Egyptian,Egypt
+0.6875,Palmyra25,Palmyra39_male,-100,300,Roman,Palmyrian,Mesopotamia,-100,300,Roman,Palmyrian,Mesopotamia
+0.6875,cyprus_7-6th_BC-5,phoenician_5_4_1,-700,600,Neo-Assyrian,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.6875,egypt5d_31,egypt_18th_1,-2600,2400,Old Kingdom,Egyptian,Egypt,-1600,1300,New Kingdom,Egyptian,Egypt
+0.6875,Palmyra49,cyprus_4th_c_4,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.68359375,egypt_18d_44,greek4-14,-1500,1400,New Kingdom,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.68359375,Palmyra25,greek4-14,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Hellenistic,Greek,Aegean
+0.68359375,Palmyra46,egypt_19_5,-100,300,Roman,Palmyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.68359375,Palmyra47,assyria9thc3,-100,300,Roman,Palmyrian,Mesopotamia,-900,800,Neo-Assyrian,Assyrian,Mesopotamia
+0.68359375,cyprus_2nd_13,egypt_22_3,-200,100,Hellenistic,Cypriot,Cyprus,-1000,700,Third Intermediate,Egyptian,Egypt
+0.68359375,cyprus_4th_c_4,egypt_12dynasty_7,-400,300,Achaemenid,Cypriot,Cyprus,-2000,1800,Middle Kingdom,Egyptian,Egypt
+0.68359375,Palmyra39_male,egypt13c_3,-100,300,Roman,Palmyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.68359375,assyria9thc3,egypt_3rdcentury_BC_67,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.68359375,Palmyra39_male,cyprus_4th_2,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.6796875,egypt_19th_5,phoenician_4_1,-1300,1200,New Kingdom,Egyptian,Egypt,-400,300,Achaemenid,Phoenician,Levant
+0.6796875,cyprus_4th_c_4,levant_5c_43,-400,300,Achaemenid,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.6796875,egypt_13th_century,greek4-14,-1300,1200,Middle Kingdom,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.6796875,cyprus_roman_15,egypt13c_3,-100,200,Roman,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.6796875,Palmyra39_male,cyprus_2nd_4,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Cypriot,Cyprus
+0.6796875,Palmyra39_male,phoenician_5_2,-100,300,Roman,Palmyrian,Mesopotamia,-500,400,Achaemenid,Phoenician,Levant
+0.6796875,assyria9thc3,cyprus_2nd_13,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-200,100,Hellenistic,Cypriot,Cyprus
+0.6796875,cyprus_2nd_13,cyprus_6th_c_21,-200,100,Hellenistic,Cypriot,Cyprus,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.6796875,Palmyra49,levant_5c_43,-100,300,Roman,Palmyrian,Mesopotamia,-500,400,Achaemenid,Phoenician,Levant
+0.6796875,Palmyra39_male,cyprus_6th_c_21,-100,300,Roman,Palmyrian,Mesopotamia,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.67578125,egypt5d_31,greek2nd_4,-2600,2400,Old Kingdom,Egyptian,Egypt,-200,100,Hellenistic,Greek,Aegean
+0.67578125,cypriot_6th_10,cyprus_6th_c_21,-600,500,Neo-Babylonian,Cypriot,Cyprus,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.67578125,egypt_19th_5,egypt_4thd_15,-1300,1200,New Kingdom,Egyptian,Egypt,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.67578125,assyria9thc3,cyprus_5th_8,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-500,400,Achaemenid,Cypriot,Cyprus
+0.67578125,cyprus_4th_2,egypt_12d_9,-400,300,Achaemenid,Cypriot,Cyprus,-1900,1800,Middle Kingdom,Egyptian,Egypt
+0.67578125,cyprus_4th_2,phoenician_5_2,-400,300,Achaemenid,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.67578125,Palmyra39_male,cypriot_hellenistic_1,-100,300,Roman,Palmyrian,Mesopotamia,-300,100,Hellenistic,Cypriot,Cyprus
+0.67578125,egypt_13th_century,egypt_4thd_15,-1300,1200,Middle Kingdom,Egyptian,Egypt,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.67578125,cyprus_2nd_4,cyprus_roman_15,-200,100,Hellenistic,Cypriot,Cyprus,-100,200,Roman,Cypriot,Cyprus
+0.67578125,cyprus_4th_2,ramsesII,-400,300,Achaemenid,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.671875,cypriot_6th_10,egypt_19th_5,-600,500,Neo-Babylonian,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.671875,cyprus_roman_15,egypt_3rdcentury_BC_67,-100,200,Roman,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.671875,egypt_4thd_15,phoenician_5_2,-2600,2500,Old Kingdom,Egyptian,Egypt,-500,400,Achaemenid,Phoenician,Levant
+0.671875,cyprus_3_77,cyprus_3rd_8,-300,100,Hellenistic,Cypriot,Cyprus,-300,100,Hellenistic,Cypriot,Cyprus
+0.66796875,Palmyra49,egypt_4thd_15,-100,300,Roman,Palmyrian,Mesopotamia,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.66796875,egypt_18d_44,new_kingdom_egypt2,-1500,1400,New Kingdom,Egyptian,Egypt,-1300,1200,New Kingdom,Egyptian,Egypt
+0.66796875,Palmyra47,egypt_18d_44,-100,300,Roman,Palmyrian,Mesopotamia,-1500,1400,New Kingdom,Egyptian,Egypt
+0.66796875,cyprus_2nd_13,cyprus_3_77,-200,100,Hellenistic,Cypriot,Cyprus,-300,100,Hellenistic,Cypriot,Cyprus
+0.66796875,Palmyra38,cypriot_6th_10,-100,300,Roman,Palmyrian,Mesopotamia,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.66796875,Palmyra48,phoenician_5_2,-100,300,Roman,Palmyrian,Mesopotamia,-500,400,Achaemenid,Phoenician,Levant
+0.66796875,Palmyra46,phoenician_5_2,-100,300,Roman,Palmyrian,Mesopotamia,-500,400,Achaemenid,Phoenician,Levant
+0.6640625,Palmyra49,egypt_3rdcentury_BC_67,-100,300,Roman,Palmyrian,Mesopotamia,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.6640625,cyprus_3_77,greek4th_1,-300,100,Hellenistic,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.6640625,phoenician_5_2,ramsesII,-500,400,Achaemenid,Phoenician,Levant,-1300,1200,New Kingdom,Egyptian,Egypt
+0.6640625,Palmyra38,ptolemaic_2,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.6640625,Palmyra39_male,achaemenid6,-100,300,Roman,Palmyrian,Mesopotamia,-500,400,Achaemenid,Achaemenid,Iran
+0.6640625,Palmyra47,egypt_6thC_14,-100,300,Roman,Palmyrian,Mesopotamia,-600,500,Saite Period,Egyptian,Egypt
+0.66015625,Palmyra30,egypt_18th_1,-100,300,Roman,Palmyrian,Mesopotamia,-1600,1300,New Kingdom,Egyptian,Egypt
+0.66015625,cyprus_2nd_13,greek4-14,-200,100,Hellenistic,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.66015625,cyprus_4th_8,greek4-14,-400,300,Achaemenid,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.65625,greek6_1,new_kingdom_egypt2,-600,500,Hellenistic,Greek,Aegean,-1300,1200,New Kingdom,Egyptian,Egypt
+0.65625,greek4-14,new_kingdom_egypt2,-400,300,Hellenistic,Greek,Aegean,-1300,1200,New Kingdom,Egyptian,Egypt
+0.65625,cyprus_3rd_8,cyprus_4th_2,-300,100,Hellenistic,Cypriot,Cyprus,-400,300,Achaemenid,Cypriot,Cyprus
+0.65625,Palmyra25,greek3rc3,-100,300,Roman,Palmyrian,Mesopotamia,-300,200,Hellenistic,Greek,Aegean
+0.65625,Palmyra30,cyprus_4th_2,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.65625,cypro_6th_centuryBC1,egypt_3rd_12,-600,500,Neo-Babylonian,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.65625,cypriot_6th_10,levant_5c_43,-600,500,Neo-Babylonian,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.65625,achaemenid4,egypt_13th_century,-500,400,Achaemenid,Achaemenid,Iran,-1300,1200,Middle Kingdom,Egyptian,Egypt
+0.65625,assyria7c11,neo_assyrian6,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.65625,egypt_18d_44,egypt_3rd_10,-1500,1400,New Kingdom,Egyptian,Egypt,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.65625,neo_assyrian6,ramsesII,-900,600,Neo-Assyrian,Assyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.65625,cypriot_5th,egypt_18th_1,-500,400,Achaemenid,Cypriot,Cyprus,-1600,1300,New Kingdom,Egyptian,Egypt
+0.65234375,cyprus_2nd_4,egypt_22_3,-200,100,Hellenistic,Cypriot,Cyprus,-1000,700,Third Intermediate,Egyptian,Egypt
+0.65234375,egypt_19th_5,phoenician_5_4_2,-1300,1200,New Kingdom,Egyptian,Egypt,-500,400,Achaemenid,Phoenician,Levant
+0.65234375,egypt13c_3,phoenician_5_2,-1300,1200,New Kingdom,Egyptian,Egypt,-500,400,Achaemenid,Phoenician,Levant
+0.65234375,cypriot_6th_10,cyprus_2nd_13,-600,500,Neo-Babylonian,Cypriot,Cyprus,-200,100,Hellenistic,Cypriot,Cyprus
+0.65234375,Palmyra30,egypt_1st_2,-100,300,Roman,Palmyrian,Mesopotamia,-100,300,Roman,Roman-Egyptian,Egypt
+0.65234375,Palmyra48,egypt_18d_44,-100,300,Roman,Palmyrian,Mesopotamia,-1500,1400,New Kingdom,Egyptian,Egypt
+0.65234375,cyprus_roman_15,greek3rc3,-100,200,Roman,Cypriot,Cyprus,-300,200,Hellenistic,Greek,Aegean
+0.65234375,cypriot_5th,neo_assyrian4,-500,400,Achaemenid,Cypriot,Cyprus,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.65234375,assyria9thc3,egypt_6thC_14,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-600,500,Saite Period,Egyptian,Egypt
+0.65234375,assyria7c11,egypt13c_3,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.65234375,assyria9thc3,greek4-14,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-400,300,Hellenistic,Greek,Aegean
+0.65234375,Palmyra49,egypt_6_1,-100,300,Roman,Palmyrian,Mesopotamia,-2400,2200,Old Kingdom,Egyptian,Egypt
+0.65234375,egypt_5th_dynasty1,phoenician_4_2,-2500,2300,Old Kingdom,Egyptian,Egypt,-400,300,Achaemenid,Phoenician,Levant
+0.6484375,cypriot-5thcentury_3,neo_assyrian5,-500,400,Achaemenid,Cypriot,Cyprus,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.6484375,cyprus_2nd_4,ptolemaic_2,-200,100,Hellenistic,Cypriot,Cyprus,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.6484375,cypriot_hellenistic_1,greek4-14,-300,100,Hellenistic,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.6484375,cyprus_4th_c_4,egypt_3rdcentury_BC_67,-400,300,Achaemenid,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.6484375,Palmyra47,cypriot_5th_3.JPG,-100,300,Roman,Palmyrian,Mesopotamia,-500,400,Achaemenid,Cypriot,Cyprus
+0.6484375,cyprus_5th_8,greek4-14,-500,400,Achaemenid,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.6484375,achaemenid_1,egypt_6thc_14,-500,400,Achaemenid,Achaemenid,Iran,-600,500,Saite Period,Egyptian,Egypt
+0.64453125,Palmyra47,cyprus_6th_c_21,-100,300,Roman,Palmyrian,Mesopotamia,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.64453125,Palmyra46,egypt_4thd_15,-100,300,Roman,Palmyrian,Mesopotamia,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.64453125,Palmyra46,egypt_18d_44,-100,300,Roman,Palmyrian,Mesopotamia,-1500,1400,New Kingdom,Egyptian,Egypt
+0.64453125,greek4-14,greek5th_6,-400,300,Hellenistic,Greek,Aegean,-500,400,Hellenistic,Greek,Aegean
+0.64453125,cyprus_4th_2,egypt_19_5,-400,300,Achaemenid,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.64453125,cyprus_7-6th_BC-5,idlion_6th_15,-700,600,Neo-Assyrian,Cypriot,Cyprus,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.64453125,egypt_1st_2,greek4_7,-100,300,Roman,Roman-Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.64453125,egypt_18_34,greek3rc3,-1500,1400,New Kingdom,Egyptian,Egypt,-300,200,Hellenistic,Greek,Aegean
+0.64453125,cyprus_5th_8,egypt_3rd_10,-500,400,Achaemenid,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.640625,phoenician_5_2,phoenician_5_3,-500,400,Achaemenid,Phoenician,Levant,-500,400,Achaemenid,Phoenician,Levant
+0.640625,cyprus_3rd_8,egypt13c_3,-300,100,Hellenistic,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.640625,Palmyra38,cyprus_2nd_13,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Cypriot,Cyprus
+0.640625,egypt_4thd_15,phoenician_5_5_1,-2600,2500,Old Kingdom,Egyptian,Egypt,-500,400,Achaemenid,Phoenician,Levant
+0.640625,achaemenid_1,phoenician_5_2,-500,400,Achaemenid,Achaemenid,Iran,-500,400,Achaemenid,Phoenician,Levant
+0.63671875,egypt_26th_dynasty1,greek2nd_5,-700,500,Saite Period,Egyptian,Egypt,-200,100,Hellenistic,Greek,Aegean
+0.63671875,cyprus_7-6th_BC-5,greek3rc3,-700,600,Neo-Assyrian,Cypriot,Cyprus,-300,200,Hellenistic,Greek,Aegean
+0.63671875,cyprus_4th_c_4,egypt_6_1,-400,300,Achaemenid,Cypriot,Cyprus,-2400,2200,Old Kingdom,Egyptian,Egypt
+0.63671875,phoenician_4_1,phoenician_5_4_2,-400,300,Achaemenid,Phoenician,Levant,-500,400,Achaemenid,Phoenician,Levant
+0.63671875,Palmyra39_male,egypt_19th_5,-100,300,Roman,Palmyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.63671875,Palmyra49,egypt_1st_2,-100,300,Roman,Palmyrian,Mesopotamia,-100,300,Roman,Roman-Egyptian,Egypt
+0.63671875,egypt_18th_1,egypt_3rdcentury_BC_67,-1600,1300,New Kingdom,Egyptian,Egypt,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.63671875,Palmyra39_male,Palmyra46,-100,300,Roman,Palmyrian,Mesopotamia,-100,300,Roman,Palmyrian,Mesopotamia
+0.63671875,cyprus_roman_15,egypt_3rd_dynasty6,-100,200,Roman,Cypriot,Cyprus,-2700,2600,Old Kingdom,Egyptian,Egypt
+0.63671875,Palmyra25,Palmyra46,-100,300,Roman,Palmyrian,Mesopotamia,-100,300,Roman,Palmyrian,Mesopotamia
+0.63671875,egypt_19th_5,phoenician_5_2,-1300,1200,New Kingdom,Egyptian,Egypt,-500,400,Achaemenid,Phoenician,Levant
+0.63671875,cyprus_4th_c_4,ptolemaic_2,-400,300,Achaemenid,Cypriot,Cyprus,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.63671875,Palmyra30,assyria8c_1,-100,300,Roman,Palmyrian,Mesopotamia,-700,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.63671875,cyprus_4th_2,egypt_4thd_15,-400,300,Achaemenid,Cypriot,Cyprus,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.63671875,cyprus_4th_2,egypt_18d_44,-400,300,Achaemenid,Cypriot,Cyprus,-1500,1400,New Kingdom,Egyptian,Egypt
+0.6328125,greek2nd_4,greek4th_1,-200,100,Hellenistic,Greek,Aegean,-400,300,Hellenistic,Greek,Aegean
+0.6328125,cyprus_2_68,phonecian_5_3c_6,-200,100,Hellenistic,Cypriot,Cyprus,-500,300,Achaemenid,Phoenician,Levant
+0.6328125,cypriot_hellenistic_1,cyprus_3rd_8,-300,100,Hellenistic,Cypriot,Cyprus,-300,100,Hellenistic,Cypriot,Cyprus
+0.6328125,Palmyra49,greek4th_1,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Hellenistic,Greek,Aegean
+0.6328125,egypt_18d_44,egypt_6thc_14,-1500,1400,New Kingdom,Egyptian,Egypt,-600,500,Saite Period,Egyptian,Egypt
+0.6328125,Palmyra48,cyprus_4th_2,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.6328125,egypt_4thd_15,ramsesII,-2600,2500,Old Kingdom,Egyptian,Egypt,-1300,1200,New Kingdom,Egyptian,Egypt
+0.62890625,achaemenid4,egypt_4thd_15,-500,400,Achaemenid,Achaemenid,Iran,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.62890625,Palmyra30,egypt_6thc_14,-100,300,Roman,Palmyrian,Mesopotamia,-600,500,Saite Period,Egyptian,Egypt
+0.62890625,cypriot_hellenistic_1,cyprus_2nd_13,-300,100,Hellenistic,Cypriot,Cyprus,-200,100,Hellenistic,Cypriot,Cyprus
+0.62890625,cyprus_6th_c_21,phoenician_5_4_1,-600,500,Neo-Babylonian,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.62890625,assyria9thc3,cyprus_4th_2,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.625,cyprus_6-_44,egypt_5th_dynasty1,-600,500,Neo-Babylonian,Cypriot,Cyprus,-2500,2300,Old Kingdom,Egyptian,Egypt
+0.625,egypt13c_3,egypt_13th_century,-1300,1200,New Kingdom,Egyptian,Egypt,-1300,1200,Middle Kingdom,Egyptian,Egypt
+0.625,egypt_12d_9,greek5th_6,-1900,1800,Middle Kingdom,Egyptian,Egypt,-500,400,Hellenistic,Greek,Aegean
+0.625,cypriot_6th_8.png,cyprus_5th_15,-600,500,Neo-Babylonian,Cypriot,Cyprus,-500,400,Achaemenid,Cypriot,Cyprus
+0.625,cyprus_roman_15,egypt_18_34,-100,200,Roman,Cypriot,Cyprus,-1500,1400,New Kingdom,Egyptian,Egypt
+0.625,Palmyra38,egypt_1st_2,-100,300,Roman,Palmyrian,Mesopotamia,-100,300,Roman,Roman-Egyptian,Egypt
+0.625,Palmyra38,egypt_19_5,-100,300,Roman,Palmyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.625,Palmyra38,levant_5-4c_23,-100,300,Roman,Palmyrian,Mesopotamia,-500,300,Achaemenid,Phoenician,Levant
+0.625,cypriot_5th,cyprus_2nd_13,-500,400,Achaemenid,Cypriot,Cyprus,-200,100,Hellenistic,Cypriot,Cyprus
+0.625,cypriot_hellenistic_1,cyprus_4th_c_4,-300,100,Hellenistic,Cypriot,Cyprus,-400,300,Achaemenid,Cypriot,Cyprus
+0.625,achaemenid4,idalion_2_6thCentury,-500,400,Achaemenid,Achaemenid,Iran,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.625,cyprus_6th_c_21,phonecian_5_3c_5,-600,500,Neo-Babylonian,Cypriot,Cyprus,-500,300,Achaemenid,Phoenician,Levant
+0.625,egypt_19_5,egypt_6_1,-1300,1200,New Kingdom,Egyptian,Egypt,-2400,2200,Old Kingdom,Egyptian,Egypt
+0.62109375,egypt_19_5,egypt_3rdcentury,-1300,1200,New Kingdom,Egyptian,Egypt,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.62109375,cyprus_4th_c_4,egypt_19_5,-400,300,Achaemenid,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.62109375,cyprus_1st_bc_3,phoenician_4_1,-100,0,Roman,Cypriot,Cyprus,-400,300,Achaemenid,Phoenician,Levant
+0.62109375,cyprus_2_1_66,egypt_3rdcentury_BC_67,-200,100,Hellenistic,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.62109375,assyria9thc3,cypro_7th_centuryBC1,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-700,600,Neo-Assyrian,Cypriot,Cyprus
+0.62109375,assyria9thc3,cypriot_5th_3.JPG,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-500,400,Achaemenid,Cypriot,Cyprus
+0.62109375,cyprus_2nd_13,egypt3rd_9,-200,100,Hellenistic,Cypriot,Cyprus,-300,200,Hellenistic,Egyptian,Egypt
+0.62109375,egypt_3rdcentury_BC_67,egypt_4thd_15,-300,200,Hellenistic,Greco-Egyptian,Egypt,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.6171875,greek2nd_3,phoenician_5_2,-200,100,Hellenistic,Greek,Aegean,-500,400,Achaemenid,Phoenician,Levant
+0.6171875,cypriot_hellenistic_1,greek1st_4,-300,100,Hellenistic,Cypriot,Cyprus,-100,100,Roman,Greek,Aegean
+0.6171875,cyprus_4th_2,cyprus_5th_8,-400,300,Achaemenid,Cypriot,Cyprus,-500,400,Achaemenid,Cypriot,Cyprus
+0.6171875,egypt_3rdcentury_BC_67,egypt_6thC_14,-300,200,Hellenistic,Greco-Egyptian,Egypt,-600,500,Saite Period,Egyptian,Egypt
+0.6171875,greek3rc3,phoenician_5_5_1,-300,200,Hellenistic,Greek,Aegean,-500,400,Achaemenid,Phoenician,Levant
+0.6171875,assyria7c9,egypt13c_3,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.6171875,achaemenid4,levant_5c_43,-500,400,Achaemenid,Achaemenid,Iran,-500,400,Achaemenid,Phoenician,Levant
+0.6171875,Palmyra30,egypt_3rdcentury_BC_67,-100,300,Roman,Palmyrian,Mesopotamia,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.61328125,egypt_18_34,egypt_6_1,-1500,1400,New Kingdom,Egyptian,Egypt,-2400,2200,Old Kingdom,Egyptian,Egypt
+0.61328125,egypt_3rc_7,egypt_5th_dynasty1,-300,200,Hellenistic,Greco-Egyptian,Egypt,-2500,2300,Old Kingdom,Egyptian,Egypt
+0.61328125,Palmyra25,cyprus_4th_2,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.61328125,cypriot_hellenistic_2,egypt_6thC_14,-300,100,Hellenistic,Cypriot,Cyprus,-600,500,Saite Period,Egyptian,Egypt
+0.61328125,cyprus_2nd_4,egypt_3rdcentury_BC_67,-200,100,Hellenistic,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.61328125,cyprus_1st_bc_3,cyprus_4th_2,-100,0,Roman,Cypriot,Cyprus,-400,300,Achaemenid,Cypriot,Cyprus
+0.61328125,egypt_18d_44,egypt_19th_5,-1500,1400,New Kingdom,Egyptian,Egypt,-1300,1200,New Kingdom,Egyptian,Egypt
+0.61328125,Palmyra38,egypt_18d_61,-100,300,Roman,Palmyrian,Mesopotamia,-1500,1400,New Kingdom,Egyptian,Egypt
+0.61328125,cyprus_3rd_8,egypt_3rd_12,-300,100,Hellenistic,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.61328125,egypt_12d_9,greek4-14,-1900,1800,Middle Kingdom,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.61328125,egypt_13th_century,ptolemaic_2,-1300,1200,Middle Kingdom,Egyptian,Egypt,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.61328125,cyprus_2_67,egypt_18d_44,-200,100,Hellenistic,Cypriot,Cyprus,-1500,1400,New Kingdom,Egyptian,Egypt
+0.609375,Palmyra25,ptolemaic_2,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.609375,assyrian_1,cyprus_4th_8,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.609375,egypt19thc_4,egypt_3rdcentury_BC_67,-1900,1800,Middle Kingdom,Egyptian,Egypt,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.609375,Palmyra49,cyprus_3_77,-100,300,Roman,Palmyrian,Mesopotamia,-300,100,Hellenistic,Cypriot,Cyprus
+0.609375,egypt_18d_61,thutmosesIII-1,-1500,1400,New Kingdom,Egyptian,Egypt,-1500,1400,New Kingdom,Egyptian,Egypt
+0.609375,achaemenid2,egypt_1st_3,-500,400,Achaemenid,Achaemenid,Iran,-100,300,Roman,Roman-Egyptian,Egypt
+0.609375,cyprus_6th_c_21,egypt_19_5,-600,500,Neo-Babylonian,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.609375,Palmyra38,cyprus_6th_c_21,-100,300,Roman,Palmyrian,Mesopotamia,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.609375,cypriot_6th_10,phoenician_4_1,-600,500,Neo-Babylonian,Cypriot,Cyprus,-400,300,Achaemenid,Phoenician,Levant
+0.609375,cyprus_2nd_13,ptolemaic_2,-200,100,Hellenistic,Cypriot,Cyprus,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.609375,cyprus_2_1_66,egypt_19_5,-200,100,Hellenistic,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.609375,assyria7c11,cyprus_4th_8,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.609375,cypriot_5th,cyprus_6th_c_21,-500,400,Achaemenid,Cypriot,Cyprus,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.60546875,egypt_22_3,egypt_6_1,-1000,700,Third Intermediate,Egyptian,Egypt,-2400,2200,Old Kingdom,Egyptian,Egypt
+0.60546875,cyprus_3_77,egypt_1st_2,-300,100,Hellenistic,Cypriot,Cyprus,-100,300,Roman,Roman-Egyptian,Egypt
+0.60546875,cyprus_4th_8,egypt3rd_9,-400,300,Achaemenid,Cypriot,Cyprus,-300,200,Hellenistic,Egyptian,Egypt
+0.60546875,egypt_12d_9,greek3rc4,-1900,1800,Middle Kingdom,Egyptian,Egypt,-300,200,Hellenistic,Greek,Aegean
+0.60546875,idalion_2_6thCentury,phonecian_5_3c_5,-600,500,Neo-Babylonian,Cypriot,Cyprus,-500,300,Achaemenid,Phoenician,Levant
+0.6015625,egypt_6thC_14,greek4-14,-600,500,Saite Period,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.6015625,cyprus_2nd_4,ramsesII,-200,100,Hellenistic,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.6015625,Palmyra39_male,egypt_4thd_15,-100,300,Roman,Palmyrian,Mesopotamia,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.6015625,assyria8c_1,egypt_3rd_10,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.6015625,Palmyra25,ramsesII,-100,300,Roman,Palmyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.6015625,greek1st_4,greek4-14,-100,100,Roman,Greek,Aegean,-400,300,Hellenistic,Greek,Aegean
+0.6015625,cyprus_5th_8,egypt_6thC_14,-500,400,Achaemenid,Cypriot,Cyprus,-600,500,Saite Period,Egyptian,Egypt
+0.59765625,egypt13c_3,greek3rc3,-1300,1200,New Kingdom,Egyptian,Egypt,-300,200,Hellenistic,Greek,Aegean
+0.59765625,cyprus_4th_c_3,cyprus_5th_8,-400,300,Achaemenid,Cypriot,Cyprus,-500,400,Achaemenid,Cypriot,Cyprus
+0.59765625,cyprus_3_77,egypt_3rd_12,-300,100,Hellenistic,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.59765625,cyrpus_5th_12,idalion_2_6thCentury,-500,400,Achaemenid,Cypriot,Cyprus,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.59765625,egypt3rd_9,greek5th_6,-300,200,Hellenistic,Egyptian,Egypt,-500,400,Hellenistic,Greek,Aegean
+0.59765625,Palmyra30,assyrian_1,-100,300,Roman,Palmyrian,Mesopotamia,-700,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.59765625,cyprus_5th_8,greek5th_6,-500,400,Achaemenid,Cypriot,Cyprus,-500,400,Hellenistic,Greek,Aegean
+0.59765625,cypriot_6th_10,egypt_4thd_15,-600,500,Neo-Babylonian,Cypriot,Cyprus,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.59765625,egypt_6thC_14,greek5th_6,-600,500,Saite Period,Egyptian,Egypt,-500,400,Hellenistic,Greek,Aegean
+0.59765625,Palmyra46,cyprus_6th_c_21,-100,300,Roman,Palmyrian,Mesopotamia,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.59375,greek2nd_4,greek3_22,-200,100,Hellenistic,Greek,Aegean,-300,200,Hellenistic,Greek,Aegean
+0.59375,cypriot_5th_3.JPG,phoenician_4_1,-500,400,Achaemenid,Cypriot,Cyprus,-400,300,Achaemenid,Phoenician,Levant
+0.59375,egypt_18th_1,ramsesII,-1600,1300,New Kingdom,Egyptian,Egypt,-1300,1200,New Kingdom,Egyptian,Egypt
+0.59375,cyprus_4th_8,egypt_12d_9,-400,300,Achaemenid,Cypriot,Cyprus,-1900,1800,Middle Kingdom,Egyptian,Egypt
+0.59375,egypt_1st_2,ramsesII,-100,300,Roman,Roman-Egyptian,Egypt,-1300,1200,New Kingdom,Egyptian,Egypt
+0.59375,assyria7c9,cyprus_4th_2,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.59375,egypt19thc_4,phoenician_5_1,-1900,1800,Middle Kingdom,Egyptian,Egypt,-500,400,Achaemenid,Phoenician,Levant
+0.59375,egypt_3rdcentury_BC_67,phoenician_5_1,-300,200,Hellenistic,Greco-Egyptian,Egypt,-500,400,Achaemenid,Phoenician,Levant
+0.59375,Palmyra38,egypt_6_1,-100,300,Roman,Palmyrian,Mesopotamia,-2400,2200,Old Kingdom,Egyptian,Egypt
+0.58984375,phoenician_4_2,shami_statue_parthian,-400,300,Achaemenid,Phoenician,Levant,-200,200,Parthian,Parthian,Iran
+0.58984375,greek4_7,ramsesII,-400,300,Hellenistic,Greek,Aegean,-1300,1200,New Kingdom,Egyptian,Egypt
+0.58984375,achaemenid4,phoenician_5_5_1,-500,400,Achaemenid,Achaemenid,Iran,-500,400,Achaemenid,Phoenician,Levant
+0.58984375,egypt_3rdcentury_BC_67,ptolemaic_2,-300,200,Hellenistic,Greco-Egyptian,Egypt,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.58984375,assyria7c11,cypriot_5th_3.JPG,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-500,400,Achaemenid,Cypriot,Cyprus
+0.58984375,assyria7c11,cyprus_roman_15,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-100,200,Roman,Cypriot,Cyprus
+0.58984375,idalion_2_6thCentury,neo_assyrian5,-600,500,Neo-Babylonian,Cypriot,Cyprus,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.58984375,assyrian4,greek1st_4,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-100,100,Roman,Greek,Aegean
+0.58984375,cyprus_4th_c_3,greek6_1,-400,300,Achaemenid,Cypriot,Cyprus,-600,500,Hellenistic,Greek,Aegean
+0.58984375,cypro_7th_centuryBC1,phoenician_5_3,-700,600,Neo-Assyrian,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.58984375,achaemenid_1,cyprus_3-1_2,-500,400,Achaemenid,Achaemenid,Iran,-300,100,Hellenistic,Cypriot,Cyprus
+0.58984375,cyprus_2nd_13,greek4th_1,-200,100,Hellenistic,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.5859375,Palmyra39_male,cyprus_2_1_66,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Cypriot,Cyprus
+0.5859375,egypt_6thC_14,greek4th_1,-600,500,Saite Period,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.5859375,Palmyra47,ptolemaic_ruler2,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.5859375,cyprus_2_68,egypt_7thc_15,-200,100,Hellenistic,Cypriot,Cyprus,-700,600,Saite Period,Egyptian,Egypt
+0.5859375,cypriot_hellenistic_1,egypt_6thC_14,-300,100,Hellenistic,Cypriot,Cyprus,-600,500,Saite Period,Egyptian,Egypt
+0.5859375,assyria7c10,idalion_5th_5.JPG,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-500,400,Achaemenid,Cypriot,Cyprus
+0.5859375,assyria9thc3,greek5th_6,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-500,400,Hellenistic,Greek,Aegean
+0.5859375,egypt_4thC_14,thutmosesIII-1,-400,300,Hellenistic,Greco-Egyptian,Egypt,-1500,1400,New Kingdom,Egyptian,Egypt
+0.5859375,assyria9thc3,greek4th_2,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-400,300,Hellenistic,Greek,Aegean
+0.5859375,cypriot_5th_4.JPG,greek4-14,-500,400,Achaemenid,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.5859375,assyria9thc3,phoenician_5_3,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-500,400,Achaemenid,Phoenician,Levant
+0.5859375,egypt_12thC_19,egypt_3rc_7,-1200,1100,New Kingdom,Egyptian,Egypt,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.58203125,Palmyra47,cyprus_4th_c_3,-100,300,Roman,Palmyrian,Mesopotamia,-400,300,Achaemenid,Cypriot,Cyprus
+0.58203125,cyprus_2nd_13,neo_assyrian4,-200,100,Hellenistic,Cypriot,Cyprus,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.58203125,neo_assyrian5,ptolemaic_ruler2,-900,600,Neo-Assyrian,Assyrian,Mesopotamia,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.58203125,egypt_1st_2,idalion_4_4thCentury,-100,300,Roman,Roman-Egyptian,Egypt,-400,300,Achaemenid,Cypriot,Cyprus
+0.58203125,cyprus_1st_bc_3,greek1st_4,-100,0,Roman,Cypriot,Cyprus,-100,100,Roman,Greek,Aegean
+0.58203125,cyprus_3_77,greek4th_2,-300,100,Hellenistic,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.58203125,Palmyra47,assyria7c11,-100,300,Roman,Palmyrian,Mesopotamia,-700,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.58203125,cyprus_5th_8,greek4th_2,-500,400,Achaemenid,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.578125,assyria7c9,cyprus_3rd_8,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-300,100,Hellenistic,Cypriot,Cyprus
+0.578125,cypriot_6th_7,phonecian_5_3c_5,-600,500,Neo-Babylonian,Cypriot,Cyprus,-500,300,Achaemenid,Phoenician,Levant
+0.578125,egypt_18d_44,greek2nd_3,-1500,1400,New Kingdom,Egyptian,Egypt,-200,100,Hellenistic,Greek,Aegean
+0.578125,Palmyra39_male,ramsesII,-100,300,Roman,Palmyrian,Mesopotamia,-1300,1200,New Kingdom,Egyptian,Egypt
+0.578125,egypt_3rd_12,greek2nd_5,-300,200,Hellenistic,Greco-Egyptian,Egypt,-200,100,Hellenistic,Greek,Aegean
+0.578125,cyprus_5th_8,egypt_1st_3,-500,400,Achaemenid,Cypriot,Cyprus,-100,300,Roman,Roman-Egyptian,Egypt
+0.578125,egypt_12d_9,egypt_19th_dynasty_2,-1900,1800,Middle Kingdom,Egyptian,Egypt,-1300,1200,New Kingdom,Egyptian,Egypt
+0.578125,cypriot_6th_8.png,egypt_5th_dynasty1,-600,500,Neo-Babylonian,Cypriot,Cyprus,-2500,2300,Old Kingdom,Egyptian,Egypt
+0.578125,cyprus_5th_8,neo_assyrian4,-500,400,Achaemenid,Cypriot,Cyprus,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.57421875,Palmyra47,phonecian_5_3c_5,-100,300,Roman,Palmyrian,Mesopotamia,-500,300,Achaemenid,Phoenician,Levant
+0.57421875,cypro_7th_centuryBC1,egypt_5th_dynasty1,-700,600,Neo-Assyrian,Cypriot,Cyprus,-2500,2300,Old Kingdom,Egyptian,Egypt
+0.57421875,egypt_12d_9,neo_assyrian1,-1900,1800,Middle Kingdom,Egyptian,Egypt,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.57421875,egypt_3rd_dynasty6,neo_assyrian1,-2700,2600,Old Kingdom,Egyptian,Egypt,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.57421875,achaemenid4,phonecian_5_3c_5,-500,400,Achaemenid,Achaemenid,Iran,-500,300,Achaemenid,Phoenician,Levant
+0.57421875,assyrian3,cypriot_hellenistic_2,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-300,100,Hellenistic,Cypriot,Cyprus
+0.57421875,greek5th_6,levant_5c_43,-500,400,Hellenistic,Greek,Aegean,-500,400,Achaemenid,Phoenician,Levant
+0.57421875,egypt_7thc_15,greek3rc4,-700,600,Saite Period,Egyptian,Egypt,-300,200,Hellenistic,Greek,Aegean
+0.5703125,egypt_19th_5,greek4_7,-1300,1200,New Kingdom,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.5703125,cypriot_6th_8,greek2nd_2,-600,500,Neo-Babylonian,Cypriot,Cyprus,-200,100,Hellenistic,Greek,Aegean
+0.5703125,achaemenid4,assyrian3,-500,400,Achaemenid,Achaemenid,Iran,-700,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.5703125,Palmyra26,egypt_4thd_15,-100,300,Roman,Palmyrian,Mesopotamia,-2600,2500,Old Kingdom,Egyptian,Egypt
+0.5703125,cypro_6th_centuryBC1,cyprus_5th_15,-600,500,Neo-Babylonian,Cypriot,Cyprus,-500,400,Achaemenid,Cypriot,Cyprus
+0.5703125,cyrpus_5th_12,phoenician_5_2,-500,400,Achaemenid,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.56640625,cyprus_1st_bc_3,phoenician_5_1,-100,0,Roman,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.56640625,egypt_12thC_19,greek4th_2,-1200,1100,New Kingdom,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.56640625,cypriot_hellenistic_2,egypt13c_3,-300,100,Hellenistic,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.56640625,assyrian4,cypro_7th_centuryBC1,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-700,600,Neo-Assyrian,Cypriot,Cyprus
+0.56640625,cyprus_1st_bc_3,cyprus_3rd_9,-100,0,Roman,Cypriot,Cyprus,-300,100,Hellenistic,Cypriot,Cyprus
+0.56640625,greek2nd_5,phoenician_5_1,-200,100,Hellenistic,Greek,Aegean,-500,400,Achaemenid,Phoenician,Levant
+0.56640625,greek6_1,phoenician_5_2,-600,500,Hellenistic,Greek,Aegean,-500,400,Achaemenid,Phoenician,Levant
+0.56640625,egypt_22_3,egypt_7thc_15,-1000,700,Third Intermediate,Egyptian,Egypt,-700,600,Saite Period,Egyptian,Egypt
+0.56640625,cyprus_4th_2,greek2nd_3,-400,300,Achaemenid,Cypriot,Cyprus,-200,100,Hellenistic,Greek,Aegean
+0.56640625,egypt_18d_61,egypt_19_5,-1500,1400,New Kingdom,Egyptian,Egypt,-1300,1200,New Kingdom,Egyptian,Egypt
+0.56640625,egypt_19th_dynasty_2,greek2nd_2,-1300,1200,New Kingdom,Egyptian,Egypt,-200,100,Hellenistic,Greek,Aegean
+0.5625,cyprus_2_1_66,egypt_12dynasty_7,-200,100,Hellenistic,Cypriot,Cyprus,-2000,1800,Middle Kingdom,Egyptian,Egypt
+0.5625,egypt_18d_61,egypt_4thC_14,-1500,1400,New Kingdom,Egyptian,Egypt,-400,300,Hellenistic,Greco-Egyptian,Egypt
+0.5625,cyprus_4th_2,egypt_3rdcentury,-400,300,Achaemenid,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.5625,egypt_6thc_14,neo_assyrian5,-600,500,Saite Period,Egyptian,Egypt,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.5625,assyrian3,egypt_6thC_14,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-600,500,Saite Period,Egyptian,Egypt
+0.5625,Palmyra49,egypt_18_34,-100,300,Roman,Palmyrian,Mesopotamia,-1500,1400,New Kingdom,Egyptian,Egypt
+0.5625,cyprus_5th_8,idalion_3_5thCentury,-500,400,Achaemenid,Cypriot,Cyprus,-500,400,Achaemenid,Cypriot,Cyprus
+0.55859375,cypro_7th_centuryBC1,egypt_18d_44,-700,600,Neo-Assyrian,Cypriot,Cyprus,-1500,1400,New Kingdom,Egyptian,Egypt
+0.55859375,cyprus_6th_13,greek4_7,-600,500,Neo-Babylonian,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.55859375,Palmyra38,greek6_1,-100,300,Roman,Palmyrian,Mesopotamia,-600,500,Hellenistic,Greek,Aegean
+0.55859375,cyprus_5th_8,egypt_2c_8,-500,400,Achaemenid,Cypriot,Cyprus,-200,100,Hellenistic,Egyptian,Egypt
+0.5546875,assyria9thc3,egypt_12d_9,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-1900,1800,Middle Kingdom,Egyptian,Egypt
+0.5546875,assyrian3,phoenician_4_1,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-400,300,Achaemenid,Phoenician,Levant
+0.5546875,cyprus_6-_44,greek2nd_5,-600,500,Neo-Babylonian,Cypriot,Cyprus,-200,100,Hellenistic,Greek,Aegean
+0.5546875,assyrian_1,egypt_18th_1,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-1600,1300,New Kingdom,Egyptian,Egypt
+0.5546875,egypt_7thc_15,phonecian_5_3c_6,-700,600,Saite Period,Egyptian,Egypt,-500,300,Achaemenid,Phoenician,Levant
+0.5546875,cyprus_2_68,idalion_5th_5.JPG,-200,100,Hellenistic,Cypriot,Cyprus,-500,400,Achaemenid,Cypriot,Cyprus
+0.55078125,egypt_6thC_14,greek4th_2,-600,500,Saite Period,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.55078125,cyprus_4th_2,greek4th_2,-400,300,Achaemenid,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.55078125,cypriot_6th_10,phoenician_5_4_2,-600,500,Neo-Babylonian,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.55078125,achaemenid5,assyria9th1,-500,400,Achaemenid,Achaemenid,Iran,-900,800,Neo-Assyrian,Assyrian,Mesopotamia
+0.55078125,cyprus_5th_8,greek2nd_3,-500,400,Achaemenid,Cypriot,Cyprus,-200,100,Hellenistic,Greek,Aegean
+0.55078125,assyria7c9,neo_assyrian6,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.55078125,achaemenid_1,greek6_1,-500,400,Achaemenid,Achaemenid,Iran,-600,500,Hellenistic,Greek,Aegean
+0.55078125,achaemenid5,egypt_19th_dynasty_2,-500,400,Achaemenid,Achaemenid,Iran,-1300,1200,New Kingdom,Egyptian,Egypt
+0.546875,egypt_26th_dynasty1,greek4_7,-700,500,Saite Period,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.546875,greek4th_2,greek5th_6,-400,300,Hellenistic,Greek,Aegean,-500,400,Hellenistic,Greek,Aegean
+0.546875,assyria9th1,greek2nd_5,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-200,100,Hellenistic,Greek,Aegean
+0.546875,cyprus_4th_c_4,egypt_3rc_7,-400,300,Achaemenid,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.546875,Palmyra48,greek2nd_4,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Greek,Aegean
+0.546875,Palmyra25,cyrpus_5th_12,-100,300,Roman,Palmyrian,Mesopotamia,-500,400,Achaemenid,Cypriot,Cyprus
+0.546875,cypriot_6th_8.png,egypt_12dynasty_7,-600,500,Neo-Babylonian,Cypriot,Cyprus,-2000,1800,Middle Kingdom,Egyptian,Egypt
+0.546875,egypt_12d_9,greek4th_2,-1900,1800,Middle Kingdom,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.54296875,cyprus_3rd_8,egypt_2c_8,-300,100,Hellenistic,Cypriot,Cyprus,-200,100,Hellenistic,Egyptian,Egypt
+0.54296875,cyprus_5th_8,egypt_12d_9,-500,400,Achaemenid,Cypriot,Cyprus,-1900,1800,Middle Kingdom,Egyptian,Egypt
+0.54296875,cyprus_6th_13,greek2nd_2,-600,500,Neo-Babylonian,Cypriot,Cyprus,-200,100,Hellenistic,Greek,Aegean
+0.54296875,assyrian3,idalion_5th_5.JPG,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-500,400,Achaemenid,Cypriot,Cyprus
+0.54296875,cypriot_hellenistic_1,egypt_19_5,-300,100,Hellenistic,Cypriot,Cyprus,-1300,1200,New Kingdom,Egyptian,Egypt
+0.5390625,egypt_3rc_7,greek2nd_4,-300,200,Hellenistic,Greco-Egyptian,Egypt,-200,100,Hellenistic,Greek,Aegean
+0.5390625,egypt3rd_9,egypt_1st_3,-300,200,Hellenistic,Egyptian,Egypt,-100,300,Roman,Roman-Egyptian,Egypt
+0.53515625,cypriot_5th,egypt_18_34,-500,400,Achaemenid,Cypriot,Cyprus,-1500,1400,New Kingdom,Egyptian,Egypt
+0.53515625,greek1st_4,greek5_11,-100,100,Roman,Greek,Aegean,-500,400,Hellenistic,Greek,Aegean
+0.53515625,greek4-14,greek4th_2,-400,300,Hellenistic,Greek,Aegean,-400,300,Hellenistic,Greek,Aegean
+0.53515625,cyprus_2_68,greek4th_6,-200,100,Hellenistic,Cypriot,Cyprus,-400,300,Hellenistic,Greek,Aegean
+0.53515625,egypt_3rd_10,egypt_6thC_14,-300,200,Hellenistic,Greco-Egyptian,Egypt,-600,500,Saite Period,Egyptian,Egypt
+0.53515625,cyprus_4th_c_3,greek3rc4,-400,300,Achaemenid,Cypriot,Cyprus,-300,200,Hellenistic,Greek,Aegean
+0.53515625,cyprus_1st_bc_3,greek3_22,-100,0,Roman,Cypriot,Cyprus,-300,200,Hellenistic,Greek,Aegean
+0.53125,cypro_7th_centuryBC1,egypt_3rc_7,-700,600,Neo-Assyrian,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.53125,idlion_6th_15,neo_assyrian6,-600,500,Neo-Babylonian,Cypriot,Cyprus,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.53125,cypro_6th_centuryBC1,idalion_5th_5.JPG,-600,500,Neo-Babylonian,Cypriot,Cyprus,-500,400,Achaemenid,Cypriot,Cyprus
+0.53125,greek2nd_3,greek4th_2,-200,100,Hellenistic,Greek,Aegean,-400,300,Hellenistic,Greek,Aegean
+0.53125,cyprus_1st_bc_3,cyprus_6-_44,-100,0,Roman,Cypriot,Cyprus,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.52734375,Palmyra48,greek2nd_3,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Greek,Aegean
+0.52734375,Palmyra46,egypt_18th_dynasty7_1,-100,300,Roman,Palmyrian,Mesopotamia,-1600,1300,New Kingdom,Egyptian,Egypt
+0.52734375,egypt_18th_1,greek4th_1,-1600,1300,New Kingdom,Egyptian,Egypt,-400,300,Hellenistic,Greek,Aegean
+0.52734375,Palmyra25,greek2nd_2,-100,300,Roman,Palmyrian,Mesopotamia,-200,100,Hellenistic,Greek,Aegean
+0.5234375,cyprus_4th_2,egypt_3rc_7,-400,300,Achaemenid,Cypriot,Cyprus,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.5234375,assyria8c_1,cyprus_2nd_4,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-200,100,Hellenistic,Cypriot,Cyprus
+0.5234375,egypt_18d_44,phonecian_5_3c_5,-1500,1400,New Kingdom,Egyptian,Egypt,-500,300,Achaemenid,Phoenician,Levant
+0.5234375,cyprus_4th_2,egypt_6thC_14,-400,300,Achaemenid,Cypriot,Cyprus,-600,500,Saite Period,Egyptian,Egypt
+0.5234375,egypt5d_31,greek5_11,-2600,2400,Old Kingdom,Egyptian,Egypt,-500,400,Hellenistic,Greek,Aegean
+0.5234375,assyria7c11,neo_assyrian2,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.5234375,neo_assyrian2,neo_assyrian6,-900,600,Neo-Assyrian,Assyrian,Mesopotamia,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.51953125,assyria9thc3,egypt_3rc_7,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.51953125,cypriot_7th_6th_9,egypt_1st_2,-700,600,Neo-Assyrian,Cypriot,Cyprus,-100,300,Roman,Roman-Egyptian,Egypt
+0.51953125,egypt_12d_9,egypt_6thC_14,-1900,1800,Middle Kingdom,Egyptian,Egypt,-600,500,Saite Period,Egyptian,Egypt
+0.515625,cyprus_6th_c_21,egypt_18d_44,-600,500,Neo-Babylonian,Cypriot,Cyprus,-1500,1400,New Kingdom,Egyptian,Egypt
+0.515625,cypro_7th_centuryBC1,cyprus_2_67,-700,600,Neo-Assyrian,Cypriot,Cyprus,-200,100,Hellenistic,Cypriot,Cyprus
+0.515625,assyria7c9,cyprus_3rd_9,-700,600,Neo-Assyrian,Assyrian,Mesopotamia,-300,100,Hellenistic,Cypriot,Cyprus
+0.515625,egypt_2c_8,egypt_3rd_10,-200,100,Hellenistic,Egyptian,Egypt,-300,200,Hellenistic,Greco-Egyptian,Egypt
+0.515625,cyrpus_5th_12,old_kingdom,-500,400,Achaemenid,Cypriot,Cyprus,-2500,2300,Old Kingdom,Egyptian,Egypt
+0.515625,greek3rc3,phoenician_5_4_2,-300,200,Hellenistic,Greek,Aegean,-500,400,Achaemenid,Phoenician,Levant
+0.51171875,Palmyra33,idlion_6th_15,-100,300,Roman,Palmyrian,Mesopotamia,-600,500,Neo-Babylonian,Cypriot,Cyprus
+0.5078125,greek2nd_3,phoenician_5_4_2,-200,100,Hellenistic,Greek,Aegean,-500,400,Achaemenid,Phoenician,Levant
+0.5078125,egypt_18th_dynasty7_1,greek3rc3,-1600,1300,New Kingdom,Egyptian,Egypt,-300,200,Hellenistic,Greek,Aegean
+0.5078125,neo_assyrian3,thutmosesIII-1,-900,600,Neo-Assyrian,Assyrian,Mesopotamia,-1500,1400,New Kingdom,Egyptian,Egypt
+0.50390625,idlion_6th_15,ptolemaic_ruler2,-600,500,Neo-Babylonian,Cypriot,Cyprus,-200,100,Hellenistic,Greco-Egyptian,Egypt
+0.49609375,idalion_5th_5.JPG,levant_5c_43,-500,400,Achaemenid,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.48828125,egypt13c_3,phonecian_5_3c_6,-1300,1200,New Kingdom,Egyptian,Egypt,-500,300,Achaemenid,Phoenician,Levant
+0.484375,achaemenid6,neo_assyrian5,-500,400,Achaemenid,Achaemenid,Iran,-900,600,Neo-Assyrian,Assyrian,Mesopotamia
+0.48046875,assyria9th1,greek2nd_4,-900,800,Neo-Assyrian,Assyrian,Mesopotamia,-200,100,Hellenistic,Greek,Aegean
+0.47265625,cypriot_6th_7,phoenician_5_4_1,-600,500,Neo-Babylonian,Cypriot,Cyprus,-500,400,Achaemenid,Phoenician,Levant
+0.46875,achaemenid5,greek2nd_2,-500,400,Achaemenid,Achaemenid,Iran,-200,100,Hellenistic,Greek,Aegean
+0.44921875,cypriot_5th_3.JPG,phonecian_5_3c_6,-500,400,Achaemenid,Cypriot,Cyprus,-500,300,Achaemenid,Phoenician,Levant
+0.44140625,phoenician_4_1,phonecian_5_3c_6,-400,300,Achaemenid,Phoenician,Levant,-500,300,Achaemenid,Phoenician,Levant
+0.41796875,greek4-14,phonecian_5_3c_6,-400,300,Hellenistic,Greek,Aegean,-500,300,Achaemenid,Phoenician,Levant

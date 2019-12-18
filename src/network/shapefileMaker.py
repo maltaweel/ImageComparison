@@ -20,8 +20,9 @@ geoValues={}
 country_file={}
 
 totalsPoint={}
+fieldnames = ['Point 1','Point 2','Median Value',"Standard Deviation"]
 
-
+ 
 def makePoint(w,x,y,number):    
     w.point(x,y)
     w.record(value=number)
@@ -132,6 +133,7 @@ def createOutput():
     
     path=os.path.join(pn,'network_output','network.shp')
     path2=os.path.join(pn,'network_output','points.shp')
+    path3=os.path.join(pn,'network_output','network.csv')
     
     w = shapefile.Writer(path,shapefile.POLYLINE)
     w2 = shapefile.Writer(path2,shapefile.POINT)
@@ -141,44 +143,50 @@ def createOutput():
     
     w2.field('value','F',10,decimal=2)
     
-    
-    for k in geoValues.keys():
-        values=geoValues[k]
-        v=np.median(values)
-        
-        sp1=k.split(":")[0]
-        sp2=k.split(":")[1]
-        
-        
-        
-        if sp1 in countries:
-            g1=countries[sp1]
-            x1=g1.x
-            y1=g1.y
+    with open(path3, 'w') as csvf:
+             
+            writer = csv.DictWriter(csvf, fieldnames=fieldnames)
+            writer.writeheader()
             
-            pc=str(x1)+":"+str(y1)
+            for k in geoValues.keys():
+                values=geoValues[k]
+                v=np.median(values)
+        
+                sp1=k.split(":")[0]
+                sp2=k.split(":")[1]
+        
+        
+        
+                if sp1 in countries:
+                    g1=countries[sp1]
+                    x1=g1.x
+                    y1=g1.y
             
-            if pc not in pointC:
-                vs=totalsPoint[sp1]
-                makePoint(w2,x1,y1,float(np.median(vs)))
+                    pc=str(x1)+":"+str(y1)
+            
+                    if pc not in pointC:
+                        vs=totalsPoint[sp1]
+                        makePoint(w2,x1,y1,round(float(np.median(vs)),2))
                 
-        if sp2 in countries:
-            g2=countries[sp2]
-            x2=g2.x
-            y2=g2.y
+                if sp2 in countries:
+                    g2=countries[sp2]
+                    x2=g2.x
+                    y2=g2.y
             
-            pc=str(x2)+":"+str(y2)
+                    pc=str(x2)+":"+str(y2)
             
-            if pc not in pointC:
-                vs=totalsPoint[sp2]
-                makePoint(w2,x2,y2,float(np.median(vs)))
+                    if pc not in pointC:
+                        vs=totalsPoint[sp2]
+                        makePoint(w2,x2,y2,round(float(np.median(vs)),2))
         
-        points=[x1,y1,x2,y2]
-        if x1 and x2 and y1 and y2 is not None:
-            makeLine(w,points,round(v,2))
-            print(k+":"+str(v))
+                points=[x1,y1,x2,y2]
+                if x1 and x2 and y1 and y2 is not None:
+                    makeLine(w,points,round(v,2))
+                    writeData(sp1,sp2,values,writer)
         
-       
+def writeData(p1,p2,v,writer):
+    writer.writerow({'Point 1': str(p1),'Point 2':str(p2),'Median Value':str(round(np.median(v),2)),'Standard Deviation':str(round(np.std(v),2))})
+    
 #      w.save(path)
 #      w2.save(path2)
           

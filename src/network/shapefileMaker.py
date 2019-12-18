@@ -27,9 +27,9 @@ def makePoint(w,x,y,number):
 def makeLine(w,points,number):
     
     w.line([[[points[0],points[1]],[points[2],points[3]]]])
-#   w.record(ID=n)
+ #  w.record(name1=str(n1+":"+n2))
     w.record(value=number)
-    
+
     
     
 
@@ -110,12 +110,12 @@ def createOutput():
     w = shapefile.Writer(path,shapefile.POLYLINE)
     w2 = shapefile.Writer(path2,shapefile.POINT)
     
+#    w.field('name1','C',40)
+    w.field('value','F',10,decimal=2)
     
-    w.field('value','F',10,decimal=10)
- #  w.field('ID','N',10)
-    w2.field('value','F',10,decimal=10)
+    w2.field('value','F',10,decimal=2)
     
-    n=0
+    
     for k in geoValues.keys():
         v=geoValues[k]
         
@@ -146,10 +146,10 @@ def createOutput():
                 makePoint(w2,x2,y2,v)
         
         points=[x1,y1,x2,y2]
-        if x1 and y2 is not None:
-            makeLine(w,points,v)
+        if x1 and x2 and y1 and y2 is not None:
+            makeLine(w,points,round(v,2))
         
-        n+=1
+       
 #      w.save(path)
 #      w2.save(path2)
           

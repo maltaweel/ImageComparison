@@ -1,0 +1,11 @@
+Point 1,Point 2,Median Value,Standard Deviation
+Cyprus,Cyprus,0.67,0.06
+Iraq,Iraq,0.7,0.04
+Iraq,Cyprus,0.68,0.05
+Iraq,Egypt,0.65,0.04
+Cyprus,Egypt,0.61,0.04
+Iraq,Greece,0.55,0.07
+Cyprus,Greece,0.6,0.04
+Greece,Greece,0.59,0.0
+Egypt,Egypt,0.56,0.03
+Egypt,Greece,0.56,0.02

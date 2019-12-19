@@ -199,6 +199,7 @@ def printResults(near_duplicates,imageFile):
                 
                 time1, period1, culture1, region1, time2, period2, culture2, region2=imageFile.checkResults(f1,f2)
                 
+                print(f1+":"+f2)
                 st1=time1.split(':')[0]
                 st2=time1.split(":")[1]
                 

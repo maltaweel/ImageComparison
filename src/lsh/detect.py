@@ -25,7 +25,7 @@ from imageFileDataLoader import ImageFile
 #for holding historical (i.e., more than one run) data to output
 historical={}
 
- """ 
+"""
     Calculate the dhash signature of a given file
     
     Args:
@@ -34,7 +34,7 @@ historical={}
     
     Returns:
         Image signature as Numpy n-dimensional array or None if the file is not a PIL recognized image
-    """
+"""
 def calculate_signature(image_file: str, hash_size: int) -> np.ndarray:
    
     try:

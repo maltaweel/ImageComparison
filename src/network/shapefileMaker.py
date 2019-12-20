@@ -11,37 +11,51 @@ import os
 import csv
 import numpy as np
 
-
+#path to src
 pn=os.path.abspath(__file__)
 pn=pn.split("src")[0]     
 
+#containers for countries to match between images (.csv meta-data file) and shapefile countries
 countries={}
 geoValues={}
 country_file={}
 
+#point data to output
 totalsPoint={}
+
+#field names for output .csv file to show comparison lsh values
 fieldnames = ['Point 1','Point 2','Median Value',"Standard Deviation"]
 
- 
+
+'''
+Method to make a point shapefile.
+
+Args: w: the shapefilewriter
+      x: the x location
+      y:  the y location
+      number: the value to associate the point shapefile
+'''
 def makePoint(w,x,y,number):    
     w.point(x,y)
     w.record(value=number)
    
-   
+'''
+Method to make a polyline shapefile.
+
+Args: w: the shapefilewriter
+      points: the points associated with the polyline (2 points)
+      number: the value to associate the polyline shapefile
+'''  
 def makeLine(w,points,number):
     
     w.line([[[points[0],points[1]],[points[2],points[3]]]])
  #  w.record(name1=str(n1+":"+n2))
     w.record(value=number)
 
-    
-    
-
-def writePoint(w,file):
-    w.save(os.path.join(pn,'output',file))
-     
-    return w
-
+'''
+Method to read input (see /shp folder) shapefile that will match with the name of the region/country associated with given images.
+ This helps to then match image and country in the output shapefile.
+'''
 def readInputShape():
     path=os.path.join(pn,'shp',"TM_WORLD_BORDERS-0.3.shp")
     poly = gpd.read_file(path)
@@ -55,7 +69,9 @@ def readInputShape():
         countries[names[i]]=geometry[i]
         
     
-    
+'''
+Method to load imageLink and get countries from given file names.
+'''   
 def runData():
     pway=os.path.join(pn,'image_data','imageLink.csv')
     
@@ -73,7 +89,9 @@ def runData():
                 
     except IOError:
         print ("Could not read file:", IOError)     
-
+'''
+This matches the /output results with countries in input shapefile (in /shp folder).
+'''
 def matchOutput():
     pway=os.path.join(pn,'output')
 
@@ -127,7 +145,10 @@ def matchOutput():
 
     except IOError:
         print ("Could not read file:", IOError) 
-        
+
+'''
+Method to create network (network.shp outputted to network_output) and point shapefiles.
+'''       
 def createOutput():
     pointC={}
     
@@ -183,13 +204,24 @@ def createOutput():
                 if x1 and x2 and y1 and y2 is not None:
                     makeLine(w,points,round(v,2))
                     writeData(sp1,sp2,values,writer)
-        
+
+'''
+Method writes data to .csv file (network point and line data) that shows countries and their (median and standard deviation) similarity values
+
+Args: p1: point 1 for the shapefile (country 1)
+      p2: point 2 for the shapefile (country 2)
+      v: the container with the values to run median and standard deviation
+      writer: the csv writer (see network_output folder for output (network.csv)
+'''
 def writeData(p1,p2,v,writer):
     writer.writerow({'Point 1': str(p1),'Point 2':str(p2),'Median Value':str(round(np.median(v),2)),'Standard Deviation':str(round(np.std(v),2))})
     
 #      w.save(path)
 #      w2.save(path2)
-          
+
+'''
+Method to run the module
+'''    
 def run():
    
     readInputShape()

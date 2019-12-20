@@ -6,7 +6,6 @@ Code modified from:  https://github.com/mendesk/image-ndd-lsh
 
 Created on Nov 15, 2019
 
-
 '''
 
 import argparse
@@ -23,11 +22,10 @@ from PIL import Image
 import csv
 from imageFileDataLoader import ImageFile
 
+#for holding historical (i.e., more than one run) data to output
 historical={}
 
-
-def calculate_signature(image_file: str, hash_size: int) -> np.ndarray:
-    """ 
+ """ 
     Calculate the dhash signature of a given file
     
     Args:
@@ -37,6 +35,8 @@ def calculate_signature(image_file: str, hash_size: int) -> np.ndarray:
     Returns:
         Image signature as Numpy n-dimensional array or None if the file is not a PIL recognized image
     """
+def calculate_signature(image_file: str, hash_size: int) -> np.ndarray:
+   
     try:
         pil_image = Image.open(image_file).convert("L").resize(
                             (hash_size+1, hash_size), 
@@ -59,8 +59,7 @@ def calculate_signature(image_file: str, hash_size: int) -> np.ndarray:
         
     Returns:
         A list of near-duplicates found. Near duplicates are encoded as a triple: (filename_A, filename_B, similarity)
-'''
-         
+'''  
 def find_near_duplicates(input_dir: str, threshold: float, hash_size: int, bands: int) -> List[Tuple[str, str, float]]:
    
     #int
@@ -124,6 +123,11 @@ def find_near_duplicates(input_dir: str, threshold: float, hash_size: int, bands
     near_duplicates.sort(key=lambda x:x[2], reverse=True)
     return near_duplicates
 
+'''
+This method prints multiple runs (if used) as csv files.
+
+Args: imageFile:  imagefile module used to find file and images
+'''
 def printHistorical(imageFile):
     pn=os.path.abspath(__file__)
     pn=pn.split("src")[0]
@@ -163,7 +167,13 @@ def printHistorical(imageFile):
             
     except IOError:
         print ("Could not read file:", IOError)        
-    
+
+'''
+Method to print outputs from lsh algorith (one run).
+
+Args: near_duplicates:  the comparison lsh results
+      imageFile:  imagefile module used to find file and images
+'''
 def printResults(near_duplicates,imageFile):
     pn=os.path.abspath(__file__)
     pn=pn.split("src")[0]
@@ -217,7 +227,11 @@ def printResults(near_duplicates,imageFile):
     except IOError:
         print ("Could not read file:", IOError)
     
-    
+'''
+Main run metho to launch algorithm
+
+Args:  argv:  the input from the run arguments. that includes threshold, hash_size, and bands
+'''  
 def run(argv):
     # Argument parser
 

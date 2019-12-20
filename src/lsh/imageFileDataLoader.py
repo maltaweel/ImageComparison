@@ -1,7 +1,9 @@
 '''
+Loader and comparator to match image files with images referenced with data on periods, culture, region, etc. in image_data folder.
+
 Created on Nov 27, 2019
 
-@author: mark
+@author: 
 '''
 
 import os
@@ -9,6 +11,9 @@ import csv
 
 class ImageFile():
     
+    ''''
+    Method to read data from given input_dir. This reads the imageLink.csv file in image_data.
+    '''
     def readFile(self):
         
         self.cultureData={}
@@ -34,7 +39,9 @@ class ImageFile():
                     self.timeData[fileN]=timeD
                     self.region[fileN]=reg
                     
-
+    '''
+    Method links imageLink.csv to image_data folder
+    '''
     def runFile(self):
         
         pn=os.path.abspath(__file__)
@@ -42,7 +49,12 @@ class ImageFile():
     
         self.input_dir=os.path.join(pn,'image_data','imageLink.csv')
         
+    '''
+    Method to compare and link imageLink.csv data with input images (i.e.,  the jpg files).
     
+    Args: file1: The first file (jpg) compared and searched for in imageLink.csv
+          file2:  The second file (jpg) compared and searched for in imageLink.csv
+    '''
     def checkResults(self,file1,file2):
         file1=file1.split('.')[0]
         file2=file2.split('.')[0]

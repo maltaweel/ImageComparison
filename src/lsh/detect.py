@@ -3,6 +3,8 @@ This is a Locality Sensitive Hashing implementation.
 
 Code modified from:  https://github.com/mendesk/image-ndd-lsh
 
+This module adds comparability outputs (.csv file) while also adding itervative variation of inputs as needed.
+
 
 Created on Nov 15, 2019
 

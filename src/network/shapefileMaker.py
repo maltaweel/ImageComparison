@@ -112,15 +112,23 @@ def matchOutput():
                     cntry2=country_file[f2]
                 
                     key=cntry1+":"+cntry2
+                    key2=cntry2+":"+cntry1
                     
-                   
-                
+                  
                     if key in geoValues:
+                        
                         values=geoValues[key]
                         values.append(v)
                         geoValues[key]=values
+                    
+                    elif key2 in geoValues:
+                        values=geoValues[key2]
+                        values.append(v)
+                        geoValues[key]=values 
+                        del geoValues[key2]
                        
                     else:
+                       
                         values=[v]
                         geoValues[key]=values
                         
@@ -188,6 +196,7 @@ def createOutput():
                     if pc not in pointC:
                         vs=totalsPoint[sp1]
                         makePoint(w2,x1,y1,round(float(np.median(vs)),2))
+                        pointC[pc]=pc
                 
                 if sp2 in countries:
                     g2=countries[sp2]
@@ -199,6 +208,7 @@ def createOutput():
                     if pc not in pointC:
                         vs=totalsPoint[sp2]
                         makePoint(w2,x2,y2,round(float(np.median(vs)),2))
+                        pointC[pc]=pc
         
                 points=[x1,y1,x2,y2]
                 if x1 and x2 and y1 and y2 is not None:

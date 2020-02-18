@@ -1,9 +1,9 @@
 '''
-This is a Locality Sensitive Hashing implementation. 
+This is a near duplicate detection Locality Sensitive Hashing implementation. 
 
 Code modified from:  https://github.com/mendesk/image-ndd-lsh
 
-This module adds comparability outputs (.csv file) while also adding itervative variation of inputs as needed.
+This module adds comparability outputs (.csv file).
 
 
 Created on Nov 15, 2019
@@ -118,6 +118,8 @@ def find_near_duplicates(input_dir: str, threshold: float, hash_size: int, bands
                 np.unpackbits(signatures[cpb])
         ))
         similarity = (hash_size**2 - hd) / hash_size**2
+        if similarity < 0:
+            print(similarity)
         if similarity > threshold:
             near_duplicates.append((cpa, cpb, similarity))
             

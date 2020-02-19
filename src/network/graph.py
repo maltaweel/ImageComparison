@@ -54,6 +54,8 @@ def load():
     node2=0
     i = 0
     
+    G = nx.Graph(weight='value')
+    
     for p in range(0,len(geometry)):
         
         string1=geometry[p]
@@ -66,16 +68,18 @@ def load():
             
             
         
-        line=(node1,node2,value)
+
+        G.add_edge(node1, node2, weight=value)
+        #line=(node1,node2,value)
         #weight=string1['value']
            
             
-        links.append(line)
+        #links.append(line)
         i+=1
                 
   
            
-    G=addWeightedEdges(links)
+ #   G=addWeightedEdges(links)
     
     centrality = nx.betweenness_centrality(G,weight='value') 
    

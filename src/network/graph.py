@@ -22,7 +22,7 @@ def createNetwork():
 
 def addWeightedEdges(x):
     G=nx.Graph()
-    G.add_weighted_edges_from(x)
+    G.add_weighted_edges_from(x,weight='value')
     
     return G
 
@@ -40,8 +40,13 @@ def load():
     #The data file path is now created where the data folder and dataFile.csv is referenced
     filename=os.path.join(pn,'network_output','network.shp')
     
+    
     poly = gpd.read_file(filename)
+    
+    
     geometry = poly['geometry']
+    
+    
     values=poly['value']
     
     
@@ -50,12 +55,17 @@ def load():
     i = 0
     
     for p in range(0,len(geometry)):
-      
+        
         string1=geometry[p]
-        value=values[i]
+        
+        value=values[p]*-1.0
         b=string1.bounds
         node1=(b[0],b[1])
         node2=(b[2],b[3])
+        
+            
+            
+        
         line=(node1,node2,value)
         #weight=string1['value']
            
@@ -76,18 +86,37 @@ def load():
 
 def runPoints(centrality):
     path=os.path.join(pn,'network_output','centrality.csv')
+    filename2=os.path.join(pn,'network_output','points.shp')
+    
+    poly2 = gpd.read_file(filename2)
+    geometry2 = poly2['geometry']
+    
     fieldnames = ['Point 1','Point 2','Value']
     
+    contains={}
     with open(path, 'w') as csvf:
         writer = csv.DictWriter(csvf, fieldnames=fieldnames)
         writer.writeheader()
         
         for node in centrality:
+            
+            printt=False
             v=centrality[node]
             x=node[0]
             y=node[1]
             
-            if v>0:
+            for q in range(0,len(geometry2)):
+                qq=geometry2[q].bounds
+                   
+                if x==qq[0] and y==qq[1]:
+                    printt=True
+                        
+                    contains[x]=y
+                    
+            
+            
+            
+            if printt is True:
                 writer.writerow({'Point 1': str(x),'Point 2':str(y),'Value':str(str(v))})
         
         

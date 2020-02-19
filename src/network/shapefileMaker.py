@@ -114,7 +114,6 @@ def matchOutput():
                     key=cntry1+":"+cntry2
                     key2=cntry2+":"+cntry1
                     
-                  
                     if key in geoValues:
                         
                         values=geoValues[key]

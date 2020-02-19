@@ -54,7 +54,7 @@ def load():
     node2=0
     i = 0
     
-    G = nx.Graph(weight='value')
+    G = nx.Graph(weight='weight')
     
     for p in range(0,len(geometry)):
         
@@ -81,7 +81,7 @@ def load():
            
  #   G=addWeightedEdges(links)
     
-    centrality = nx.betweenness_centrality(G,weight='value') 
+    centrality = nx.betweenness_centrality(G,weight='weight') 
    
     return centrality
  #   print(['%s %0.2f'%(node,centrality[node]) for node in centrality])

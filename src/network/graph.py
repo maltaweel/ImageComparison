@@ -67,4 +67,8 @@ def load():
     
     return G
 
-load()
+def run():
+    load()
+    
+if __name__ == '__main__':
+    run()

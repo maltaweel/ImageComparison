@@ -14,6 +14,9 @@ import network.shapefileMaker as shapefileMaker
 pn=os.path.abspath(__file__)
 pn=pn.split("src")[0]  
 
+
+results={}
+
 def createNetwork():
     G=nx.Graph()
     
@@ -54,7 +57,7 @@ def load():
     node2=0
   
     
-    G = nx.Graph(weight='weight')
+    G = nx.Graph(weight='weight').to_undirected()
     
     for p in range(0,len(geometry)):
         
@@ -66,10 +69,23 @@ def load():
         node2=(b[2],b[3])
         
             
-        G.add_edge(node1, node2, weight=value)
+        G.add_edge(node1, node2, weight=value, length=1.0)
         #line=(node1,node2,value)
         #weight=string1['value']
-           
+        
+        if b[0] in results: 
+            r=results[b[0]]+value
+            
+            results[b[0]]=r
+        else:
+            results[b[0]]=value
+        
+        if b[2] in results:
+            r=results[b[2]]+value
+            
+            results[b[2]]=r
+        else:
+            results[b[2]]=value
             
         #links.append(line)
       
@@ -77,7 +93,7 @@ def load():
            
  #   G=addWeightedEdges(links)
     
-    centrality = nx.eigenvector_centrality(G,weight='weight') 
+    centrality = nx.betweenness_centrality(G,weight='weight') 
    
     return centrality
  #   print(['%s %0.2f'%(node,centrality[node]) for node in centrality])
@@ -105,6 +121,8 @@ def runPoints(centrality):
             x=node[0]
             y=node[1]
             
+            
+            v=results[x]
             for q in range(0,len(geometry2)):
                 qq=geometry2[q].bounds
                    

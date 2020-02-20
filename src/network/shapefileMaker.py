@@ -51,6 +51,8 @@ def makeLine(w,points,number):
     w.line([[[points[0],points[1]],[points[2],points[3]]]])
  #  w.record(name1=str(n1+":"+n2))
     w.record(value=number)
+   
+   
 
 '''
 Method to read input (see /shp folder) shapefile that will match with the name of the region/country associated with given images.
@@ -166,10 +168,10 @@ def createOutput():
     w = shapefile.Writer(path,shapefile.POLYLINE)
     w2 = shapefile.Writer(path2,shapefile.POINT)
     
-#    w.field('name1','C',40)
-    w.field('value','F',10,decimal=2)
-    
-    w2.field('value','F',10,decimal=2)
+#   w.field('name1','C',40)
+    w.field('value','F',10,decimal=3)
+
+    w2.field('value','F',10,decimal=3)
     
     with open(path3, 'w') as csvf:
              
@@ -186,6 +188,7 @@ def createOutput():
         
         
                 if sp1 in countries:
+                
                     g1=countries[sp1]
                     x1=g1.x
                     y1=g1.y
@@ -194,7 +197,7 @@ def createOutput():
             
                     if pc not in pointC:
                         vs=totalsPoint[sp1]
-                        makePoint(w2,x1,y1,round(float(np.median(vs)),2))
+                        makePoint(w2,x1,y1,round(float(np.median(vs)),3))
                         pointC[pc]=pc
                 
                 if sp2 in countries:
@@ -206,12 +209,12 @@ def createOutput():
             
                     if pc not in pointC:
                         vs=totalsPoint[sp2]
-                        makePoint(w2,x2,y2,round(float(np.median(vs)),2))
+                        makePoint(w2,x2,y2,round(float(np.median(vs)),3))
                         pointC[pc]=pc
         
                 points=[x1,y1,x2,y2]
                 if x1 and x2 and y1 and y2 is not None:
-                    makeLine(w,points,round(v,2))
+                    makeLine(w,points,round(v,3))
                     writeData(sp1,sp2,values,writer)
 
 '''
@@ -223,7 +226,7 @@ Args: p1: point 1 for the shapefile (country 1)
       writer: the csv writer (see network_output folder for output (network.csv)
 '''
 def writeData(p1,p2,v,writer):
-    writer.writerow({'Point 1': str(p1),'Point 2':str(p2),'Median Value':str(round(np.median(v),2)),'Standard Deviation':str(round(np.std(v),2))})
+    writer.writerow({'Point 1': str(p1),'Point 2':str(p2),'Median Value':str(round(np.median(v),3)),'Standard Deviation':str(round(np.std(v),2))})
     
 #      w.save(path)
 #      w2.save(path2)

@@ -93,7 +93,7 @@ def load():
            
  #   G=addWeightedEdges(links)
     
-    centrality = nx.betweenness_centrality(G,weight='weight') 
+    centrality = nx.eigenvector_centrality(G,weight='weight') 
    
     return centrality
  #   print(['%s %0.2f'%(node,centrality[node]) for node in centrality])
@@ -117,7 +117,7 @@ def runPoints(centrality):
         for node in centrality:
             
             printt=False
-            v=centrality[node]
+           # v=centrality[node]
             x=node[0]
             y=node[1]
             

@@ -80,6 +80,9 @@ def load():
         else:
             results[b[0]]=value
         
+        if b[2]==b[0]:
+            continue
+        
         if b[2] in results:
             r=results[b[2]]+value
             
@@ -120,7 +123,6 @@ def runPoints(centrality):
            # v=centrality[node]
             x=node[0]
             y=node[1]
-            
             
             v=results[x]
             for q in range(0,len(geometry2)):

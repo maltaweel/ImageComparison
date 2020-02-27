@@ -41,7 +41,7 @@ def load():
     links=[]
       
     #The data file path is now created where the data folder and dataFile.csv is referenced
-    filename=os.path.join(pn,'network_output','network.shp')
+    filename=os.path.join(pn,'network_output','network2.shp')
     
     
     poly = gpd.read_file(filename)
@@ -69,7 +69,7 @@ def load():
         node2=(b[2],b[3])
         
             
-        G.add_edge(node1, node2, weight=value, length=1.0)
+        G.add_edge(node1, node2, weight=value, length=0.0)
         #line=(node1,node2,value)
         #weight=string1['value']
         
@@ -120,7 +120,7 @@ def runPoints(centrality):
         for node in centrality:
             
             printt=False
-           # v=centrality[node]
+        #   v=centrality[node]
             x=node[0]
             y=node[1]
             

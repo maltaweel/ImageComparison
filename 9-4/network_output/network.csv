@@ -3,9 +3,9 @@ Cyprus,Cyprus,0.557,0.05
 Greece,Lebanon,0.538,0.05
 Egypt,Lebanon,0.544,0.04
 Lebanon,Lebanon,0.536,0.05
-Cyprus,Lebanon,0.541,0.04
 Egypt,Egypt,0.55,0.04
-Iran,Iraq,0.531,0.03
+Cyprus,Lebanon,0.541,0.04
+Iran,Iraq,0.539,0.03
 Iran,Iran,0.537,0.03
 Iran,Cyprus,0.534,0.03
 Iran,Lebanon,0.554,0.04
@@ -15,8 +15,8 @@ Iraq,Turkey,0.518,0.02
 Egypt,Turkey,0.547,0.0
 Turkey,Lebanon,0.488,0.03
 Greece,Greece,0.538,0.0
+Iraq,Egypt,0.538,0.03
 Egypt,Greece,0.549,0.04
-Iraq,Egypt,0.536,0.03
 Iran,Greece,0.509,0.02
 Iraq,Greece,0.536,0.04
 Turkey,Cyprus,0.534,0.02
@@ -24,5 +24,5 @@ Iran,Turkey,0.504,0.01
 Greece,Turkey,0.502,0.0
 Cyprus,Egypt,0.552,0.04
 Cyprus,Greece,0.571,0.04
-Iraq,Lebanon,0.517,0.03
-Iraq,Cyprus,0.532,0.04
+Iraq,Lebanon,0.516,0.03
+Iraq,Cyprus,0.531,0.04

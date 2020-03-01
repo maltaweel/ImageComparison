@@ -1,22 +1,22 @@
 Point 1,Point 2,Median Value,Standard Deviation
 Greece,Greece,0.598,0.05
-Egypt,Egypt,0.592,0.04
+Egypt,Egypt,0.586,0.04
 Greece,Pakistan,0.57,0.02
-Turkey,Egypt,0.554,0.03
+Turkey,Egypt,0.569,0.03
 Turkey,Greece,0.576,0.0
 Lebanon,Greece,0.504,0.04
-Egypt,Greece,0.577,0.04
+Egypt,Greece,0.576,0.03
 Egypt,Iran,0.536,0.01
 Lebanon,Lebanon,0.542,0.0
 Iraq,Iraq,0.519,0.02
 Lebanon,Pakistan,0.501,0.01
 Pakistan,Iran,0.521,0.01
-Lebanon,Iran,0.524,0.0
 Greece,Iran,0.523,0.0
+Lebanon,Iran,0.524,0.0
 Turkey,Lebanon,0.517,0.0
 Iraq,Iran,0.514,0.0
-Lebanon,Iraq,0.512,0.02
 Iraq,Pakistan,0.514,0.01
+Lebanon,Iraq,0.512,0.02
 Iraq,Turkey,0.504,0.0
 Iraq,Egypt,0.537,0.03
 Pakistan,Egypt,0.555,0.03

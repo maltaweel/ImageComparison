@@ -1,0 +1,193 @@
+Similarity,File 1,File 2,Time 1,Time 1 End,Period 1,Culture 1,Region 1,Time 2,Time 2 End,Period 2,Culture 2,Region 2
+0.6766666666666666,greece_27_2200BCE6,greece_27_2300BCE4,-2700,-2200,Cycladic,Cyclades,Aegean,-2700,-2300,Cycladic,Cyclades,Aegean
+0.6688888888888889,egypt_18d_44,ramsesII,-1500,-1400,New Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.6488888888888888,egypt_12thC_19,egypt_18d_44,-1200,-1100,New Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.6433333333333333,egypt_13th_century,egypt_19_5,-1300,-1200,Middle Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.6422222222222222,egypt13c_3,egypt_18d_44,-1300,-1200,New Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.6411111111111111,egypt_18_34,egypt_18d_44,-1500,-1400,New Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.6377777777777778,egypt13c_3,ramsesII,-1300,-1200,New Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.6355555555555555,egypt5d_31,egypt_4thd_15,-2600,-2400,Old Kingdom,Egyptian,Egypt,-2600,-2500,Old Kingdom,Egyptian,Egypt
+0.6344444444444445,egypt_18th_1,egypt_4thd_15,-1600,-1300,New Kingdom,Egyptian,Egypt,-2600,-2500,Old Kingdom,Egyptian,Egypt
+0.6322222222222222,egypt_18d_61,thutmosesIII-1,-1500,-1400,New Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.6311111111111111,egypt5d_31,egypt_18d_61,-2600,-2400,Old Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.62,greece_27_2200BCE6,greece_27_2500BCE1,-2700,-2200,Cycladic,Cyclades,Aegean,-2700,-2500,Cycladic,Cyclades,Aegean
+0.62,egypt_13th_century,egypt_4thd_15,-1300,-1200,Middle Kingdom,Egyptian,Egypt,-2600,-2500,Old Kingdom,Egyptian,Egypt
+0.6188888888888889,egypt19thc_4,egypt_12d_9,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-1900,-1800,Middle Kingdom,Egyptian,Egypt
+0.6188888888888889,greece_27_2300BCE4,greece_27_2500BCE1,-2700,-2300,Cycladic,Cyclades,Aegean,-2700,-2500,Cycladic,Cyclades,Aegean
+0.6177777777777778,egypt_18d_44,greece_28_2500BCE2,-1500,-1400,New Kingdom,Egyptian,Egypt,-2800,-2500,Cycladic,Cyclades,Aegean
+0.6166666666666667,egypt_19_5,egypt_6_1,-1300,-1200,New Kingdom,Egyptian,Egypt,-2400,-2200,Old Kingdom,Egyptian,Egypt
+0.6166666666666667,egypt_13th_century,greece_28_2500BCE2,-1300,-1200,Middle Kingdom,Egyptian,Egypt,-2800,-2500,Cycladic,Cyclades,Aegean
+0.6166666666666667,egypt5d_31,egypt_18d_44,-2600,-2400,Old Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.6144444444444445,egypt13c_3,egypt_4thd_15,-1300,-1200,New Kingdom,Egyptian,Egypt,-2600,-2500,Old Kingdom,Egyptian,Egypt
+0.6144444444444445,egypt5d_31,egypt_18th_1,-2600,-2400,Old Kingdom,Egyptian,Egypt,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.6055555555555555,egypt19thc_4,sm_22_7,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.6033333333333334,egypt_18d_44,greece_27_2500BCE1,-1500,-1400,New Kingdom,Egyptian,Egypt,-2700,-2500,Cycladic,Cyclades,Aegean
+0.6033333333333334,egypt5d_31,greece_28_2500BCE2,-2600,-2400,Old Kingdom,Egyptian,Egypt,-2800,-2500,Cycladic,Cyclades,Aegean
+0.6022222222222222,egypt5d_31,greece_27_2500BCE1,-2600,-2400,Old Kingdom,Egyptian,Egypt,-2700,-2500,Cycladic,Cyclades,Aegean
+0.6011111111111112,greece_27_2200BCE6,indus1,-2700,-2200,Cycladic,Cyclades,Aegean,-2200,-1900,Harappan,Indus,India-Pakistan
+0.6,egypt_13th_century,egypt_6_1,-1300,-1200,Middle Kingdom,Egyptian,Egypt,-2400,-2200,Old Kingdom,Egyptian,Egypt
+0.6,egypt_19_5,ramsesII,-1300,-1200,New Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5977777777777777,egypt_12dynasty_7,greece_27_2300BCE4,-2000,-1800,Middle Kingdom,Egyptian,Egypt,-2700,-2300,Cycladic,Cyclades,Aegean
+0.5977777777777777,greece_27_2200BCE7,greece_28_2500BCE2,-2700,-2200,Cycladic,Cyclades,Aegean,-2800,-2500,Cycladic,Cyclades,Aegean
+0.5966666666666667,egypt_12thC_19,egypt_18_34,-1200,-1100,New Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.5955555555555555,egypt5d_31,egypt_6_1,-2600,-2400,Old Kingdom,Egyptian,Egypt,-2400,-2200,Old Kingdom,Egyptian,Egypt
+0.5944444444444444,egypt_18d_44,egypt_6_1,-1500,-1400,New Kingdom,Egyptian,Egypt,-2400,-2200,Old Kingdom,Egyptian,Egypt
+0.5944444444444444,egypt_12thC_19,greece_27_2500BCE1,-1200,-1100,New Kingdom,Egyptian,Egypt,-2700,-2500,Cycladic,Cyclades,Aegean
+0.5933333333333334,egypt_18d_61,indus3,-1500,-1400,New Kingdom,Egyptian,Egypt,-2500,-2000,Harappan,Indus,India-Pakistan
+0.5933333333333334,egypt_18th_1,ramsesII,-1600,-1300,New Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5933333333333334,egypt_12d_9,ramsesII,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5933333333333334,greece_27_2300BCE4,greece_28_2500BCE2,-2700,-2300,Cycladic,Cyclades,Aegean,-2800,-2500,Cycladic,Cyclades,Aegean
+0.5933333333333334,egypt_12thC_19,greece_28_2500BCE2,-1200,-1100,New Kingdom,Egyptian,Egypt,-2800,-2500,Cycladic,Cyclades,Aegean
+0.5933333333333334,egypt_18d_44,new_kingdom_egypt2,-1500,-1400,New Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5922222222222222,egypt_13th_century,ramsesII,-1300,-1200,Middle Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.59,egypt_18th_1,sm_22_9,-1600,-1300,New Kingdom,Egyptian,Egypt,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.5888888888888889,new_kingdom_egypt2,ramsesII,-1300,-1200,New Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5866666666666667,egypt5d_31,indus3,-2600,-2400,Old Kingdom,Egyptian,Egypt,-2500,-2000,Harappan,Indus,India-Pakistan
+0.5833333333333334,anatolia_14_3,ramsesII,-1400,-1300,Late Bronze,Hittite,Anatolia,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5822222222222222,greece_27_2500BCE1,indus3,-2700,-2500,Cycladic,Cyclades,Aegean,-2500,-2000,Harappan,Indus,India-Pakistan
+0.5822222222222222,egypt_18d_44,egypt_18th_1,-1500,-1400,New Kingdom,Egyptian,Egypt,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.5822222222222222,egypt5d_31,sm_22_9,-2600,-2400,Old Kingdom,Egyptian,Egypt,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.5822222222222222,greece_27_2300BCE4,khafaji3,-2700,-2300,Cycladic,Cyclades,Aegean,-2800,-2600,Early Dynastic Period,Southern Mesopotamian,Mesopotamia
+0.5811111111111111,egypt_18_34,greece_28_2500BCE2,-1500,-1400,New Kingdom,Egyptian,Egypt,-2800,-2500,Cycladic,Cyclades,Aegean
+0.58,egypt5d_31,egypt_13th_century,-2600,-2400,Old Kingdom,Egyptian,Egypt,-1300,-1200,Middle Kingdom,Egyptian,Egypt
+0.5788888888888889,greece_27_2300BCE4,sin_nippur_2600bc,-2700,-2300,Cycladic,Cyclades,Aegean,-2600,-2500,Early Dynastic,Sumerian,Mesopotamia
+0.5788888888888889,anatolia_14_3,egypt_18d_44,-1400,-1300,Late Bronze,Hittite,Anatolia,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.5788888888888889,egypt_6_1,greece_27_2200BCE7,-2400,-2200,Old Kingdom,Egyptian,Egypt,-2700,-2200,Cycladic,Cyclades,Aegean
+0.5766666666666667,egypt_13th_century,egypt_18d_44,-1300,-1200,Middle Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.5766666666666667,anatolia_14_3,greece_28_2500BCE2,-1400,-1300,Late Bronze,Hittite,Anatolia,-2800,-2500,Cycladic,Cyclades,Aegean
+0.5755555555555556,anatolia_14_3,greece_27_2500BCE1,-1400,-1300,Late Bronze,Hittite,Anatolia,-2700,-2500,Cycladic,Cyclades,Aegean
+0.5755555555555556,egypt13c_3,greece_28_2500BCE2,-1300,-1200,New Kingdom,Egyptian,Egypt,-2800,-2500,Cycladic,Cyclades,Aegean
+0.5755555555555556,greece_28_2500BCE2,new_kingdom_egypt2,-2800,-2500,Cycladic,Cyclades,Aegean,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5755555555555556,egypt_12dynasty_7,egypt_12thC_19,-2000,-1800,Middle Kingdom,Egyptian,Egypt,-1200,-1100,New Kingdom,Egyptian,Egypt
+0.5733333333333334,egypt_12d_9,egypt_12dynasty_7,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-2000,-1800,Middle Kingdom,Egyptian,Egypt
+0.5722222222222222,SM_22cbce_4,ebla5,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia,-2600,-2400,Early Bronze Age,Ebla,Levant
+0.5722222222222222,egypt_12thC_19,egypt_6_1,-1200,-1100,New Kingdom,Egyptian,Egypt,-2400,-2200,Old Kingdom,Egyptian,Egypt
+0.5711111111111111,egypt_12thC_19,egypt_19_5,-1200,-1100,New Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.57,egypt_6_1,ramsesII,-2400,-2200,Old Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.57,egypt_12dynasty_7,egypt_18_34,-2000,-1800,Middle Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.57,egypt13c_3,egypt_6_1,-1300,-1200,New Kingdom,Egyptian,Egypt,-2400,-2200,Old Kingdom,Egyptian,Egypt
+0.57,greece_27_2500BCE1,indus1,-2700,-2500,Cycladic,Cyclades,Aegean,-2200,-1900,Harappan,Indus,India-Pakistan
+0.5688888888888889,egypt_18th_1,new_kingdom_egypt2,-1600,-1300,New Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5688888888888889,anatolia_14_3,egypt_13th_century,-1400,-1300,Late Bronze,Hittite,Anatolia,-1300,-1200,Middle Kingdom,Egyptian,Egypt
+0.5677777777777778,egypt13c_3,egypt19thc_4,-1300,-1200,New Kingdom,Egyptian,Egypt,-1900,-1800,Middle Kingdom,Egyptian,Egypt
+0.5677777777777778,egypt13c_3,egypt_13th_century,-1300,-1200,New Kingdom,Egyptian,Egypt,-1300,-1200,Middle Kingdom,Egyptian,Egypt
+0.5644444444444444,egypt_18d_44,levant_1400-1200BC_2,-1500,-1400,New Kingdom,Egyptian,Egypt,-1400,-1200,Late Bronze,Canaanite,Levant
+0.5644444444444444,amorite_1,greece_27_2300BCE4,-1800,-1600,Middle Bronze Age,Amorite,Levant,-2700,-2300,Cycladic,Cyclades,Aegean
+0.5644444444444444,Diyala53,greece_27_2300BCE4,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2700,-2300,Cycladic,Cyclades,Aegean
+0.5622222222222222,egypt_18_34,egypt_6_1,-1500,-1400,New Kingdom,Egyptian,Egypt,-2400,-2200,Old Kingdom,Egyptian,Egypt
+0.5622222222222222,amorite_1,egypt_18th_dynasty7_1,-1800,-1600,Middle Bronze Age,Amorite,Levant,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.5611111111111111,SM_22cbce_3,egypt_19th_dynasty_2,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5611111111111111,egypt_18d_61,egypt_18th_1,-1500,-1400,New Kingdom,Egyptian,Egypt,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.56,greece_27_2300BCE4,ramsesII,-2700,-2300,Cycladic,Cyclades,Aegean,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5577777777777778,SM_22cbce_3,greece_27_2200BCE6,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia,-2700,-2200,Cycladic,Cyclades,Aegean
+0.5566666666666666,greece_27_2300BCE4,indus2,-2700,-2300,Cycladic,Cyclades,Aegean,-2200,-1900,Harappan,Indus,India-Pakistan
+0.5566666666666666,egypt_12dynasty_7,indus3,-2000,-1800,Middle Kingdom,Egyptian,Egypt,-2500,-2000,Harappan,Indus,India-Pakistan
+0.5566666666666666,SM_22cbce_3,thutmosesIII-1,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.5566666666666666,egypt_18d_44,indus3,-1500,-1400,New Kingdom,Egyptian,Egypt,-2500,-2000,Harappan,Indus,India-Pakistan
+0.5566666666666666,egypt_19_5,sm_22_9,-1300,-1200,New Kingdom,Egyptian,Egypt,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.5555555555555556,egypt_18d_44,greece_27_2200BCE5,-1500,-1400,New Kingdom,Egyptian,Egypt,-2700,-2200,Cycladic,Cyclades,Aegean
+0.5533333333333333,indus1,new_kingdom_egypt2,-2200,-1900,Harappan,Indus,India-Pakistan,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5533333333333333,diayla_9,egypt5d_31,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2600,-2400,Old Kingdom,Egyptian,Egypt
+0.5522222222222222,SM_22cbce_2,egypt19thc_4,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia,-1900,-1800,Middle Kingdom,Egyptian,Egypt
+0.5522222222222222,greece_27_2200BCE5,greece_27_2200BCE6,-2700,-2200,Cycladic,Cyclades,Aegean,-2700,-2200,Cycladic,Cyclades,Aegean
+0.5511111111111111,Diyala56,egypt_18th_dynasty7_1,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.55,canaanite_1,egypt_5th_dynasty1,-1400,-1200,Late Bronze,Canaanite,Levant,-2500,-2300,Old Kingdom,Egyptian,Egypt
+0.55,egypt_18th_dynasty7_1,susa3,-1600,-1300,New Kingdom,Egyptian,Egypt,-2400,-2200,Old Elamite,Elamite,Iran
+0.5477777777777778,egypt_4thd_15,greece_28_2500BCE2,-2600,-2500,Old Kingdom,Egyptian,Egypt,-2800,-2500,Cycladic,Cyclades,Aegean
+0.5477777777777778,egypt_19th_dynasty_2,greece_27_2400BCE8,-1300,-1200,New Kingdom,Egyptian,Egypt,-2700,-2400,Cycladic,Cyclades,Aegean
+0.5466666666666666,egypt_19_5,greece_27_2300BCE4,-1300,-1200,New Kingdom,Egyptian,Egypt,-2700,-2300,Cycladic,Cyclades,Aegean
+0.5466666666666666,egypt_18th_dynasty7_1,idrimi,-1600,-1300,New Kingdom,Egyptian,Egypt,-1500,-1400,Mittani,Mittani,Mesopotamia/Levant
+0.5466666666666666,canaanit_61,egypt_19th_dynasty_2,-1400,-1200,Late Bronze,Canaanite,Levant,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5455555555555556,egypt_18d_44,sin_nippur_2600bc,-1500,-1400,New Kingdom,Egyptian,Egypt,-2600,-2500,Early Dynastic,Sumerian,Mesopotamia
+0.5455555555555556,ebla11,egypt_5th_dynasty1,-2600,-2400,Early Bronze Age,Ebla,Levant,-2500,-2300,Old Kingdom,Egyptian,Egypt
+0.5444444444444444,egypt_19_5,indus1,-1300,-1200,New Kingdom,Egyptian,Egypt,-2200,-1900,Harappan,Indus,India-Pakistan
+0.5422222222222223,ebla5,levant_1400-1200BC_2,-2600,-2400,Early Bronze Age,Ebla,Levant,-1400,-1200,Late Bronze,Canaanite,Levant
+0.5422222222222223,ebla5,hazor-lb-1,-2600,-2400,Early Bronze Age,Ebla,Levant,-1400,-1200,Late Bronze,Canaanite,Levant
+0.5411111111111111,egypt_12d_9,mari5,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-2500,-2300,Early Dynastic,Mari,Mesopotamia
+0.5388888888888889,greece_27_2300BCE4,indus3,-2700,-2300,Cycladic,Cyclades,Aegean,-2500,-2000,Harappan,Indus,India-Pakistan
+0.5388888888888889,SM_22cbce_3,canaanit_61,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia,-1400,-1200,Late Bronze,Canaanite,Levant
+0.5388888888888889,egypt_18_34,egypt_18th_dynasty7_1,-1500,-1400,New Kingdom,Egyptian,Egypt,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.5377777777777778,egypt_6_1,sm_22_9,-2400,-2200,Old Kingdom,Egyptian,Egypt,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.5377777777777778,Diyala54,Wasit63,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia
+0.5377777777777778,egypt19thc_4,egypt5d_31,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-2600,-2400,Old Kingdom,Egyptian,Egypt
+0.5377777777777778,sm_22_7,thutmosesIII-1,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.5366666666666666,egypt_12thC_19,sm_22_9,-1200,-1100,New Kingdom,Egyptian,Egypt,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.5355555555555556,greece_27_2400BCE8,sm_22_9,-2700,-2400,Cycladic,Cyclades,Aegean,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.5355555555555556,egypt_18th_1,susa1,-1600,-1300,New Kingdom,Egyptian,Egypt,-1400,-1100,Late Bronze Age,Elamite,Iran
+0.5355555555555556,egypt_4thd_15,susa3,-2600,-2500,Old Kingdom,Egyptian,Egypt,-2400,-2200,Old Elamite,Elamite,Iran
+0.5344444444444445,Mari1a,egypt_18th_1,-2500,-2300,Early Dynastic,Mari,Mesopotamia,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.5344444444444445,egypt_3rd_dynasty6,ramsesII,-2700,-2600,Old Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5333333333333333,Diyala53,mesopotamia_27_25_7,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2700,-2500,Early Dynastic,Akkadian,Mesopotamia
+0.5322222222222223,egypt_18th_dynasty7_1,egypt_4thd_15,-1600,-1300,New Kingdom,Egyptian,Egypt,-2600,-2500,Old Kingdom,Egyptian,Egypt
+0.5311111111111111,levant_14-12_3,ramsesII,-1400,-1200,Late Bronze,Canaanite,Levant,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.53,canaanit_61,indus3,-1400,-1200,Late Bronze,Canaanite,Levant,-2500,-2000,Harappan,Indus,India-Pakistan
+0.53,egypt_6_1,greece_27_2300BCE4,-2400,-2200,Old Kingdom,Egyptian,Egypt,-2700,-2300,Cycladic,Cyclades,Aegean
+0.53,egypt_19_5,sin_nippur_2600bc,-1300,-1200,New Kingdom,Egyptian,Egypt,-2600,-2500,Early Dynastic,Sumerian,Mesopotamia
+0.53,ebla5,egypt_5th_dynasty1,-2600,-2400,Early Bronze Age,Ebla,Levant,-2500,-2300,Old Kingdom,Egyptian,Egypt
+0.53,egypt5d_31,idrimi,-2600,-2400,Old Kingdom,Egyptian,Egypt,-1500,-1400,Mittani,Mittani,Mesopotamia/Levant
+0.5288888888888889,egypt_12thC_19,egypt_18th_dynasty7_1,-1200,-1100,New Kingdom,Egyptian,Egypt,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.5277777777777778,Diyala56,indus2,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2200,-1900,Harappan,Indus,India-Pakistan
+0.5277777777777778,indus2,susa2,-2200,-1900,Harappan,Indus,India-Pakistan,-1400,-1100,Late Bronze Age,Elamite,Iran
+0.5266666666666666,egypt19thc_4,egypt_4thd_15,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-2600,-2500,Old Kingdom,Egyptian,Egypt
+0.5255555555555556,anatolia_14_3,egypt_18th_1,-1400,-1300,Late Bronze,Hittite,Anatolia,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.5244444444444445,egypt_18th_1,mesopotamia_27_25_7,-1600,-1300,New Kingdom,Egyptian,Egypt,-2700,-2500,Early Dynastic,Akkadian,Mesopotamia
+0.5244444444444445,greece_28_2500BCE2,susa1,-2800,-2500,Cycladic,Cyclades,Aegean,-1400,-1100,Late Bronze Age,Elamite,Iran
+0.5244444444444445,hazor-lb-1,susa1,-1400,-1200,Late Bronze,Canaanite,Levant,-1400,-1100,Late Bronze Age,Elamite,Iran
+0.5244444444444445,Diyala54,greece_27_2200BCE7,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2700,-2200,Cycladic,Cyclades,Aegean
+0.5233333333333333,Diyala53,sin_nippur_2600bc,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2600,-2500,Early Dynastic,Sumerian,Mesopotamia
+0.5211111111111111,greece_27_2500BCE1,susa1,-2700,-2500,Cycladic,Cyclades,Aegean,-1400,-1100,Late Bronze Age,Elamite,Iran
+0.5211111111111111,egypt_18_34,greece_27_2300BCE4,-1500,-1400,New Kingdom,Egyptian,Egypt,-2700,-2300,Cycladic,Cyclades,Aegean
+0.5211111111111111,anatolia_14_3,egypt_12d_9,-1400,-1300,Late Bronze,Hittite,Anatolia,-1900,-1800,Middle Kingdom,Egyptian,Egypt
+0.52,egypt_18th_dynasty7_1,mesopotamia_27_25_7,-1600,-1300,New Kingdom,Egyptian,Egypt,-2700,-2500,Early Dynastic,Akkadian,Mesopotamia
+0.52,egypt19thc_4,susa3,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-2400,-2200,Old Elamite,Elamite,Iran
+0.5188888888888888,anatolia_14_3,levant_14-12_3,-1400,-1300,Late Bronze,Hittite,Anatolia,-1400,-1200,Late Bronze,Canaanite,Levant
+0.5188888888888888,greece_27_2400BCE8,mesopotamia_27_25_7,-2700,-2400,Cycladic,Cyclades,Aegean,-2700,-2500,Early Dynastic,Akkadian,Mesopotamia
+0.5166666666666667,anatolia_14_3,levant_1400-1200BC_2,-1400,-1300,Late Bronze,Hittite,Anatolia,-1400,-1200,Late Bronze,Canaanite,Levant
+0.5166666666666667,egypt_18d_61,sm_22_7,-1500,-1400,New Kingdom,Egyptian,Egypt,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.5166666666666667,egypt19thc_4,egypt_19th_dynasty_2,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.5166666666666667,greece_27_2200BCE7,greece_27_2400BCE8,-2700,-2200,Cycladic,Cyclades,Aegean,-2700,-2400,Cycladic,Cyclades,Aegean
+0.5155555555555555,Diyala53,sm_22_7,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.5155555555555555,egypt_3rd_dynasty6,greece_27_2500BCE1,-2700,-2600,Old Kingdom,Egyptian,Egypt,-2700,-2500,Cycladic,Cyclades,Aegean
+0.5155555555555555,egypt_18th_1,hazor-lb-1,-1600,-1300,New Kingdom,Egyptian,Egypt,-1400,-1200,Late Bronze,Canaanite,Levant
+0.5144444444444445,indus1,susa3,-2200,-1900,Harappan,Indus,India-Pakistan,-2400,-2200,Old Elamite,Elamite,Iran
+0.5144444444444445,indus2,khafaji3,-2200,-1900,Harappan,Indus,India-Pakistan,-2800,-2600,Early Dynastic Period,Southern Mesopotamian,Mesopotamia
+0.5144444444444445,khafaji3,susa3,-2800,-2600,Early Dynastic Period,Southern Mesopotamian,Mesopotamia,-2400,-2200,Old Elamite,Elamite,Iran
+0.5133333333333333,egypt_3rd_dynasty6,mari5,-2700,-2600,Old Kingdom,Egyptian,Egypt,-2500,-2300,Early Dynastic,Mari,Mesopotamia
+0.5133333333333333,Diyala53,canaanite_1,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-1400,-1200,Late Bronze,Canaanite,Levant
+0.5133333333333333,Diyala54,levant_14-12_3,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-1400,-1200,Late Bronze,Canaanite,Levant
+0.5133333333333333,diayla_9,egypt_5th_dynasty1,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2500,-2300,Old Kingdom,Egyptian,Egypt
+0.5111111111111111,Diyala56,idrimi,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-1500,-1400,Mittani,Mittani,Mesopotamia/Levant
+0.51,Diyala53,indus3,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2500,-2000,Harappan,Indus,India-Pakistan
+0.51,canaanite_1,mari5,-1400,-1200,Late Bronze,Canaanite,Levant,-2500,-2300,Early Dynastic,Mari,Mesopotamia
+0.51,anatolia_14_3,hazor-lb-1,-1400,-1300,Late Bronze,Hittite,Anatolia,-1400,-1200,Late Bronze,Canaanite,Levant
+0.5088888888888888,egypt_6_1,mari5,-2400,-2200,Old Kingdom,Egyptian,Egypt,-2500,-2300,Early Dynastic,Mari,Mesopotamia
+0.5066666666666667,egypt_18th_1,egypt_18th_dynasty7_1,-1600,-1300,New Kingdom,Egyptian,Egypt,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.5066666666666667,Mari1a,greece_27_2400BCE8,-2500,-2300,Early Dynastic,Mari,Mesopotamia,-2700,-2400,Cycladic,Cyclades,Aegean
+0.5044444444444445,SM_22cbce_4,anatolia_14_3,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia,-1400,-1300,Late Bronze,Hittite,Anatolia
+0.5044444444444445,canaanit_61,greece_28_2500BCE2,-1400,-1200,Late Bronze,Canaanite,Levant,-2800,-2500,Cycladic,Cyclades,Aegean
+0.5044444444444445,amorite_1,mesopotamia_27_25_7,-1800,-1600,Middle Bronze Age,Amorite,Levant,-2700,-2500,Early Dynastic,Akkadian,Mesopotamia
+0.5033333333333333,diayla_9,khafaji3,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2800,-2600,Early Dynastic Period,Southern Mesopotamian,Mesopotamia
+0.5033333333333333,egypt13c_3,egypt_5th_dynasty1,-1300,-1200,New Kingdom,Egyptian,Egypt,-2500,-2300,Old Kingdom,Egyptian,Egypt
+0.5022222222222222,amorite_1,egypt_12d_9,-1800,-1600,Middle Bronze Age,Amorite,Levant,-1900,-1800,Middle Kingdom,Egyptian,Egypt
+0.5011111111111111,Diyala56,egypt_6_1,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2400,-2200,Old Kingdom,Egyptian,Egypt
+0.5011111111111111,ebla5,indus2,-2600,-2400,Early Bronze Age,Ebla,Levant,-2200,-1900,Harappan,Indus,India-Pakistan
+0.5,amorite_1,indus1,-1800,-1600,Middle Bronze Age,Amorite,Levant,-2200,-1900,Harappan,Indus,India-Pakistan
+0.4988888888888889,egypt19thc_4,levant_1400-1200BC_2,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-1400,-1200,Late Bronze,Canaanite,Levant
+0.4988888888888889,egypt_12d_9,egypt_5th_dynasty1,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-2500,-2300,Old Kingdom,Egyptian,Egypt
+0.49777777777777776,Diyala54,greece_27_2200BCE5,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2700,-2200,Cycladic,Cyclades,Aegean
+0.49666666666666665,egypt5d_31,hazor-lb-1,-2600,-2400,Old Kingdom,Egyptian,Egypt,-1400,-1200,Late Bronze,Canaanite,Levant
+0.49666666666666665,egypt19thc_4,indus1,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-2200,-1900,Harappan,Indus,India-Pakistan
+0.49666666666666665,Mari1a,greece_27_2200BCE5,-2500,-2300,Early Dynastic,Mari,Mesopotamia,-2700,-2200,Cycladic,Cyclades,Aegean
+0.4911111111111111,indus1,old_kingdom,-2200,-1900,Harappan,Indus,India-Pakistan,-2500,-2300,Old Kingdom,Egyptian,Egypt
+0.4866666666666667,egypt19thc_4,greece_27_2500BCE1,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-2700,-2500,Cycladic,Cyclades,Aegean
+0.48444444444444446,Diyala54,egypt13c_3,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.4822222222222222,canaanit_61,ramsesII,-1400,-1200,Late Bronze,Canaanite,Levant,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.4822222222222222,ebla5,sm_22_7,-2600,-2400,Early Bronze Age,Ebla,Levant,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.4811111111111111,egypt_18th_dynasty7_1,egypt_6_1,-1600,-1300,New Kingdom,Egyptian,Egypt,-2400,-2200,Old Kingdom,Egyptian,Egypt
+0.48,Diyala54,SM_22cbce_2,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.47444444444444445,greece_27_2200BCE6,mesopotamia_27_25_7,-2700,-2200,Cycladic,Cyclades,Aegean,-2700,-2500,Early Dynastic,Akkadian,Mesopotamia
+0.4711111111111111,Wasit63,egypt_18th_dynasty7_1,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.4633333333333333,ebla5,greece_27_2500BCE1,-2600,-2400,Early Bronze Age,Ebla,Levant,-2700,-2500,Cycladic,Cyclades,Aegean
+0.4588888888888889,ebla11,egypt_4thd_15,-2600,-2400,Early Bronze Age,Ebla,Levant,-2600,-2500,Old Kingdom,Egyptian,Egypt
+0.45111111111111113,Wasit63,egypt13c_3,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.44222222222222224,ebla5,egypt13c_3,-2600,-2400,Early Bronze Age,Ebla,Levant,-1300,-1200,New Kingdom,Egyptian,Egypt

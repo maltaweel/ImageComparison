@@ -41,7 +41,7 @@ def load():
     links=[]
       
     #The data file path is now created where the data folder and dataFile.csv is referenced
-    filename=os.path.join(pn,'network_output','network2.shp')
+    filename=os.path.join(pn,'network_output','network.shp')
     
     
     poly = gpd.read_file(filename)

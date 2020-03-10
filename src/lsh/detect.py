@@ -123,7 +123,7 @@ def find_near_duplicates(input_dir: str, threshold: float, hash_size: int, bands
             near_duplicates.append((cpa, cpb, similarity))
         else:
             print(similarity)
-            near_duplicates.append((cpa, cpb, similarity))
+            near_duplicates.append((cpa, cpb, 0.0))
             
     # Sort near-duplicates by descending similarity and return
     near_duplicates.sort(key=lambda x:x[2], reverse=True)

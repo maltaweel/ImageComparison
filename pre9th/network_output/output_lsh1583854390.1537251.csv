@@ -1,0 +1,28 @@
+Similarity,File 1,File 2,Time 1,Time 1 End,Period 1,Culture 1,Region 1,Time 2,Time 2 End,Period 2,Culture 2,Region 2
+0.69,egypt_18_34,ramsesII,-1500,-1400,New Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.6825,greece_27_2200BCE6,greece_27_2300BCE4,-2700,-2200,Cycladic,Cyclades,Aegean,-2700,-2300,Cycladic,Cyclades,Aegean
+0.675,egypt_18d_44,ramsesII,-1500,-1400,New Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.675,egypt_13th_century,egypt_19_5,-1300,-1200,Middle Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.6625,egypt5d_31,egypt_18_34,-2600,-2400,Old Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.66,egypt5d_31,egypt_18th_1,-2600,-2400,Old Kingdom,Egyptian,Egypt,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.655,egypt13c_3,ramsesII,-1300,-1200,New Kingdom,Egyptian,Egypt,-1300,-1200,New Kingdom,Egyptian,Egypt
+0.6525,egypt_19_5,egypt_6_1,-1300,-1200,New Kingdom,Egyptian,Egypt,-2400,-2200,Old Kingdom,Egyptian,Egypt
+0.6325,egypt_18d_61,thutmosesIII-1,-1500,-1400,New Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.6275,khafaji3,susa2,-2800,-2600,Early Dynastic Period,Southern Mesopotamian,Mesopotamia,-1400,-1100,Late Bronze Age,Elamite,Iran
+0.625,egypt13c_3,egypt_18_34,-1300,-1200,New Kingdom,Egyptian,Egypt,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.6225,egypt5d_31,egypt_6_1,-2600,-2400,Old Kingdom,Egyptian,Egypt,-2400,-2200,Old Kingdom,Egyptian,Egypt
+0.6225,egypt13c_3,mesopotamia_27_25_7,-1300,-1200,New Kingdom,Egyptian,Egypt,-2700,-2500,Early Dynastic,Akkadian,Mesopotamia
+0.62,egypt_12dynasty_7,greece_27_2300BCE4,-2000,-1800,Middle Kingdom,Egyptian,Egypt,-2700,-2300,Cycladic,Cyclades,Aegean
+0.5975,ebla11,ebla5,-2600,-2400,Early Bronze Age,Ebla,Levant,-2600,-2400,Early Bronze Age,Ebla,Levant
+0.5725,egypt_5th_dynasty1,idrimi,-2500,-2300,Old Kingdom,Egyptian,Egypt,-1500,-1400,Mittani,Mittani,Mesopotamia/Levant
+0.5675,egypt_13th_century,greece_27_2400BCE8,-1300,-1200,Middle Kingdom,Egyptian,Egypt,-2700,-2400,Cycladic,Cyclades,Aegean
+0.5675,egypt_12dynasty_7,greece_27_2200BCE6,-2000,-1800,Middle Kingdom,Egyptian,Egypt,-2700,-2200,Cycladic,Cyclades,Aegean
+0.5675,amorite_1,egypt_18th_dynasty7_1,-1800,-1600,Middle Bronze Age,Amorite,Levant,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.5625,egypt_19th_dynasty_2,old_kingdom,-1300,-1200,New Kingdom,Egyptian,Egypt,-2500,-2300,Old Kingdom,Egyptian,Egypt
+0.5625,egypt_13th_century,sm_22_9,-1300,-1200,Middle Kingdom,Egyptian,Egypt,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia
+0.5475,egypt13c_3,mari5,-1300,-1200,New Kingdom,Egyptian,Egypt,-2500,-2300,Early Dynastic,Mari,Mesopotamia
+0.545,diayla_9,thutmosesIII-1,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-1500,-1400,New Kingdom,Egyptian,Egypt
+0.54,SM_22cbce_2,old_kingdom,-2300,-2100,Akkadian-Ur III,Sumerian,Mesopotamia,-2500,-2300,Old Kingdom,Egyptian,Egypt
+0.52,egypt13c_3,susa3,-1300,-1200,New Kingdom,Egyptian,Egypt,-2400,-2200,Old Elamite,Elamite,Iran
+0.4625,Diyala55,egypt_18th_dynasty7_1,-2700,-2500,Early Dynastic,Sumerian,Mesopotamia,-1600,-1300,New Kingdom,Egyptian,Egypt
+0.45,egypt19thc_4,egypt_12thC_19,-1900,-1800,Middle Kingdom,Egyptian,Egypt,-1200,-1100,New Kingdom,Egyptian,Egypt

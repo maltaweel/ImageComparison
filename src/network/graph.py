@@ -120,24 +120,30 @@ def runPoints(centrality):
         for node in centrality:
             
             printt=False
-        #   v=centrality[node]
+            v=centrality[node]
             x=node[0]
             y=node[1]
-            
-            v=results[x]
+             
+   #         v=results[x]
             for q in range(0,len(geometry2)):
                 qq=geometry2[q].bounds
-                   
-                if x==qq[0] and y==qq[1]:
-                    printt=True
-                        
-                    contains[x]=y
+                
+
+                if x==qq[0]:
+                    
+                    if qq in contains:
+                        printt=False
+                        continue
+                 
+                    else:
+                        printt=True
+                       # print(x)
+                        contains[qq]=qq
                     
             
-            
-            
-            if printt is True:
-                writer.writerow({'Point 1': str(x),'Point 2':str(y),'Value':str(str(v))})
+                if printt is True:
+                    writer.writerow({'Point 1': str(qq[0]),'Point 2':str(qq[1]),'Value':str(str(v))})
+                    break
         
         
 def run():

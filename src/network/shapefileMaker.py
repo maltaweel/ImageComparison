@@ -197,7 +197,7 @@ def createOutput():
             
                     if pc not in pointC:
                         vs=totalsPoint[sp1]
-                        makePoint(w2,x1,y1,round(float(np.median(vs)),3))
+                        makePoint(w2,x1,y1,float(np.sum(vs)))
                         pointC[pc]=pc
                 
                 if sp2 in countries:
@@ -209,7 +209,7 @@ def createOutput():
             
                     if pc not in pointC:
                         vs=totalsPoint[sp2]
-                        makePoint(w2,x2,y2,round(float(np.median(vs)),3))
+                        makePoint(w2,x2,y2,float(np.sum(vs)))
                         pointC[pc]=pc
         
                 points=[x1,y1,x2,y2]

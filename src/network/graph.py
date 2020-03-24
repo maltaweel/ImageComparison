@@ -23,6 +23,7 @@ results={}
 
 '''
 Method creates the graph
+@return G: the graph
 '''
 
 def createNetwork():
@@ -35,6 +36,7 @@ def createNetwork():
 Method to add a weighted value for given edges
 
 @param x: the weighted edges to add weight to
+@return G: the graph
 '''
 def addWeightedEdges(x):
     G=nx.Graph()
@@ -48,6 +50,7 @@ def addWeightedEdges(x):
 Load the data and creating the links for the network from street segment file.
 Then, the graph is created based on a degree centrality graph.
 @param fileName the shapefile name to assess.
+@return centrality: centrality values for the graph
 '''
 def load():
     pn=os.path.abspath(__file__)

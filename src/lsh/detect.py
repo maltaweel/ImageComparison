@@ -30,12 +30,11 @@ historical={}
 """
     Calculate the dhash signature of a given file
     
-    Args:
-        image_file: the image (path as string) to calculate the signature for
-        hash_size: hash size to use, signatures will be of length hash_size^2
     
-    Returns:
-        Image signature as Numpy n-dimensional array or None if the file is not a PIL recognized image
+    @param image_file: the image (path as string) to calculate the signature for
+    @param hash_size: hash size to use, signatures will be of length hash_size^2
+    
+    @return :Image signature as Numpy n-dimensional array or None if the file is not a PIL recognized image
 """
 def calculate_signature(image_file: str, hash_size: int) -> np.ndarray:
    
@@ -53,14 +52,13 @@ def calculate_signature(image_file: str, hash_size: int) -> np.ndarray:
 '''
     Find near-duplicate images
     
-    Args:
-        input_dir: Directory with images to check
-        threshold: Images with a similarity ratio >= threshold will be considered near-duplicates
-        hash_size: Hash size to use, signatures will be of length hash_size^2
-        bands: The number of bands to use in the locality sensitve hashing process
+    
+    @param: input_dir: Directory with images to check
+    @param: threshold: Images with a similarity ratio >= threshold will be considered near-duplicates
+    @param: hash_size: Hash size to use, signatures will be of length hash_size^2
+    @param bands: The number of bands to use in the locality sensitve hashing process
         
-    Returns:
-        A list of near-duplicates found. Near duplicates are encoded as a triple: (filename_A, filename_B, similarity)
+    @return: A list of near-duplicates found. Near duplicates are encoded as a triple: (filename_A, filename_B, similarity)
 '''  
 def find_near_duplicates(input_dir: str, threshold: float, hash_size: int, bands: int) -> List[Tuple[str, str, float]]:
    
@@ -132,7 +130,7 @@ def find_near_duplicates(input_dir: str, threshold: float, hash_size: int, bands
 '''
 This method prints multiple runs (if used) as csv files.
 
-Args: imageFile:  imagefile module used to find file and images
+@param imageFile:  imagefile module used to find file and images
 '''
 def printHistorical(imageFile):
     pn=os.path.abspath(__file__)
@@ -177,8 +175,8 @@ def printHistorical(imageFile):
 '''
 Method to print outputs from lsh algorith (one run).
 
-Args: near_duplicates:  the comparison lsh results
-      imageFile:  imagefile module used to find file and images
+@param: near_duplicates:  the comparison lsh results
+@param: imageFile  imagefile module used to find file and images
 '''
 def printResults(near_duplicates,imageFile):
     pn=os.path.abspath(__file__)
@@ -236,7 +234,7 @@ def printResults(near_duplicates,imageFile):
 '''
 Main run method to launch algorithm
 
-Args:  argv:  the input from the run arguments. that includes threshold, hash_size, and bands
+@param:  argv:  the input from the run arguments. that includes threshold, hash_size, and bands
 '''  
 def run(argv):
     # Argument parser

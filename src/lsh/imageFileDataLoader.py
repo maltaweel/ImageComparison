@@ -1,5 +1,5 @@
 '''
-Loader and comparator to match image files with images referenced with data on periods, culture, region, etc. in image_data folder.
+Class acting as loader and comparator to match image files with images referenced with data on periods, culture, region, etc. in image_data folder.
 
 Created on Nov 27, 2019
 
@@ -52,8 +52,10 @@ class ImageFile():
     '''
     Method to compare and link imageLink.csv data with input images (i.e.,  the jpg files).
     
-    Args: file1: The first file (jpg) compared and searched for in imageLink.csv
-          file2:  The second file (jpg) compared and searched for in imageLink.csv
+    @param file1: The first file (jpg) compared and searched for in imageLink.csv
+    @param file2:  The second file (jpg) compared and searched for in imageLink.csv
+    
+    @return time1, period1, culture1, region1, time2, period2, culture2, region2: returns time, period, culture, and region for two images (i.e., a pair of these ressults)
     '''
     def checkResults(self,file1,file2):
         file1=file1.split('.')[0]

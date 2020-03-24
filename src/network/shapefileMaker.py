@@ -3,7 +3,7 @@ Module to create shapefile data of image comparisons (network and node data) and
 
 Created on Dec 14, 2019
 
-@author: mark
+@author: 
 '''
 import shapefile
 import geopandas as gpd
@@ -30,10 +30,10 @@ fieldnames = ['Point 1','Point 2','Median Value',"Standard Deviation"]
 '''
 Method to make a point shapefile.
 
-Args: w: the shapefilewriter
-      x: the x location
-      y:  the y location
-      number: the value to associate the point shapefile
+@param w: the shapefilewriter
+@param x: the x location
+@param y:  the y location
+@param number: the value (output for the point) to associate the point shapefile
 '''
 def makePoint(w,x,y,number):    
     w.point(x,y)

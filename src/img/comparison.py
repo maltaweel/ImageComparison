@@ -1,5 +1,5 @@
 '''
-Module used to compare images using structural similarity and mean squared error. 
+Module used to compare images using structural similarity and mean squared error (MSE). 
 
 Code based on Adrian Rosebrock from:  https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/.
 

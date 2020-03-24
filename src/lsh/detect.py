@@ -234,7 +234,7 @@ def printResults(near_duplicates,imageFile):
         print ("Could not read file:", IOError)
     
 '''
-Main run metho to launch algorithm
+Main run method to launch algorithm
 
 Args:  argv:  the input from the run arguments. that includes threshold, hash_size, and bands
 '''  
@@ -276,6 +276,6 @@ def run(argv):
         
      
 #   printHistorical(imageFile)               
-
+#launch the main
 if __name__ == "__main__":
     run(sys.argv)

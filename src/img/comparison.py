@@ -1,11 +1,13 @@
 '''
 Module used to compare images using structural similarity and mean squared error. 
 
-Code based on Adrian Rosebrock from:  https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/
+Code based on Adrian Rosebrock from:  https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/.
+
+Module is not currently used but was tested to compare to LSH.
 
 Created on Nov 14, 2019
 
-@author: mark
+@author: 
 '''
 # import the necessary packages
 import os
@@ -15,6 +17,11 @@ import numpy as np
 import cv2
 import csv
 
+'''
+This prints the outputs of two values for images.
+@param value1:  the value of the first image
+@param value2: the value of the second image
+'''
 def printResults(values1, values2):
     pn=os.path.abspath(__file__)
     pn=pn.split("src")[0]
@@ -46,7 +53,11 @@ def printResults(values1, values2):
             
     except IOError:
         print ("Could not read file:", csv)
-
+'''
+The MSE method to compare two images.
+@param: imageA: The first image
+@param: imageB: The second image
+'''
 def mse(imageA, imageB):
     # the 'Mean Squared Error' between the two images is the
     # sum of the squared difference between the two images;
@@ -58,7 +69,12 @@ def mse(imageA, imageB):
     # the two images are
     return err
 
-def compare_images(imageA, imageB, title):
+'''
+Method to launch MSE and structural similarity on images for comparisons.
+@param: imageA: the first image to compare
+@param: imageB: the second image to compare
+'''
+def compare_images(imageA, imageB):
     # compute the mean squared error and structural similarity
     # index for the images
     m = mse(imageA, imageB)
@@ -85,6 +101,8 @@ def compare_images(imageA, imageB, title):
 
 # load the images -- the original, the original + contrast,
 # and the original + photoshop
+
+#module to run MSE and structural similarity comparisons on images 
 pn=os.path.abspath(__file__)
 pn=pn.split("src")[0]
         
@@ -140,4 +158,5 @@ for fil in os.listdir(path):
         fileS[str(osN)+":"+str(ocN)]=s
         #compare_images(original, contrast, "Original vs. Contrast")
         #compare_images(original, shopped, "Original vs. Photoshopped")
+        
 printResults(fileM,fileS)

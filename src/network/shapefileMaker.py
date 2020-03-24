@@ -1,5 +1,5 @@
 '''
-Module to create shapefile data.
+Module to create shapefile data of image comparisons (network and node data) and an inverse closeness centrality network measure.
 
 Created on Dec 14, 2019
 
@@ -42,9 +42,9 @@ def makePoint(w,x,y,number):
 '''
 Method to make a polyline shapefile.
 
-Args: w: the shapefilewriter
-      points: the points associated with the polyline (2 points)
-      number: the value to associate the polyline shapefile
+@param w: the shapefilewriter
+@param points: the points associated with the polyline (2 points)
+@param number: the value to associate the polyline shapefile
 '''  
 def makeLine(w,points,number):
     
@@ -56,7 +56,7 @@ def makeLine(w,points,number):
 
 '''
 Method to read input (see /shp folder) shapefile that will match with the name of the region/country associated with given images.
- This helps to then match image and country in the output shapefile.
+This helps to then match image and country in the output shapefile.
 '''
 def readInputShape():
     path=os.path.join(pn,'shp',"TM_WORLD_BORDERS-0.3.shp")
@@ -156,7 +156,7 @@ def matchOutput():
         print ("Could not read file:", IOError) 
 
 '''
-Method to create network (network.shp outputted to network_output) and point shapefiles.
+Method to create network (network.shp output that has inverse closeness centrality using weight (similarity) measures ) and point shapefiles of the nodes.
 '''       
 def createOutput():
     pointC={}
@@ -180,6 +180,8 @@ def createOutput():
             
             for k in geoValues.keys():
                 values=geoValues[k]
+                
+                #median values are calculated for a comparisons for a given link
                 v=np.median(values)
         
                 sp1=k.split(":")[0]
@@ -195,6 +197,7 @@ def createOutput():
             
                     pc=str(x1)+":"+str(y1)
             
+                    #this will make the point if not already existing; sum the values of the link to the node
                     if pc not in pointC:
                         vs=totalsPoint[sp1]
                         makePoint(w2,x1,y1,float(np.sum(vs)))
@@ -206,7 +209,8 @@ def createOutput():
                     y2=g2.y
             
                     pc=str(x2)+":"+str(y2)
-            
+                    
+                    #this makes the other point if not already existing; sum the values of the link to the node
                     if pc not in pointC:
                         vs=totalsPoint[sp2]
                         makePoint(w2,x2,y2,float(np.sum(vs)))
@@ -214,16 +218,19 @@ def createOutput():
         
                 points=[x1,y1,x2,y2]
                 if x1 and x2 and y1 and y2 is not None:
+                    #make the line
                     makeLine(w,points,round(v,3))
+                    
+                    #write csv output as well
                     writeData(sp1,sp2,values,writer)
 
 '''
-Method writes data to .csv file (network point and line data) that shows countries and their (median and standard deviation) similarity values
+Method writes data to .csv file (network point and line data) that shows regions and their (median and standard deviation) similarity values
 
-Args: p1: point 1 for the shapefile (country 1)
-      p2: point 2 for the shapefile (country 2)
-      v: the container with the values to run median and standard deviation
-      writer: the csv writer (see network_output folder for output (network.csv)
+@param p1: point 1 for the shapefile (country 1)
+@param p2: point 2 for the shapefile (country 2)
+@param v: the container with the values to run median and standard deviation
+@param writer: the csv writer (see network_output folder for output (network.csv)
 '''
 def writeData(p1,p2,v,writer):
     writer.writerow({'Point 1': str(p1),'Point 2':str(p2),'Median Value':str(round(np.median(v),3)),'Standard Deviation':str(round(np.std(v),2))})
@@ -243,6 +250,7 @@ def run():
     
     print('finished')
 
+#run the run method
 if __name__ == '__main__':
     run()
 

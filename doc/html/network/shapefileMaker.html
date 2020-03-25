@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.7.5" />
+<title>shapefileMaker API documentation</title>
+<meta name="description" content="Module to create shapefile data of image comparisons (network and node data) and an inverse closeness centrality network measure …" />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+<style>.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{font-weight:bold}#index h4 + ul{margin-bottom:.6em}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>shapefileMaker</code></h1>
+</header>
+<section id="section-intro">
+<p>Module to create shapefile data of image comparisons (network and node data) and an inverse closeness centrality network measure.</p>
+<p>Created on Dec 14, 2019</p>
+<p>@author:</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">&#39;&#39;&#39;
+Module to create shapefile data of image comparisons (network and node data) and an inverse closeness centrality network measure.
+
+Created on Dec 14, 2019
+
+@author: 
+&#39;&#39;&#39;
+import shapefile
+import geopandas as gpd
+import os
+import csv
+import numpy as np
+
+#path to src
+pn=os.path.abspath(__file__)
+pn=pn.split(&#34;src&#34;)[0]     
+
+#containers for countries to match between images (.csv meta-data file) and shapefile countries
+countries={}
+geoValues={}
+country_file={}
+
+#point data to output
+totalsPoint={}
+
+#field names for output .csv file to show comparison lsh values
+fieldnames = [&#39;Point 1&#39;,&#39;Point 2&#39;,&#39;Median Value&#39;,&#34;Standard Deviation&#34;]
+
+
+&#39;&#39;&#39;
+Method to make a point shapefile.
+
+@param w: the shapefilewriter
+@param x: the x location
+@param y:  the y location
+@param number: the value (output for the point) to associate the point shapefile
+&#39;&#39;&#39;
+def makePoint(w,x,y,number):    
+    w.point(x,y)
+    w.record(value=number)
+   
+&#39;&#39;&#39;
+Method to make a polyline shapefile.
+
+@param w: the shapefilewriter
+@param points: the points associated with the polyline (2 points)
+@param number: the value to associate the polyline shapefile
+&#39;&#39;&#39;  
+def makeLine(w,points,number):
+    
+    w.line([[[points[0],points[1]],[points[2],points[3]]]])
+ #  w.record(name1=str(n1+&#34;:&#34;+n2))
+    w.record(value=number)
+   
+   
+
+&#39;&#39;&#39;
+Method to read input (see /shp folder) shapefile that will match with the name of the region/country associated with given images.
+This helps to then match image and country in the output shapefile.
+&#39;&#39;&#39;
+def readInputShape():
+    path=os.path.join(pn,&#39;shp&#39;,&#34;TM_WORLD_BORDERS-0.3.shp&#34;)
+    poly = gpd.read_file(path)
+    points = poly.copy()
+    geometry = points[&#39;geometry&#39;].centroid
+    names=points[&#39;NAME&#39;]
+    points.crs =poly.crs
+    points.head()
+    
+    for i in range(0,len(geometry)):
+        countries[names[i]]=geometry[i]
+        
+    
+&#39;&#39;&#39;
+Method to load imageLink and get countries from given file names.
+&#39;&#39;&#39;   
+def runData():
+    pway=os.path.join(pn,&#39;image_data&#39;,&#39;imageLink.csv&#39;)
+    
+    try:
+        with open(pway, &#39;rU&#39;) as csvf:
+            reader = csv.DictReader(csvf)
+
+            for row in reader:
+                
+                fileName=row[&#39;File&#39;]
+                mCountry=row[&#39;Modern Country&#39;]
+                
+                fileName=fileName.split(&#34;.&#34;)[0]
+                country_file[fileName]=mCountry
+                
+    except IOError:
+        print (&#34;Could not read file:&#34;, IOError)     
+&#39;&#39;&#39;
+This matches the /output results with countries in input shapefile (in /shp folder).
+&#39;&#39;&#39;
+def matchOutput():
+    pway=os.path.join(pn,&#39;output&#39;)
+
+    try:
+        
+        for f in os.listdir(pway):
+            with open(os.path.join(pway,f), &#39;rU&#39;,encoding=&#39;utf8&#39;,errors=&#39;replace&#39;) as csvf:
+                reader = csv.DictReader((l.replace(&#39;\0&#39;, &#39;&#39;) for l in csvf))
+            
+                for row in reader:
+                   
+                    f1 = row[&#39;File 1&#39;].split(&#34;.&#34;)[0]
+                    f2 = row[&#39;File 2&#39;].split(&#34;.&#34;)[0]
+
+                    v=float(row[&#39;Similarity&#39;])
+                
+                    cntry1=country_file[f1]
+                    cntry2=country_file[f2]
+                
+                    key=cntry1+&#34;:&#34;+cntry2
+                    key2=cntry2+&#34;:&#34;+cntry1
+                    
+                    if key in geoValues:
+                        
+                        values=geoValues[key]
+                        values.append(v)
+                        geoValues[key]=values
+                    
+                    elif key2 in geoValues:
+                        values=geoValues[key2]
+                        values.append(v)
+                        geoValues[key]=values 
+                        del geoValues[key2]
+                       
+                    else:
+                       
+                        values=[v]
+                        geoValues[key]=values
+                        
+                    
+                    if cntry1 in totalsPoint:
+                        vs=totalsPoint[cntry1]
+                        vs.append(v)
+                        totalsPoint[cntry1]=vs
+                    
+                    else:
+                        vs=[v]
+                        totalsPoint[cntry1]=vs
+                    
+                    if cntry2 in totalsPoint:
+                        vs1=totalsPoint[cntry2]
+                        vs1.append(v)
+                        totalsPoint[cntry2]=vs1
+                    else:
+                        vs1=[v]
+                        totalsPoint[cntry2]=vs1
+                
+
+    except IOError:
+        print (&#34;Could not read file:&#34;, IOError) 
+
+&#39;&#39;&#39;
+Method to create network (network.shp output that has inverse closeness centrality using weight (similarity) measures ) and point shapefiles of the nodes.
+&#39;&#39;&#39;       
+def createOutput():
+    pointC={}
+    
+    path=os.path.join(pn,&#39;network_output&#39;,&#39;network.shp&#39;)
+    path2=os.path.join(pn,&#39;network_output&#39;,&#39;points.shp&#39;)
+    path3=os.path.join(pn,&#39;network_output&#39;,&#39;network.csv&#39;)
+    
+    w = shapefile.Writer(path,shapefile.POLYLINE)
+    w2 = shapefile.Writer(path2,shapefile.POINT)
+    
+#   w.field(&#39;name1&#39;,&#39;C&#39;,40)
+    w.field(&#39;value&#39;,&#39;F&#39;,10,decimal=3)
+
+    w2.field(&#39;value&#39;,&#39;F&#39;,10,decimal=3)
+    
+    with open(path3, &#39;w&#39;) as csvf:
+             
+            writer = csv.DictWriter(csvf, fieldnames=fieldnames)
+            writer.writeheader()
+            
+            for k in geoValues.keys():
+                values=geoValues[k]
+                
+                #median values are calculated for a comparisons for a given link
+                v=np.median(values)
+        
+                sp1=k.split(&#34;:&#34;)[0]
+                sp2=k.split(&#34;:&#34;)[1]
+        
+        
+        
+                if sp1 in countries:
+                
+                    g1=countries[sp1]
+                    x1=g1.x
+                    y1=g1.y
+            
+                    pc=str(x1)+&#34;:&#34;+str(y1)
+            
+                    #this will make the point if not already existing; sum the values of the link to the node
+                    if pc not in pointC:
+                        vs=totalsPoint[sp1]
+                        makePoint(w2,x1,y1,float(np.sum(vs)))
+                        pointC[pc]=pc
+                
+                if sp2 in countries:
+                    g2=countries[sp2]
+                    x2=g2.x
+                    y2=g2.y
+            
+                    pc=str(x2)+&#34;:&#34;+str(y2)
+                    
+                    #this makes the other point if not already existing; sum the values of the link to the node
+                    if pc not in pointC:
+                        vs=totalsPoint[sp2]
+                        makePoint(w2,x2,y2,float(np.sum(vs)))
+                        pointC[pc]=pc
+        
+                points=[x1,y1,x2,y2]
+                if x1 and x2 and y1 and y2 is not None:
+                    #make the line
+                    makeLine(w,points,round(v,3))
+                    
+                    #write csv output as well
+                    writeData(sp1,sp2,values,writer)
+
+&#39;&#39;&#39;
+Method writes data to .csv file (network point and line data) that shows regions and their (median and standard deviation) similarity values
+
+@param p1: point 1 for the shapefile (country 1)
+@param p2: point 2 for the shapefile (country 2)
+@param v: the container with the values to run median and standard deviation
+@param writer: the csv writer (see network_output folder for output (network.csv)
+&#39;&#39;&#39;
+def writeData(p1,p2,v,writer):
+    writer.writerow({&#39;Point 1&#39;: str(p1),&#39;Point 2&#39;:str(p2),&#39;Median Value&#39;:str(round(np.median(v),3)),&#39;Standard Deviation&#39;:str(round(np.std(v),2))})
+    
+#      w.save(path)
+#      w2.save(path2)
+
+&#39;&#39;&#39;
+Method to run the module
+&#39;&#39;&#39;    
+def run():
+   
+    readInputShape()
+    runData()
+    matchOutput()
+    createOutput()
+    
+    print(&#39;finished&#39;)
+
+#run the run method
+if __name__ == &#39;__main__&#39;:
+    run()</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-variables">Global variables</h2>
+<dl>
+<dt id="shapefileMaker.fieldnames"><code class="name">var <span class="ident">fieldnames</span></code></dt>
+<dd>
+<section class="desc"><p>Method to make a point shapefile.</p>
+<p>@param w: the shapefilewriter
+@param x: the x location
+@param y:
+the y location
+@param number: the value (output for the point) to associate the point shapefile</p></section>
+</dd>
+</dl>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="shapefileMaker.createOutput"><code class="name flex">
+<span>def <span class="ident">createOutput</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<section class="desc"></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def createOutput():
+    pointC={}
+    
+    path=os.path.join(pn,&#39;network_output&#39;,&#39;network.shp&#39;)
+    path2=os.path.join(pn,&#39;network_output&#39;,&#39;points.shp&#39;)
+    path3=os.path.join(pn,&#39;network_output&#39;,&#39;network.csv&#39;)
+    
+    w = shapefile.Writer(path,shapefile.POLYLINE)
+    w2 = shapefile.Writer(path2,shapefile.POINT)
+    
+#   w.field(&#39;name1&#39;,&#39;C&#39;,40)
+    w.field(&#39;value&#39;,&#39;F&#39;,10,decimal=3)
+
+    w2.field(&#39;value&#39;,&#39;F&#39;,10,decimal=3)
+    
+    with open(path3, &#39;w&#39;) as csvf:
+             
+            writer = csv.DictWriter(csvf, fieldnames=fieldnames)
+            writer.writeheader()
+            
+            for k in geoValues.keys():
+                values=geoValues[k]
+                
+                #median values are calculated for a comparisons for a given link
+                v=np.median(values)
+        
+                sp1=k.split(&#34;:&#34;)[0]
+                sp2=k.split(&#34;:&#34;)[1]
+        
+        
+        
+                if sp1 in countries:
+                
+                    g1=countries[sp1]
+                    x1=g1.x
+                    y1=g1.y
+            
+                    pc=str(x1)+&#34;:&#34;+str(y1)
+            
+                    #this will make the point if not already existing; sum the values of the link to the node
+                    if pc not in pointC:
+                        vs=totalsPoint[sp1]
+                        makePoint(w2,x1,y1,float(np.sum(vs)))
+                        pointC[pc]=pc
+                
+                if sp2 in countries:
+                    g2=countries[sp2]
+                    x2=g2.x
+                    y2=g2.y
+            
+                    pc=str(x2)+&#34;:&#34;+str(y2)
+                    
+                    #this makes the other point if not already existing; sum the values of the link to the node
+                    if pc not in pointC:
+                        vs=totalsPoint[sp2]
+                        makePoint(w2,x2,y2,float(np.sum(vs)))
+                        pointC[pc]=pc
+        
+                points=[x1,y1,x2,y2]
+                if x1 and x2 and y1 and y2 is not None:
+                    #make the line
+                    makeLine(w,points,round(v,3))
+                    
+                    #write csv output as well
+                    writeData(sp1,sp2,values,writer)</code></pre>
+</details>
+</dd>
+<dt id="shapefileMaker.makeLine"><code class="name flex">
+<span>def <span class="ident">makeLine</span></span>(<span>w, points, number)</span>
+</code></dt>
+<dd>
+<section class="desc"></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def makeLine(w,points,number):
+    
+    w.line([[[points[0],points[1]],[points[2],points[3]]]])
+ #  w.record(name1=str(n1+&#34;:&#34;+n2))
+    w.record(value=number)</code></pre>
+</details>
+</dd>
+<dt id="shapefileMaker.makePoint"><code class="name flex">
+<span>def <span class="ident">makePoint</span></span>(<span>w, x, y, number)</span>
+</code></dt>
+<dd>
+<section class="desc"></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def makePoint(w,x,y,number):    
+    w.point(x,y)
+    w.record(value=number)</code></pre>
+</details>
+</dd>
+<dt id="shapefileMaker.matchOutput"><code class="name flex">
+<span>def <span class="ident">matchOutput</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<section class="desc"></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def matchOutput():
+    pway=os.path.join(pn,&#39;output&#39;)
+
+    try:
+        
+        for f in os.listdir(pway):
+            with open(os.path.join(pway,f), &#39;rU&#39;,encoding=&#39;utf8&#39;,errors=&#39;replace&#39;) as csvf:
+                reader = csv.DictReader((l.replace(&#39;\0&#39;, &#39;&#39;) for l in csvf))
+            
+                for row in reader:
+                   
+                    f1 = row[&#39;File 1&#39;].split(&#34;.&#34;)[0]
+                    f2 = row[&#39;File 2&#39;].split(&#34;.&#34;)[0]
+
+                    v=float(row[&#39;Similarity&#39;])
+                
+                    cntry1=country_file[f1]
+                    cntry2=country_file[f2]
+                
+                    key=cntry1+&#34;:&#34;+cntry2
+                    key2=cntry2+&#34;:&#34;+cntry1
+                    
+                    if key in geoValues:
+                        
+                        values=geoValues[key]
+                        values.append(v)
+                        geoValues[key]=values
+                    
+                    elif key2 in geoValues:
+                        values=geoValues[key2]
+                        values.append(v)
+                        geoValues[key]=values 
+                        del geoValues[key2]
+                       
+                    else:
+                       
+                        values=[v]
+                        geoValues[key]=values
+                        
+                    
+                    if cntry1 in totalsPoint:
+                        vs=totalsPoint[cntry1]
+                        vs.append(v)
+                        totalsPoint[cntry1]=vs
+                    
+                    else:
+                        vs=[v]
+                        totalsPoint[cntry1]=vs
+                    
+                    if cntry2 in totalsPoint:
+                        vs1=totalsPoint[cntry2]
+                        vs1.append(v)
+                        totalsPoint[cntry2]=vs1
+                    else:
+                        vs1=[v]
+                        totalsPoint[cntry2]=vs1
+                
+
+    except IOError:
+        print (&#34;Could not read file:&#34;, IOError) </code></pre>
+</details>
+</dd>
+<dt id="shapefileMaker.readInputShape"><code class="name flex">
+<span>def <span class="ident">readInputShape</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<section class="desc"></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def readInputShape():
+    path=os.path.join(pn,&#39;shp&#39;,&#34;TM_WORLD_BORDERS-0.3.shp&#34;)
+    poly = gpd.read_file(path)
+    points = poly.copy()
+    geometry = points[&#39;geometry&#39;].centroid
+    names=points[&#39;NAME&#39;]
+    points.crs =poly.crs
+    points.head()
+    
+    for i in range(0,len(geometry)):
+        countries[names[i]]=geometry[i]</code></pre>
+</details>
+</dd>
+<dt id="shapefileMaker.run"><code class="name flex">
+<span>def <span class="ident">run</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<section class="desc"></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def run():
+   
+    readInputShape()
+    runData()
+    matchOutput()
+    createOutput()
+    
+    print(&#39;finished&#39;)</code></pre>
+</details>
+</dd>
+<dt id="shapefileMaker.runData"><code class="name flex">
+<span>def <span class="ident">runData</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<section class="desc"></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def runData():
+    pway=os.path.join(pn,&#39;image_data&#39;,&#39;imageLink.csv&#39;)
+    
+    try:
+        with open(pway, &#39;rU&#39;) as csvf:
+            reader = csv.DictReader(csvf)
+
+            for row in reader:
+                
+                fileName=row[&#39;File&#39;]
+                mCountry=row[&#39;Modern Country&#39;]
+                
+                fileName=fileName.split(&#34;.&#34;)[0]
+                country_file[fileName]=mCountry
+                
+    except IOError:
+        print (&#34;Could not read file:&#34;, IOError)     </code></pre>
+</details>
+</dd>
+<dt id="shapefileMaker.writeData"><code class="name flex">
+<span>def <span class="ident">writeData</span></span>(<span>p1, p2, v, writer)</span>
+</code></dt>
+<dd>
+<section class="desc"></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def writeData(p1,p2,v,writer):
+    writer.writerow({&#39;Point 1&#39;: str(p1),&#39;Point 2&#39;:str(p2),&#39;Median Value&#39;:str(round(np.median(v),3)),&#39;Standard Deviation&#39;:str(round(np.std(v),2))})</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3><a href="#header-variables">Global variables</a></h3>
+<ul class="">
+<li><code><a title="shapefileMaker.fieldnames" href="#shapefileMaker.fieldnames">fieldnames</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="two-column">
+<li><code><a title="shapefileMaker.createOutput" href="#shapefileMaker.createOutput">createOutput</a></code></li>
+<li><code><a title="shapefileMaker.makeLine" href="#shapefileMaker.makeLine">makeLine</a></code></li>
+<li><code><a title="shapefileMaker.makePoint" href="#shapefileMaker.makePoint">makePoint</a></code></li>
+<li><code><a title="shapefileMaker.matchOutput" href="#shapefileMaker.matchOutput">matchOutput</a></code></li>
+<li><code><a title="shapefileMaker.readInputShape" href="#shapefileMaker.readInputShape">readInputShape</a></code></li>
+<li><code><a title="shapefileMaker.run" href="#shapefileMaker.run">run</a></code></li>
+<li><code><a title="shapefileMaker.runData" href="#shapefileMaker.runData">runData</a></code></li>
+<li><code><a title="shapefileMaker.writeData" href="#shapefileMaker.writeData">writeData</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.7.5</a>.</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>

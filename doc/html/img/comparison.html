@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.7.5" />
+<title>comparison API documentation</title>
+<meta name="description" content="Module used to compare images using structural similarity and mean squared error (MSE) …" />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+<style>.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{font-weight:bold}#index h4 + ul{margin-bottom:.6em}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>comparison</code></h1>
+</header>
+<section id="section-intro">
+<p>Module used to compare images using structural similarity and mean squared error (MSE). </p>
+<p>Code based on Adrian Rosebrock from:
+<a href="https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/.">https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/.</a></p>
+<p>Module is not currently used but was tested to compare to LSH.</p>
+<p>Created on Nov 14, 2019</p>
+<p>@author:</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">&#39;&#39;&#39;
+Module used to compare images using structural similarity and mean squared error (MSE). 
+
+Code based on Adrian Rosebrock from:  https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/.
+
+Module is not currently used but was tested to compare to LSH.
+
+Created on Nov 14, 2019
+
+@author: 
+&#39;&#39;&#39;
+# import the necessary packages
+import os
+from skimage import measure as ssim
+import matplotlib.pyplot as plt
+import numpy as np
+#import cv2
+import csv
+
+&#39;&#39;&#39;
+This prints the outputs of two values for images.
+@param value1:  the value of the first image
+@param value2: the value of the second image
+&#39;&#39;&#39;
+def printResults(values1, values2):
+    pn=os.path.abspath(__file__)
+    pn=pn.split(&#34;src&#34;)[0]
+    
+    pathway=os.path.join(pn,&#39;output&#39;,&#39;output_sse.csv&#39;)
+    
+    fieldnames = [&#39;File 1&#39;,&#39;File 2&#39;,&#39;MSE&#39;,&#39;SSE&#39;]
+    #print results out
+    try:
+        with open(pathway, &#39;w&#39;) as csvf:
+             
+            writer = csv.DictWriter(csvf, fieldnames=fieldnames)
+
+            writer.writeheader()
+            
+            for k in values1:
+                
+                mse=values1[k]
+                sse=values2[k]
+                
+                vv=k.split(&#39;:&#39;)
+                v1=vv[0]
+                v2=vv[1]
+                
+                writer.writerow({&#39;File 1&#39;: str(v1),&#39;File 2&#39;:str(v2),
+                            &#39;MSE&#39;:str(mse),&#39;SSE&#39;:str(sse)})
+                
+                print(&#39;File 1: &#39;+str(v1)+ &#34; File 2: &#34;+str(v2)+&#34; MSE: &#34;+str(mse)+&#34; SSE: &#34;+str(sse))
+            
+    except IOError:
+        print (&#34;Could not read file:&#34;, csv)
+&#39;&#39;&#39;
+The MSE method to compare two images.
+@param: imageA: The first image
+@param: imageB: The second image
+&#39;&#39;&#39;
+def mse(imageA, imageB):
+    # the &#39;Mean Squared Error&#39; between the two images is the
+    # sum of the squared difference between the two images;
+    # NOTE: the two images must have the same dimension
+    err = np.sum((imageA.astype(&#34;float&#34;) - imageB.astype(&#34;float&#34;)) ** 2)
+    err /= float(imageA.shape[0] * imageA.shape[1])
+    
+    # return the MSE, the lower the error, the more &#34;similar&#34;
+    # the two images are
+    return err
+
+&#39;&#39;&#39;
+Method to launch MSE and structural similarity on images for comparisons.
+@param: imageA: the first image to compare
+@param: imageB: the second image to compare
+&#39;&#39;&#39;
+def compare_images(imageA, imageB):
+    # compute the mean squared error and structural similarity
+    # index for the images
+    m = mse(imageA, imageB)
+    s =  ssim.compare_ssim(imageA, imageB)
+
+    # setup the figure
+ #   fig = plt.figure(title)
+ #   plt.suptitle(&#34;MSE: %.2f, SSIM: %.2f&#34; % (m, s))
+    
+    return m, s
+
+    # show first image
+ #   ax = fig.add_subplot(1, 2, 1)
+ #   plt.imshow(imageA, cmap = plt.cm.gray)
+ #   plt.axis(&#34;off&#34;)
+
+    # show the second image
+ #   ax = fig.add_subplot(1, 2, 2)
+ #   plt.imshow(imageB, cmap = plt.cm.gray)
+ #   plt.axis(&#34;off&#34;)
+
+    # show the images
+ #   plt.show()
+
+# load the images -- the original, the original + contrast,
+# and the original + photoshop
+
+#module to run MSE and structural similarity comparisons on images 
+pn=os.path.abspath(__file__)
+pn=pn.split(&#34;src&#34;)[0]
+        
+
+#The data file path is now created where the data folder and dataFile.csv is referenced
+path=os.path.join(pn,&#39;images&#39;)
+
+fileM={}
+fileS={}
+
+for fil in os.listdir(path):
+    
+    original = cv2.imread(os.path.join(path,fil))
+    #contrast = cv2.imread(os.path.join(path,&#39;2.jpg&#39;))
+    #shopped = cv2.imread(os.path.join(path,&#39;1.jpg&#39;))
+
+    # convert the images to grayscale
+    original = cv2.cvtColor(original, cv2.COLOR_BGR2GRAY)
+    
+    for fil2 in os.listdir(path):
+        if fil==fil2:
+            continue
+        contrast = cv2.imread(os.path.join(path,fil2))
+        contrast = cv2.cvtColor(contrast, cv2.COLOR_BGR2GRAY)
+    #contrast = cv2.cvtColor(contrast, cv2.COLOR_BGR2GRAY)
+    #shopped = cv2.cvtColor(shopped, cv2.COLOR_BGR2GRAY)
+
+    # initialize the figure
+        fig = plt.figure(&#34;Images&#34;)
+        images = (&#34;Original&#34;, original), (&#34;Contrast&#34;, contrast)
+
+        # loop over the images
+        #for (i, (name, image)) in enumerate(images):
+            # show the image
+            # ax = fig.add_subplot(1, 3, i + 1)
+            #ax.set_title(name)
+        #plt.imshow(image, cmap = plt.cm.gray)
+        #plt.axis(&#34;off&#34;)
+
+        # show the figure
+        #plt.show()
+
+        # compare the images
+        m, s=compare_images(original, contrast, &#34;Original vs. Contrast&#34;)
+        
+        osS=fil.split(os.sep)
+        osN=osS[len(osS)-1]
+        
+        ocS=fil2.split(os.sep)
+        ocN=ocS[len(ocS)-1]
+        
+        fileM[str(osN)+&#34;:&#34;+str(ocN)]=m
+        fileS[str(osN)+&#34;:&#34;+str(ocN)]=s
+        #compare_images(original, contrast, &#34;Original vs. Contrast&#34;)
+        #compare_images(original, shopped, &#34;Original vs. Photoshopped&#34;)
+        
+printResults(fileM,fileS)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="comparison.compare_images"><code class="name flex">
+<span>def <span class="ident">compare_images</span></span>(<span>imageA, imageB)</span>
+</code></dt>
+<dd>
+<section class="desc"></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def compare_images(imageA, imageB):
+    # compute the mean squared error and structural similarity
+    # index for the images
+    m = mse(imageA, imageB)
+    s =  ssim.compare_ssim(imageA, imageB)
+
+    # setup the figure
+ #   fig = plt.figure(title)
+ #   plt.suptitle(&#34;MSE: %.2f, SSIM: %.2f&#34; % (m, s))
+    
+    return m, s</code></pre>
+</details>
+</dd>
+<dt id="comparison.mse"><code class="name flex">
+<span>def <span class="ident">mse</span></span>(<span>imageA, imageB)</span>
+</code></dt>
+<dd>
+<section class="desc"></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def mse(imageA, imageB):
+    # the &#39;Mean Squared Error&#39; between the two images is the
+    # sum of the squared difference between the two images;
+    # NOTE: the two images must have the same dimension
+    err = np.sum((imageA.astype(&#34;float&#34;) - imageB.astype(&#34;float&#34;)) ** 2)
+    err /= float(imageA.shape[0] * imageA.shape[1])
+    
+    # return the MSE, the lower the error, the more &#34;similar&#34;
+    # the two images are
+    return err</code></pre>
+</details>
+</dd>
+<dt id="comparison.printResults"><code class="name flex">
+<span>def <span class="ident">printResults</span></span>(<span>values1, values2)</span>
+</code></dt>
+<dd>
+<section class="desc"></section>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def printResults(values1, values2):
+    pn=os.path.abspath(__file__)
+    pn=pn.split(&#34;src&#34;)[0]
+    
+    pathway=os.path.join(pn,&#39;output&#39;,&#39;output_sse.csv&#39;)
+    
+    fieldnames = [&#39;File 1&#39;,&#39;File 2&#39;,&#39;MSE&#39;,&#39;SSE&#39;]
+    #print results out
+    try:
+        with open(pathway, &#39;w&#39;) as csvf:
+             
+            writer = csv.DictWriter(csvf, fieldnames=fieldnames)
+
+            writer.writeheader()
+            
+            for k in values1:
+                
+                mse=values1[k]
+                sse=values2[k]
+                
+                vv=k.split(&#39;:&#39;)
+                v1=vv[0]
+                v2=vv[1]
+                
+                writer.writerow({&#39;File 1&#39;: str(v1),&#39;File 2&#39;:str(v2),
+                            &#39;MSE&#39;:str(mse),&#39;SSE&#39;:str(sse)})
+                
+                print(&#39;File 1: &#39;+str(v1)+ &#34; File 2: &#34;+str(v2)+&#34; MSE: &#34;+str(mse)+&#34; SSE: &#34;+str(sse))
+            
+    except IOError:
+        print (&#34;Could not read file:&#34;, csv)</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="comparison.compare_images" href="#comparison.compare_images">compare_images</a></code></li>
+<li><code><a title="comparison.mse" href="#comparison.mse">mse</a></code></li>
+<li><code><a title="comparison.printResults" href="#comparison.printResults">printResults</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.7.5</a>.</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>

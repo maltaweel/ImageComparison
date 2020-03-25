@@ -28,7 +28,7 @@ from imageFileDataLoader import ImageFile
 historical={}
 
 """
-    Calculate the dhash signature of a given file
+    Calculate the dhash signature of a given file using dhash technique.
     
     
     @param image_file: the image (path as string) to calculate the signature for
@@ -173,7 +173,7 @@ def printHistorical(imageFile):
         print ("Could not read file:", IOError)        
 
 '''
-Method to print outputs from lsh algorith (one run).
+Method to print outputs from lsh algorithm (one run).
 
 @param: near_duplicates:  the comparison lsh results
 @param: imageFile  imagefile module used to find file and images

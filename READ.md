@@ -62,3 +62,7 @@ This is the folder that contains the code. The following are the sub-folders wit
      lsh/:
      
      This sub-folder contains the main module for the LSH, or local sensitive hashing, method. The detect.py module applies        the LSH algorithm that compares similarity of images. THe other module is imageFileDataLoader.py, which loads images and      applies comparisons between multiple images.Data in the imageLink.csv files allow images to be referenced and matched to      given regions, which are then used for comparisons.
+     
+     network/:
+     
+     This folder contains the modules for network construction. The shapefileMaker.py enables the network to be created using      the nodes for each country and images associated with given countries (i.e., representing regions in the past). The          graph.py module creates a degree centrality network, but this is not currently used. 

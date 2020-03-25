@@ -39,5 +39,15 @@ output/:
 
 This contains a output_lsh file that shows the raw comparisons between images in similarity. This is the output of the Locality Sensitive Hashing algorithm.
 
+post4th/:
 
+This folder contains the same structure and output file types as 9-4/, except the sculptures (images) date to the post-4th century BCE. The network_output folder contains the relevant files for networks for this period. The imageLink.csv file describes the sculptures for this folder.
+
+pre9th/:
+
+This folder contains the same structure and output file types as 9-4/, except the sculptures (images) date to the pre-9th century BCE. The network_output folder contains the relevant files for networks for this period. The imageLink.csv file describes the sculptures for this folder.
+
+shp/:
+
+This folder contains a shapefile (TM_WORLD_BORDERS-0.3) of countries that are used for nodes in the network files for sculpture comparsions. The nodes represent countries that are within archaeological/ancient regions (e.g, Mesopotamia equated with Iraq). The shapefile is used to help build the network and map it to a geographic location.
  

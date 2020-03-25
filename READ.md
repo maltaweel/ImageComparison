@@ -1,6 +1,6 @@
 **ImageComparison**
 
-ImageComparison is a small Python 3 application used to compare different images, of any size, using locality sensitivity hashing (LSH). Other algorithms, including mean square error and structural similarity. The following describes the key modules, packages, and data utilised in this work.
+ImageComparison is a small Python 3 application used to compare different images, of any size, using locality sensitive hashing (LSH). Other algorithms, including mean square error and structural similarity. The following describes the key modules, packages, and data utilised in this work.
 
 _Python Libraries Used_
 
@@ -17,7 +17,7 @@ pyshp 2.1.0
 
 _Description_
 
-The following describes the key functions of the modules incorporated. This includes key data and data folders. All code can be found in the /src folder included within ImageComparsion.
+The following describes the key functions of the modules incorporated. This includes key data and data folders. All code can be found in the /src folder included within ImageComparsion. The code in the /src folder also contains comments about individuals methods and variables used to create the output. The code in scr/lsh/detect.py runs the LSH algorithm and can be launched to run on images. Users can change the folder for data or move images to the /input folder. The code in scr/network/shapefileMaker.py creates the network_output results, including the network.shp, network.csv and points.shp outputs.
 
 9-4/:
 
@@ -65,4 +65,4 @@ This is the folder that contains the code. The following are the sub-folders wit
      
      network/:
      
-     This folder contains the modules for network construction. The shapefileMaker.py enables the network to be created using      the nodes for each country and images associated with given countries (i.e., representing regions in the past). The          graph.py module creates a degree centrality network, but this is not currently used. 
+     This folder contains the modules for network construction. The shapefileMaker.py enables the network to be created using      the nodes for each country and images associated with given countries (i.e., representing regions in the past). The          graph.py module creates a degree centrality network, but this is not currently used. The output files created are            centrality.csv and points.shp.

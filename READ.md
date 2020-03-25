@@ -55,6 +55,10 @@ src/:
 
 This is the folder that contains the code. The following are the sub-folders with the Python code.
 
-   img/:
+     img/:
    
-   The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error. This    module is not currently used. It was tested to compare to the LSH method. The module uses the images folder, but this        folder is empty. The module would work if images are of the same size.
+     The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error.          This module is not currently used. It was tested to compare to the LSH method. The module uses the images folder, but        this folder is empty. The module would work if images are of the same size.
+     
+     lsh/:
+     
+     This sub-folder contains the main module for the LSH, or local sensitive hashing, method. The detect.py module applies        the LSH algorithm that compares similarity of images. THe other module is imageFileDataLoader.py, which loads images and      applies comparisons between multiple images.Data in the imageLink.csv files allow images to be referenced and matched to      given regions, which are then used for comparisons.

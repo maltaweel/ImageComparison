@@ -23,6 +23,10 @@ The following describes the key functions of the modules incorporated. This incl
 
 This is a data folder that contains images and descriptor file about the images (imageLink.csv) that indicates regions and periods that images date to. All of the imags date between the 9th-4th centuries BCE. The images are .jpg files. The folder also contains a network_output sub-folder, which includes network.shp output that contains the network output for image comparisons. The other files in this sub-folder are network.csv, a .csv version of the .shp output, and points.shp, which is the sumed centrality output. The network data indicates link similarity scores based on median values. The raw data for each image comparison is in a output_lsh file. 
 
+doc/: 
+
+Folder contains documentation about the src/ folder, that is the Python code, used for the package. The doc/ folder is organised by having an html/ sub-folder, with sub-folders under this that correspond to the sub-folder of the src/. These sub-folders contain .html files that discuss the relevant modules with the same name except without the .py extension. For example, in the /lsh sub-folder, detect.html discusses the detect.py module in /src/lsh/.
+
 image_data/:
 
 This folder contains imageLink.csv, which is the imageLink file for all sculpture images (found in the input/ folder). The information in the file includes the periods and regions the images in the input/ folder belong to.

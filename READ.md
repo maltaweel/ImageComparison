@@ -13,4 +13,9 @@ ImageHash 4.0 \n
 opencv-python 4.2.0.32  
 Pillow 6.2.1  
 pysal 2.1.0  
-pyshp 2.1.0  
+pyshp 2.1.0
+
+_Description_
+
+The following describes the key functions of the modules incorporated. This includes key data and data folders. All code can be found in the /src folder included within ImageComparsion.
+ 

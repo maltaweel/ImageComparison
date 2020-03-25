@@ -51,3 +51,10 @@ shp/:
 
 This folder contains a shapefile (TM_WORLD_BORDERS-0.3) of countries that are used for nodes in the network files for sculpture comparsions. The nodes represent countries that are within archaeological/ancient regions (e.g, Mesopotamia equated with Iraq). The shapefile is used to help build the network and map it to a geographic location.
  
+src/: 
+
+This is the folder that contains the code. The following are the sub-folders with the Python code.
+
+   img/:
+   
+   The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error. This    module is not currently used. It was tested to compare to the LSH method. The module uses the images folder, but this        folder is empty. The module would work if images are of the same size.

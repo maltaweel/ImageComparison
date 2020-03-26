@@ -17,11 +17,11 @@ pyshp 2.1.0
 
 _Description_
 
-The following describes the key functions of the modules incorporated. This includes key data and data folders. All code can be found in the /src folder included within ImageComparsion. The code in the /src folder also contains comments about individuals methods and variables used to create the output. The code in scr/lsh/detect.py runs the LSH algorithm and can be launched to run on images. Users can change the folder for data or move images to the /input folder. The code in scr/network/shapefileMaker.py creates the network_output results, including the network.shp, network.csv and points.shp outputs. All relevant outputs discussed in the paper can be found in either the period-relevant folders with the image data (e.g., 9-4/) or the output/ and network-output/ folders for the overal image analysis. 
+The following describes the key functions of the modules incorporated. This includes key data and data folders. All code can be found in the /src folder included within ImageComparsion. The code in the /src folder also contains comments about individuals methods and variables used to create the output. The code in scr/lsh/detect.py runs the LSH algorithm and can be launched to run on images. Users can change the folder for data or move images to the /input folder. The code in scr/network/shapefileMaker.py creates the network_output results, including the network.shp, network.csv and points.shp outputs. All relevant outputs discussed in the paper can be found in either the period-relevant folders with the image data (e.g., 9-4/) or the output/ and network-output/ folders for the overall image analysis. 
 
 9-4/:
 
-This is a data folder that contains images and descriptor file about the images (imageLink.csv) that indicates regions and periods that images date to. All of the imags date between the 9th-4th centuries BCE. The images are .jpg files. The folder also contains a network_output sub-folder, which includes network.shp output that contains the network output for image comparisons. The other files in this sub-folder are network.csv, a .csv version of the .shp output, and points.shp, which is the sumed centrality output. The network data indicates link similarity scores based on median values. The raw data for each image comparison is in a output_lsh file. 
+This is a data folder that contains images and descriptor file about the images (imageLink.csv) that indicates regions and periods that images date to. All of the images date between the 9th-4th centuries BCE. The images are .jpg files. The folder also contains a network_output sub-folder, which includes network.shp output that contains the network output for image comparisons. The other files in this sub-folder are network.csv, a .csv version of the .shp output, and points.shp, which is the summed centrality output. The network data indicates link similarity scores based on median values. The raw data for each image comparison is in a output_lsh file. 
 
 doc/: 
 
@@ -37,7 +37,7 @@ This is a folder that contains all of the sculpture images. These same images ca
 
 network_output/:
 
-This contains the network output files, maing network.shp and the point.shp files. This also contains the network.csv file, a csv version. The files are for link simiarlity value for all the images (231) compared (network files) and also the nodes summed centrality values (points.shp).
+This contains the network output files, mainly network.shp and the point.shp files. This also contains the network.csv file, a csv version. The files are for link simiarlity value for all the images (231) compared (network files) and also the nodes summed centrality values (points.shp).
 
 output/:
 
@@ -53,7 +53,7 @@ This folder contains the same structure and output file types as 9-4/, except th
 
 shp/:
 
-This folder contains a shapefile (TM_WORLD_BORDERS-0.3) of countries that are used for nodes in the network files for sculpture comparsions. The nodes represent countries that are within archaeological/ancient regions (e.g, Mesopotamia equated with Iraq). The shapefile is used to help build the network and map it to a geographic location.
+This folder contains a shapefile (TM_WORLD_BORDERS-0.3) of countries that are used for nodes in the network files for sculpture comparisons. The nodes represent countries that are within archaeological/ancient regions (e.g, Mesopotamia equated with Iraq). The shapefile is used to help build the network and map it to a geographic location.
  
 src/: 
 
@@ -70,3 +70,9 @@ This is the folder that contains the code. The following are the sub-folders wit
      network/:
      
      This folder contains the modules for network construction. The shapefileMaker.py enables the network to be created using      the nodes for each country and images associated with given countries (i.e., representing regions in the past). The          graph.py module creates a degree centrality network, but this is not currently used. The output files created are            centrality.csv and points.shp.
+
+
+_imageLink.csv_
+
+This file is used as a descriptor for the data. The file contains the following columns:  file, time, period, culture, region, and modern country. The file is the name of the file. The time column reflects the time range in which the data falls. Negative values are used for BCE dates, while positive values are CE dates. The range of time is given using a colon between the end dates of the range. The period is the local period scheme used for the time range. The culture is the ancient culture in reference. The region is the ancient region, as indicated by common archaeological literature, that the sculpture relates to. The modern country is the approximate or actual country an object is found within. The modern country could simply represent the ancient region, even if the ancient region may extend into other countries. This is mostly used so the image can be mapped to a node in the network analysis.
+

@@ -7,9 +7,9 @@
 "egypt_19th_dynasty_2.jpg","-1300:-1200","New Kingdom","Egyptian","Egypt","Egypt",
 "new_kingdom_egypt2.jpg","-1300:-1200","New Kingdom","Egyptian","Egypt","Egypt",
 "ramsesII.jpg","-1300:-1200","New Kingdom","Egyptian","Egypt","Egypt",
-"canaanite_1.jpg","-1400:-1200","Late Bronze","Canaanite","Levant","Lebanon",
+"canaanite_1.jpg","-1400:-1200","Late Bronze","Canaanite","Levant","Lebanon","Louvre Museum"
 "canaanit_61.jpg","-1400:-1200","Late Bronze","Canaanite","Levant","Lebanon",
-"hazor-lb-1.jpg","-1400:-1200","Late Bronze","Canaanite","Levant","Lebanon",
+"hazor-lb-1.jpg","-1400:-1200","Late Bronze","Canaanite","Levant","Lebanon","Latakia Museum"
 "ebla11.jpg","-2600:-2400","Early Bronze Age","Ebla","Levant","Lebanon",
 "ebla5.jpg","-2600:-2400","Early Bronze Age","Ebla","Levant","Lebanon",
 "egypt_18_34.jpg","-1500:-1400","New Kingdom","Egyptian","Egypt","Egypt",
@@ -63,7 +63,7 @@
 "greece_27_2400BCE8.jpg","-2700:-2400","Cycladic","Cyclades","Aegean","Greece",
 "achaemenid_1.jpg","-500:-400","Achaemenid","Achaemenid","Iran","Iran","Iran National Museum"
 "achaemenid2.jpg","-500:-400","Achaemenid","Achaemenid","Iran","Iran","Miho Museum"
-"achaemenid3.jpg","-500:-400","Achaemenid","Achaemenid","Iran","Iran","Iran National Museum"
+"achaemenid3.jpg","-550:-450","Achaemenid","Achaemenid","Iran","Iran","Iran National Museum"
 "achaemenid4.jpg","-500:-400","Achaemenid","Achaemenid","Iran","Iran","Persepolis"
 "achaemenid5.jpg","-500:-400","Achaemenid","Achaemenid","Iran","Iran","Iran National Museum"
 "achaemenid6.jpg","-500:-400","Achaemenid","Achaemenid","Iran","Iran","Iran National Museum"
@@ -78,19 +78,19 @@
 "assyrian_1.jpg","-700:-600","Neo-Assyrian","Assyrian","Mesopotamia","Iraq","British Museum"
 "assyrian3.jpg","-700:-600","Neo-Assyrian","Assyrian","Mesopotamia","Iraq","British Museum"
 "assyrian4.jpg","-700:-600","Neo-Assyrian","Assyrian","Mesopotamia","Iraq","British Museum"
-"cleobis_1.jpg","-600:-500","Archaic","Greek","Aegean","Greece",
-"cleobis_2.jpg","-600:-500","Archaic","Greek","Aegean","Greece",
-"cypriot_5th_3.JPG","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus",
-"cypriot_5th_4.JPG","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus",
-"cypriot_5th.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus",
-"cypriot_6th_10.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus",
-"cypriot_6th_7.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus",
-"cypriot_6th_8.png","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus",
-"cypriot_6th_8.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus",
-"cypriot_7th_6th_9.jpg","-700:600","Neo-Assyrian","Cypriot","Cyprus","Cyprus",
-"cypriot-5thcentury_3.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus",
-"cypro_6th_centuryBC1.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus",
-"cypro_7th_centuryBC1.jpg","-700:-600","Neo-Assyrian","Cypriot","Cyprus","Cyprus",
+"cleobis_1.jpg","-600:-500","Archaic","Greek","Aegean","Greece","Delphi Archaeological Museum"
+"cleobis_2.jpg","-600:-500","Archaic","Greek","Aegean","Greece","Delphi Archaeological Museum"
+"cypriot_5th_3.JPG","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus","British Museum"
+"cypriot_5th_4.JPG","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus","British Museum"
+"cypriot_5th.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus","Ashmolean Museum"
+"cypriot_6th_10.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","Metropolitan Museum"
+"cypriot_6th_7.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","Metropolitan Museum"
+"cypriot_6th_8.png","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","Metropolitan Museum"
+"cypriot_6th_8.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","British Museum"
+"cypriot_7th_6th_9.jpg","-700:600","Neo-Assyrian","Cypriot","Cyprus","Cyprus","Neus Museum"
+"cypriot-5thcentury_3.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus","Ashmolean Museum"
+"cypro_6th_centuryBC1.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","British Museum"
+"cypro_7th_centuryBC1.jpg","-700:-600","Neo-Assyrian","Cypriot","Cyprus","Cyprus","British Museum"
 "cyprus_4th_2.jpeg","-400:-300","Achaemenid","Cypriot","Cyprus","Cyprus",
 "cyprus_4th_8.jpg","-400:-300","Achaemenid","Cypriot","Cyprus","Cyprus",
 "cyprus_4th_c_3.jpg","-400:-300","Achaemenid","Cypriot","Cyprus","Cyprus",
@@ -155,11 +155,11 @@
 "anatolia_1c_1.jpg","-100:0","Seleucid","Armenian","Anatolia","Turkey","Mount Nemrut"
 "anatolia_1c_7.jpg","-100:0","Seleucid","Armenian","Anatolia","Turkey","Mount Nemrut"
 "anatolia_1c_11.jpg","-100:0","Seleucid","Armenian","Anatolia","Turkey","Mount Nemrut"
-"cypriot_hellenistic_1.jpg","-300:-100","Hellenistic","Cypriot","Cyprus","Cyprus",
-"cypriot_hellenistic_2.jpg","-300:-100","Hellenistic","Cypriot","Cyprus","Cyprus",
-"cyprus_1st_bc_3.jpg","-100:0","Roman","Cypriot","Cyprus","Cyprus",
-"cyprus_2_1_66.jpg","-200:-100","Hellenistic","Cypriot","Cyprus","Cyprus",
-"cyprus_2_67.jpg","-200:-100","Hellenistic","Cypriot","Cyprus","Cyprus",
+"cypriot_hellenistic_1.jpg","-300:-100","Hellenistic","Cypriot","Cyprus","Cyprus","British Museum"
+"cypriot_hellenistic_2.jpg","-300:-100","Hellenistic","Cypriot","Cyprus","Cyprus","British Museum"
+"cyprus_1st_bc_3.jpg","-100:0","Roman","Cypriot","Cyprus","Cyprus","Getty Museum"
+"cyprus_2_1_66.jpg","-200:-100","Hellenistic","Cypriot","Cyprus","Cyprus","Istanbul Museum"
+"cyprus_2_67.jpg","-200:-100","Hellenistic","Cypriot","Cyprus","Cyprus","Cyprus Museum"
 "cyprus_2_68.jpg","-200:-100","Hellenistic","Cypriot","Cyprus","Cyprus",
 "cyprus_2nd_13.jpg","-200:-100","Hellenistic","Cypriot","Cyprus","Cyprus",
 "cyprus_2nd_4.jpg","-200:-100","Hellenistic","Cypriot","Cyprus","Cyprus",

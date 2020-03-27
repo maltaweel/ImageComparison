@@ -1,6 +1,6 @@
 Point 1,Point 2,Median Value,Standard Deviation
 Cyprus,Lebanon,0.58,0.05
-Iran,Egypt,0.595,0.03
+Iran,Egypt,0.63,0.04
 Egypt,Egypt,0.57,0.06
 Cyprus,Egypt,0.58,0.04
 Cyprus,Cyprus,0.592,0.06
@@ -11,9 +11,9 @@ Greece,Cyprus,0.596,0.01
 Lebanon,Turkey,0.59,0.0
 Iran,Turkey,0.575,0.0
 Cyprus,Turkey,0.575,0.0
-Iran,Cyprus,0.539,0.02
-Iraq,Iraq,0.538,0.02
+Iraq,Iraq,0.56,0.0
+Iran,Cyprus,0.54,0.02
 Greece,Egypt,0.568,0.01
 Greece,Iraq,0.552,0.0
-Iran,Iraq,0.507,0.0
-Cyprus,Iraq,0.578,0.03
+Iraq,Egypt,0.514,0.0
+Cyprus,Iraq,0.578,0.04

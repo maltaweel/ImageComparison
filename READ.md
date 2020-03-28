@@ -65,11 +65,11 @@ This is the folder that contains the code. The following are the sub-folders wit
      
      lsh/:
      
-     This sub-folder contains the main module for the LSH, or local sensitive hashing, method. The detect.py module applies        the LSH algorithm that compares similarity of images. THe other module is imageFileDataLoader.py, which loads images and      applies comparisons between multiple images.Data in the imageLink.csv files allow images to be referenced and matched to      given regions, which are then used for comparisons.
+     This sub-folder contains the main module for the LSH, or local sensitive hashing, method. The detect.py module applies        the LSH algorithm that compares similarity of images. This module can be run by setting the number of bands (10-100), hash size (10-100), and threshold (0-1.0) in the runtime arguments. The other module is imageFileDataLoader.py, which loads images and      applies comparisons between multiple images.Data in the imageLink.csv files allow images to be referenced and matched to      given regions, which are then used for comparisons. This module does not need to be executed by the user but is called by detect.py.
      
      network/:
      
-     This folder contains the modules for network construction. The shapefileMaker.py enables the network to be created using      the nodes for each country and images associated with given countries (i.e., representing regions in the past). The          graph.py module creates a degree centrality network, but this is not currently used. The output files created are            centrality.csv and points.shp.
+     This folder contains the modules for network construction. The shapefileMaker.py enables the network to be created using      the nodes for each country and images associated with given countries (i.e., representing regions in the past). This module should be run after running detect.py in order to create the shapefile output. The          graph.py module creates a degree centrality network, but this is not currently used. The output files created are            centrality.csv and points.shp.
 
 
 _imageLink.csv_

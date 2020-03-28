@@ -22,7 +22,7 @@ class ImageFile():
         self.region={}
         self.runFile()
         
-        with open(self.input_dir,mode='rU') as csvfile:
+        with open(self.input_dir,encoding = "ISO-8859-1", mode='rU') as csvfile:
                 reader = csv.DictReader(csvfile)
  
                 for row in reader:

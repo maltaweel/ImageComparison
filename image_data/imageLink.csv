@@ -23,8 +23,8 @@
 "assyrian_1.jpg","-700:-600","Neo-Assyrian","Assyrian","Mesopotamia","Iraq","British Museum"
 "assyrian3.jpg","-700:-600","Neo-Assyrian","Assyrian","Mesopotamia","Iraq","British Museum"
 "assyrian4.jpg","-700:-600","Neo-Assyrian","Assyrian","Mesopotamia","Iraq","British Museum"
-"canaanite_61.jpg","-1400:-1200","Late Bronze","Canaanite","Levant","Lebanon","Institut du Monde Arabe"
 "canaanite_1.jpg","-1400:-1200","Late Bronze","Canaanite","Levant","Lebanon","Louvre Museum"
+"canaanite_61.jpg","-1400:-1200","Late Bronze","Canaanite","Levant","Lebanon","Institut du Monde Arabe"
 "cleobis_1.jpg","-600:-500","Archaic","Greek","Aegean","Greece","Delphi Archaeological Museum"
 "cleobis_2.jpg","-600:-500","Archaic","Greek","Aegean","Greece","Delphi Archaeological Museum"
 "cypriot_5th_3.JPG","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus","British Museum"
@@ -34,7 +34,7 @@
 "cypriot_6th_7.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","Metropolitan Museum"
 "cypriot_6th_8.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","British Museum"
 "cypriot_6th_8.png","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","Metropolitan Museum"
-"cypriot_7th_6th_9.jpg","-700:600","Neo-Assyrian","Cypriot","Cyprus","Cyprus","Neus Museum"
+"cypriot_7th_6th_9.jpg","-700:600","Neo-Assyrian","Cypriot","Cyprus","Cyprus","New Museum, Berlin"
 "cypriot_hellenistic_1.jpg","-300:-100","Hellenistic","Cypriot","Cyprus","Cyprus","British Museum"
 "cypriot_hellenistic_2.jpg","-300:-100","Hellenistic","Cypriot","Cyprus","Cyprus","British Museum"
 "cypriot-5thcentury_3.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus","Ashmolean Museum"
@@ -54,24 +54,24 @@
 "cyprus_4th_8.jpg","-400:-300","Achaemenid","Cypriot","Cyprus","Cyprus","Metropolitan Museum"
 "cyprus_4th_c_3.jpg","-400:-300","Achaemenid","Cypriot","Cyprus","Cyprus","British Museum"
 "cyprus_4th_c_4.jpg","-400:-300","Achaemenid","Cypriot","Cyprus","Cyprus","British Museum"
-"cyprus_5th_15.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus",
-"cyprus_5th_8.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus",
-"cyprus_6-_44.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus",
-"cyprus_6-5c_43.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus",
-"cyprus_6th_13.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus",
-"cyprus_6th_c_21.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus",
-"cyprus_7-6th_BC-5.jpg","-700:-600","Neo-Assyrian","Cypriot","Cyprus","Cyprus",
-"cyprus_roman_15.jpg","-100:200","Roman","Cypriot","Cyprus","Cyprus",
-"cyrpus_5th_12.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus",
-"diayla_9.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq",
-"Diyala53.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq",
-"Diyala54.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq",
-"Diyala55.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq",
-"Diyala56.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq",
-"ebla11.jpg","-2600:-2400","Early Bronze Age","Ebla","Levant","Lebanon",
-"ebla5.jpg","-2600:-2400","Early Bronze Age","Ebla","Levant","Lebanon",
-"egypt_12d_9.jpg","-1900:-1800","Middle Kingdom","Egyptian","Egypt","Egypt",
-"egypt_12dynasty_7.jpg","-2000:-1800","Middle Kingdom","Egyptian","Egypt","Egypt",
+"cyprus_5th_15.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus","National Museum of Antiquities, Leiden"
+"cyprus_5th_8.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus","Cyprus Museum"
+"cyprus_6-_44.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","Museum of Art History, Vienna"
+"cyprus_6-5c_43.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","Metropolitan Museum"
+"cyprus_6th_13.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","Metropolitan Museum"
+"cyprus_6th_c_21.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus","Metropolitan Museum"
+"cyprus_7-6th_BC-5.jpg","-700:-600","Neo-Assyrian","Cypriot","Cyprus","Cyprus","British Museum"
+"cyprus_roman_15.jpg","-100:200","Roman","Cypriot","Cyprus","Cyprus","Santa Barbara Museum of Art"
+"cyrpus_5th_12.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus","Cyprus Museum"
+"diayla_9.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq","Oriental Institute "
+"Diyala53.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq","Oriental Institute "
+"Diyala54.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq","Oriental Institute "
+"Diyala55.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq","Oriental Institute "
+"Diyala56.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq","Oriental Institute "
+"ebla11.jpg","-2600:-2400","Early Bronze Age","Ebla","Levant","Lebanon","National Museum of Damascus "
+"ebla5.jpg","-2600:-2400","Early Bronze Age","Ebla","Levant","Lebanon","National Museum of Damascus "
+"egypt_12d_9.jpg","-1900:-1800","Middle Kingdom","Egyptian","Egypt","Egypt","New Museum, Berlin"
+"egypt_12dynasty_7.jpg","-2000:-1800","Middle Kingdom","Egyptian","Egypt","Egypt","British Museum"
 "egypt_12thC_19.jpg","-1200:-1100","New Kingdom","Egyptian","Egypt","Egypt",
 "egypt_13th_century.jpg","-1300:-1200","Middle Kingdom","Egyptian","Egypt","Egypt",
 "egypt_18_34.jpg","-1500:-1400","New Kingdom","Egyptian","Egypt","Egypt",

@@ -61,16 +61,29 @@ This is the folder that contains the code. The following are the sub-folders wit
 
      img/:
    
-     The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error.          This module is not currently used. It was tested to compare to the LSH method. The module uses the images folder, but        this folder is empty. The module would work if images are of the same size.
+     The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error. This module is not currently used. It was tested to compare 
+     to the LSH method. The module uses the images folder, but this folder is empty. The module would work if images are of the same size.
      
      lsh/:
      
-     This sub-folder contains the main module for the LSH, or local sensitive hashing, method. The detect.py module applies        the LSH algorithm that compares similarity of images. This module can be run by setting the number of bands (10-100), hash size (10-100), and threshold (0-1.0) in the runtime arguments. The other module is imageFileDataLoader.py, which loads images and      applies comparisons between multiple images.Data in the imageLink.csv files allow images to be referenced and matched to      given regions, which are then used for comparisons. This module does not need to be executed by the user but is called by detect.py.
+     This sub-folder contains the main module for the LSH, or local sensitive hashing, method. The detect.py module applies the LSH algorithm that compares similarity of images. 
+     This module can be run by setting the number of bands (10-100), hash size (10-100), and threshold (0-1.0) in the runtime arguments. The other module is imageFileDataLoader.py, 
+     which loads images and applies comparisons between multiple images.Data in the imageLink.csv files allow images to be referenced and matched to given regions, which are then used
+     for comparisons. This module does not need to be executed by the user but is called by detect.py.
      
      network/:
      
-     This folder contains the modules for network construction. The shapefileMaker.py enables the network to be created using      the nodes for each country and images associated with given countries (i.e., representing regions in the past). This module should be run after running detect.py in order to create the shapefile output. The          graph.py module creates a degree centrality network, but this is not currently used. The output files created are            centrality.csv and points.shp.
+     This folder contains the modules for network construction. The shapefileMaker.py enables the network to be created using the nodes for each country and images associated with given 
+     countries (i.e., representing regions in the past). This module should be run after running detect.py in order to create the shapefile output. The graph.py module creates a degree 
+     centrality network, but this is not currently used. The output files created are  centrality.csv and points.shp.
 
+
+_Running_the_Alogirthms_
+
+To run detect.py, you need to set three options. First, the threshold (-t) should be set, such as 0.0 as an option to give it a minimum setting (0-1 choices). The hash size (-s) is the next 
+selection that should be made. Finally, the number of bands (-b) should be set. The output of detect will be found in the output folder, with the .csv file using a timestamp.
+
+After running detect.py, shapefileMaker.py can be launched, which requires no inputs from the user. It will produce the network outputs in the network_output folder.
 
 _imageLink.csv_
 

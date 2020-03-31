@@ -147,13 +147,13 @@
 "greek2nd_3.jpg","-200:-100","Hellenistic","Greek","Aegean","Greece","Hermitage Museum"
 "greek2nd_4.jpg","-200:-100","Hellenistic","Greek","Aegean","Greece","British Museum"
 "greek2nd_5.jpg","-200:-100","Hellenistic","Greek","Aegean","Greece","Getty Museum"
-"greek3_22.jpg","-300:-200","Hellenistic","Greek","Aegean","Greece",
-"greek3_8.png","-300:-200","Hellenistic","Greek","Aegean","Greece",
-"greek3d_3.jpg","-300:-200","Hellenistic","Greek","Aegean","Greece",
-"greek3rc3.jpg","-300:-200","Hellenistic","Greek","Aegean","Greece",
-"greek3rc4.jpg","-300:-200","Hellenistic","Greek","Aegean","Greece",
-"greek4_5.jpg","-400:-100","Hellenistic","Greek","Aegean","Greece",
-"greek4_7.jpg","-400:-100","Hellenistic","Greek","Aegean","Greece",
+"greek3_22.jpg","-300:-200","Hellenistic","Greek","Aegean","Greece","British Museum"
+"greek3_8.png","-300:-200","Hellenistic","Greek","Aegean","Greece","Colosseum, Rome"
+"greek3d_3.jpg","-300:-200","Hellenistic","Greek","Aegean","Greece","British Museum"
+"greek3rc3.jpg","-300:-200","Hellenistic","Greek","Aegean","Greece","Archaeological Museum, Istanbul"
+"greek3rc4.jpg","-300:-200","Hellenistic","Greek","Aegean","Greece","National Archaeological Museum of Athens"
+"greek4_5.jpg","-400:-100","Hellenistic","Greek","Aegean","Greece","Archaeological Museum of Olympia"
+"greek4_7.jpg","-400:-100","Hellenistic","Greek","Aegean","Greece","Capitoline Museums"
 "greek4-14.jpg","-400:-300","Hellenistic","Greek","Aegean","Greece",
 "greek4th_1.jpg","-400:-300","Hellenistic","Greek","Aegean","Greece",
 "greek4th_2.jpg","-400:-300","Hellenistic","Greek","Aegean","Greece",
@@ -163,8 +163,7 @@
 "greek6_1.jpg","-600:-500","Hellenistic","Greek","Aegean","Greece",
 "greek6_2.jpg","-600:-500","Archaic","Greek","Aegean","Greece",
 "hazor-lb-1.jpg","-1400:-1200","Late Bronze","Canaanite","Levant","Lebanon","Latakia Museum"
-"hittite_8-11.jpg","-800:-1200","Iron Age","Hittite","Anatolia","Turkey",
-"hittite_8-11.jpg","-800:-1200","Iron Age","Hittite","Anatolia","Turkey",
+"hittite_8-11.jpg","-800:-1200","Iron Age","Hittite","Anatolia","Turkey","Museum of Anatolian Civilizations"
 "idalion_2_6thCentury.jpg","-600:-500","Neo-Babylonian","Cypriot","Cyprus","Cyprus",
 "idalion_3_5thCentury.jpg","-500:-400","Achaemenid","Cypriot","Cyprus","Cyprus",
 "idalion_4_4thCentury.jpg","-400:-300","Achaemenid","Cypriot","Cyprus","Cyprus",
@@ -174,7 +173,7 @@
 "indus1.jpg","-2200:-1900","Harappan","Indus","India-Pakistan","Pakistan","National Museum of Pakistan"
 "indus2.jpg","-2200:-1900","Harappan","Indus","India-Pakistan","Pakistan","National Museum of Pakistan"
 "indus3.jpg","-2500:-2000","Harappan","Indus","India-Pakistan","Pakistan","National Museum of Pakistan"
-"khafaji3.jpg","-2800:-2600","Early Dynastic Period","Southern Mesopotamian","Mesopotamia","Iraq",
+"khafaji3.jpg","-2800:-2600","Early Dynastic Period","Southern Mesopotamian","Mesopotamia","Iraq","Metropolitan Museum"
 "levant_14-12_3.jpg","-1400:-1200","Late Bronze","Canaanite","Levant","Lebanon",
 "levant_1400-1200BC_2.jpg","-1400:-1200","Late Bronze","Canaanite","Levant","Lebanon",
 "levant_5-4c_23.jpg","-500:-300","Achaemenid","Phoenician","Levant","Lebanon",

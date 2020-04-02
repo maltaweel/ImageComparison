@@ -191,7 +191,7 @@
 "neo_assyrian4.jpg","-900:-600","Neo-Assyrian","Assyrian","Mesopotamia","Iraq","Oriental Institute "
 "neo_assyrian5.jpg","-900:-600","Neo-Assyrian","Assyrian","Mesopotamia","Iraq","British Museum"
 "neo_assyrian6.jpg","-900:-600","Neo-Assyrian","Assyrian","Mesopotamia","Iraq","Metropolitan Museum"
-"new_kingdom_egypt2.jpg","-1300:-1200","New Kingdom","Egyptian","Egypt","Egypt","British Museum"
+"new_kingdom_egypt2.jpg","-1300:-1200","New Kingdom","Egyptian","Egypt","Egypt","Luxor"
 "old_kingdom.jpg","-2500:-2300","Old Kingdom","Egyptian","Egypt","Egypt","Liverpool Museum"
 "Palmyra25.jpg","-100:300","Roman","Palmyrian","Mesopotamia","Iraq","Walters Art Museum"
 "Palmyra26.jpg","-100:300","Roman","Palmyrian","Mesopotamia","Iraq","Getty Museum"
@@ -208,25 +208,27 @@
 "phoenician_5_1.jpg","-500:-400","Achaemenid","Phoenician","Levant","Lebanon","National Museum, Copenhagen"
 "phoenician_5_2.jpg","-500:-400","Achaemenid","Phoenician","Levant","Lebanon","Metropolitan Museum"
 "phoenician_5_3.jpg","-500:-400","Achaemenid","Phoenician","Levant","Lebanon","Metropolitan Museum"
-"phoenician_5_4_1.jpg","-500:-400","Achaemenid","Phoenician","Levant","Lebanon",
-"phoenician_5_4_2.jpg","-500:-400","Achaemenid","Phoenician","Levant","Lebanon",
-"phoenician_5_5_1.jpg","-500:-400","Achaemenid","Phoenician","Levant","Lebanon",
-"phonecian_5_3c_5.jpg","-500:-300","Achaemenid","Phoenician","Levant","Lebanon",
-"phonecian_5_3c_6.jpg","-500:-300","Achaemenid","Phoenician","Levant","Lebanon",
-"ptolemaic_2.jpg","-200:-100","Hellenistic","Greco-Egyptian","Egypt","Egypt",
-"ptolemaic_ruler2.jpg","-200:-100","Hellenistic","Greco-Egyptian","Egypt","Egypt",
-"ptolemaic1.jpg","-200:-100","Hellenistic","Greco-Egyptian","Egypt","Egypt",
-"ramsesII.jpg","-1300:-1200","New Kingdom","Egyptian","Egypt","Egypt",
-"shami_statue_parthian.jpg","-200:200","Parthian","Parthian","Iran","Iran",
-"sin_nippur_2600bc.jpg","-2600:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq",
-"sm_22_7.jpg","-2300:-2100","Akkadian-Ur III","Sumerian","Mesopotamia","Iraq",
-"sm_22_9.jpg","-2300:-2100","Akkadian-Ur III","Sumerian","Mesopotamia","Iraq",
-"SM_22cbce_2.jpg","-2300:-2100","Akkadian-Ur III","Sumerian","Mesopotamia","Iraq",
-"SM_22cbce_3.jpg","-2300:-2100","Akkadian-Ur III","Sumerian","Mesopotamia","Iraq",
-"SM_22cbce_4.jpg","-2300:-2100","Akkadian-Ur III","Sumerian","Mesopotamia","Iraq",
-"susa1.jpg","-1400:-1100","Late Bronze Age","Elamite","Iran","Iran",
-"susa2.jpg","-1400:-1100","Late Bronze Age","Elamite","Iran","Iran",
-"susa3.jpg","-2400:-2200","Old Elamite","Elamite","Iran","Iran",
-"thutmosesIII-1.jpg","-1500:-1400","New Kingdom","Egyptian","Egypt","Egypt",
-"urartu_8_7_2.jpg","-800:-700","Iron Age","Urartian","Anatolia","Turkey",
-"Wasit63.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq",
+"phoenician_5_4_1.jpg","-500:-300","Achaemenid","Phoenician","Levant","Lebanon","Louvre Museum"
+"phoenician_5_4_2.jpg","-500:-400","Achaemenid","Phoenician","Levant","Lebanon","Louvre Museum"
+"phoenician_5_5_1.jpg","-500:-400","Achaemenid","Phoenician","Levant","Lebanon","Cadiz Museum"
+"phonecian_5_3c_5.jpg","-500:-300","Achaemenid","Phoenician","Levant","Lebanon","Museum of Fine Arts, Houston"
+"phonecian_5_3c_6.jpg","-500:-300","Achaemenid","Phoenician","Levant","Lebanon","National Museum of Beirut"
+"ptolemaic_2.jpg","-200:-100","Hellenistic","Greco-Egyptian","Egypt","Egypt","Ny Carlsberg Glyptotek"
+"ptolemaic_ruler2.jpg","-200:-100","Hellenistic","Greco-Egyptian","Egypt","Egypt","Brooklyn Museum"
+"ptolemaic1.jpg","-200:-100","Hellenistic","Greco-Egyptian","Egypt","Egypt","Museum of Egyptian Antiquities"
+"ramsesII.jpg","-1300:-1200","New Kingdom","Egyptian","Egypt","Egypt","British Museum"
+"parthian1.jpg","-200:200","Parthian","Parthian","Iran","Iran","Metropolitan Museum"
+"parthian2.jpg","-200:200","Parthian","Parthian","Mesopotamia","Iraq","Iraq National Museum"
+"parthian3.jpg","-200:200","Parthian","Parthian","Mesopotamia","Iraq","Iraq National Museum"
+"sin_nippur_2600bc.jpg","-2600:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq","Oriental Institute "
+"sm_22_7.jpg","-2300:-2100","Akkadian-Ur III","Sumerian","Mesopotamia","Iraq","British Museum"
+"sm_22_9.jpg","-2300:-2100","Akkadian-Ur III","Sumerian","Mesopotamia","Iraq","Cleveland Museum of Art"
+"SM_22cbce_2.jpg","-2300:-2100","Akkadian-Ur III","Sumerian","Mesopotamia","Iraq","Louvre Museum"
+"SM_22cbce_3.jpg","-2300:-2100","Akkadian-Ur III","Sumerian","Mesopotamia","Iraq","Louvre Museum"
+"SM_22cbce_4.jpg","-2300:-2100","Akkadian-Ur III","Sumerian","Mesopotamia","Iraq","Louvre Museum"
+"susa1.jpg","-1400:-1100","Late Bronze Age","Elamite","Iran","Iran","Susa Museum"
+"susa2.jpg","-1400:-1100","Late Bronze Age","Elamite","Iran","Iran","Louvre Museum"
+"susa3.jpg","-2400:-2200","Old Elamite","Elamite","Iran","Iran","Louvre Museum"
+"thutmosesIII-1.jpg","-1500:-1400","New Kingdom","Egyptian","Egypt","Egypt","Metropolitan Museum"
+"urartu_8_7_2.jpg","-800:-700","Iron Age","Urartian","Anatolia","Turkey","British Museum"
+"Wasit63.jpg","-2700:-2500","Early Dynastic","Sumerian","Mesopotamia","Iraq","Louvre Museum"

@@ -25,7 +25,7 @@ This is a data folder that contains images and descriptor file about the images 
 
 doc/: 
 
-Folder contains documentation about the src/ folder, that is the Python code, used for the package. The doc/ folder is organised by having an html/ sub-folder, with sub-folders under this that correspond to the sub-folder of the src/. These sub-folders contain .html files that discuss the relevant modules with the same name except without the .py extension. For example, in the /lsh sub-folder, detect.html discusses the detect.py module in /src/lsh/.
+Folder contains documentation about the src/ folder, that is the Python code, used for the package. This provides method and variable information about the code. The doc/ folder is organised by having an html/ sub-folder, with sub-folders under this that correspond to the sub-folder of the src/. These sub-folders contain .html files that discuss the relevant modules with the same name except without the .py extension. For example, in the /lsh sub-folder, detect.html discusses the detect.py module in /src/lsh/.
 
 image_data/:
 
@@ -81,9 +81,11 @@ This is the folder that contains the code. The following are the sub-folders wit
 _Running the Alogirthms_
 
 To run detect.py, you need to set three options. First, the threshold (-t) should be set, such as 0.0 as an option to give it a minimum setting (0-1 choices). The hash size (-s) is the next 
-selection that should be made. Finally, the number of bands (-b) should be set. The output of detect will be found in the output folder, with the .csv file using a timestamp.
+selection that should be made. Finally, the number of bands (-b) should be set. The output of detect will be found in the output folder, with the .csv file using a timestamp. The input is 
+assumed to be the /input folder, with /imageData as the metadata file.
 
-After running detect.py, shapefileMaker.py can be launched, which requires no inputs from the user. It will produce the network outputs in the network_output folder. 
+After running detect.py, shapefileMaker.py can be launched, which requires no inputs from the user. It will produce the network outputs in the /network_output folder. A network.csv file, 
+points.shp, and network.shp files created.
 
 These two modules are the only ones that need to be run, although others can be used in this project as described here.
 

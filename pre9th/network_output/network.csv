@@ -1,9 +1,10 @@
 Point 1,Point 2,Median Value,Standard Deviation
-Egypt,Egypt,0.654,0.06
+Lebanon,Lebanon,0.645,0.05
+Egypt,Egypt,0.652,0.06
 Greece,Greece,0.682,0.0
 Iraq,Iran,0.628,0.0
 Egypt,Greece,0.568,0.02
-Lebanon,Lebanon,0.598,0.0
+Iraq,Lebanon,0.572,0.0
 Lebanon,Egypt,0.57,0.0
 Iraq,Egypt,0.546,0.05
 Egypt,Iran,0.52,0.0

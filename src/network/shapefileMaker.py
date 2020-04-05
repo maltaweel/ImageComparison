@@ -78,7 +78,7 @@ def runData():
     pway=os.path.join(pn,'image_data','imageLink.csv')
     
     try:
-        with open(pway, 'rU') as csvf:
+        with open(pway, encoding = "ISO-8859-1", mode='rU') as csvf:
             reader = csv.DictReader(csvf)
 
             for row in reader:

@@ -1,6 +1,6 @@
 **ImageComparison**
 
-ImageComparison is a small Python 3 application used to compare different images, of any size, using locality sensitive hashing (LSH). Other algorithms, including mean square error and structural similarity. The following describes the key modules, packages, and data utilised in this work.
+ImageComparison is a small Python 3 application used to compare different images, of any size, using locality sensitive hashing (LSH). Other algorithms applied include mean square error and structural similarity. The following describes the key modules, packages, and data utilised in this work.
 
 _Python Libraries Used_
 
@@ -25,7 +25,7 @@ This is a data folder that contains images and descriptor file about the images 
 
 doc/: 
 
-Folder contains documentation about the src/ folder, that is the Python code, used for the package. This provides method and variable information about the code. The doc/ folder is organised by having an html/ sub-folder, with sub-folders under this that correspond to the sub-folder of the src/. These sub-folders contain .html files that discuss the relevant modules with the same name except without the .py extension. For example, in the /lsh sub-folder, detect.html discusses the detect.py module in /src/lsh/.
+Folder contains documentation about the src/ folder, that is the Python code, used in the project. This provides method and variable information about the code. The doc/ folder is organised by having an html/ sub-folder, with sub-folders under this that correspond to the sub-folder of the src/. These sub-folders contain .html files that discuss the relevant modules with the same name except without the .py extension. For example, in the /lsh sub-folder, detect.html discusses the detect.py module in /src/lsh/.
 
 image_data/:
 

@@ -66,6 +66,8 @@ def run():
     model=build_model()
     train_model(X_train,y_train,X_test,y_test,model)
     test=model_predict(model,X_test,y_test)
+    
+    print(X_test[:4])
     print(test)
     
 #launch the main

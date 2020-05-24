@@ -25,11 +25,15 @@ def data_preprocessing (X_train,X_test):
     X_train = X_train.reshape(60000,28,28,1)
     X_test = X_test.reshape(10000,28,28,1)
     
+    return X_train,X_test
+    
 def one_hot_encode(y_train,y_test):
     #one-hot encode target column
     y_train = to_categorical(y_train)
     y_test = to_categorical(y_test)
-    y_train[0]
+    print(y_train[0])
+    
+    return y_train,y_test
     
 def build_model():
     #create model
@@ -57,7 +61,8 @@ def model_predict(model,X_test,y_test):
 
 def run():
     X_train,y_train,X_test,y_test=preVariables()
-    data_preprocessing (X_train,X_test)
+    X_train,X_test=data_preprocessing (X_train,X_test)
+    y_train,y_test=one_hot_encode(y_train,y_test)
     model=build_model()
     train_model(X_train,y_train,X_test,y_test,model)
     test=model_predict(model,X_test,y_test)

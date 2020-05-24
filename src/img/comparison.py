@@ -108,7 +108,7 @@ pn=pn.split("src")[0]
         
 
 #The data file path is now created where the data folder and dataFile.csv is referenced
-path=os.path.join(pn,'images')
+path=os.path.join(pn,'input')
 
 fileM={}
 fileS={}
@@ -146,7 +146,7 @@ for fil in os.listdir(path):
         #plt.show()
 
         # compare the images
-        m, s=compare_images(original, contrast, "Original vs. Contrast")
+        m, s=compare_images(original, contrast)
         
         osS=fil.split(os.sep)
         osN=osS[len(osS)-1]

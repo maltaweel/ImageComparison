@@ -1,0 +1,29 @@
+# Joshua Stough
+# W&L Image Group
+# July 2011
+
+#Proof of concept script.
+#This simple script resolves hostname and time and accepts information
+#about the test it's running, echoing the information.  This is called
+#by testSubmitMaster.py, which generates many calls of this script 
+#with different procID sent in, for execution on machines accessible 
+#through ssh.
+
+
+procID=$1
+#outputFile=$2
+#This may well be the interesting way to set
+#parameters for the particular run.
+hostn=`hostname`
+curTime=`date`
+echo `whoami` on host $hostn
+echo `host $hostn`
+echo executing process: $procID
+echo time: $curTime
+
+cd ~
+du -sh *
+
+
+#eval " THIS ENTIRE SCRIPT " &>foo.txt didn't work.
+

@@ -1,0 +1,28 @@
+[32m[0528 13:18:24 @logger.py:92][0m Argv: /home/mark/eclipse-workspace/ImageComparison/src/fastRCNN/train.py
+[32m[0528 13:18:26 @train.py:53][0m Environment Information:
+--------------------  -----------------------------------------------------------
+sys.platform          linux
+Python                3.8.0 (default, Nov  6 2019, 15:14:25) [GCC 5.4.0 20160609]
+Tensorpack            v0.10.1-6-g315eab9-dirty
+Numpy                 1.17.4
+TensorFlow            2.2.0/v2.2.0-rc4-8-g2b96f3662b
+TF Compiler Version   7.3.1 20180303
+TF CUDA support       True
+TF MKL support        False
+TF XLA support        False
+Nvidia Driver
+CUDA
+CUDNN
+NCCL
+CUDA_VISIBLE_DEVICES  Unspecified
+GPU                   Not found with NVML
+Free RAM              3.03/7.68 GB
+CPU Count             4
+cv2                   4.2.0
+msgpack               0.6.2
+python-prctl          False
+--------------------  -----------------------------------------------------------
+[32m[0528 13:18:26 @concurrency.py:267][0m [5m[31mWRN[0m Command 'nvidia-smi -L' failed, return code=127
+[32m[0528 13:18:26 @concurrency.py:268][0m [5m[31mWRN[0m /bin/sh: 1: nvidia-smi: not found
+
+[32m[0528 13:18:26 @gpu.py:59][0m Loading local devices by TensorFlow ...

@@ -1,5 +1,0 @@
-[32m[0527 12:02:45 @logger.py:92][0m Argv: /home/mark/eclipse-workspace/ImageComparison/src/img/resnet.py
-[32m[0527 12:02:45 @concurrency.py:267][0m [5m[31mWRN[0m Command 'nvidia-smi -L' failed, return code=127
-[32m[0527 12:02:45 @concurrency.py:268][0m [5m[31mWRN[0m /bin/sh: 1: nvidia-smi: not found
-
-[32m[0527 12:02:45 @gpu.py:59][0m Loading local devices by TensorFlow ...

@@ -61,8 +61,8 @@ This is the folder that contains the code. The following are the sub-folders wit
 
      img/:
    
-     The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error. This module is not currently used. It was tested to compare 
-     to the LSH method. The module uses the images folder, but this folder is empty. The module would work if images are of the same size.
+     The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error. This module is not currently used. It was initially tested to compare 
+     to the LSH method. The module uses the images folder, but this folder is empty, although it can be used as needed by users. The module works b having images of the same size applied in analysis.
      
      lsh/:
      

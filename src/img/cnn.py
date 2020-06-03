@@ -88,5 +88,5 @@ def run():
     
 #launch the main
 if __name__ == "__main__":
-    sess.run(run())
+    r=sess.run(run())
   

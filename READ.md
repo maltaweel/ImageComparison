@@ -14,6 +14,7 @@ opencv-python 4.2.0.32
 Pillow 6.2.1  
 pysal 2.1.0  
 pyshp 2.1.0
+cv2
 
 _Description_
 
@@ -26,6 +27,14 @@ This is a data folder that contains images and descriptor file about the images 
 doc/: 
 
 Folder contains documentation about the src/ folder, that is the Python code, used in the project. This provides method and variable information about the code. The doc/ folder is organised by having an html/ sub-folder, with sub-folders under this that correspond to the sub-folder of the src/. These sub-folders contain .html files that discuss the relevant modules with the same name except without the .py extension. For example, in the /lsh sub-folder, detect.html discusses the detect.py module in /src/lsh/.
+
+faces_output/:
+
+This folder outputs faces cropped and detectd from statue data.
+
+haar_cascade/:
+
+This is input data used to inform the face recognition algorithm used in the img/ folder (opencv-segmentation.py).
 
 image_data/:
 
@@ -62,7 +71,7 @@ This is the folder that contains the code. The following are the sub-folders wit
      img/:
    
      The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error. This module is not currently used. It was initially tested to compare 
-     to the LSH method. The module uses the images folder, but this folder is empty, although it can be used as needed by users. The module works b having images of the same size applied in analysis.
+     to the LSH method. The module uses the images folder, but this folder is empty, although it can be used as needed by users. The module works b having images of the same size applied in analysis. Another module is the opencv-segmentation.py, which can be run to detect (segment) and crop faces from statues. It outputs data to the face_output folder.
      
      lsh/:
      

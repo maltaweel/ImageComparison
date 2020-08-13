@@ -1,0 +1,10 @@
+Similarity,File 1,File 2,Time 1,Time 1 End,Period 1,Culture 1,Region 1,Time 2,Time 2 End,Period 2,Culture 2,Region 2
+1.0,2,6,-500,-400,Achaemenid,Achaemenid,Iran,-500,-400,Achaemenid,Achaemenid,Iran
+0.7925,4,5,-500,-400,Achaemenid,Achaemenid,Iran,-500,-400,Achaemenid,Achaemenid,Iran
+0.6625,5,9,-500,-400,Achaemenid,Achaemenid,Iran,-100,0,Seleucid,Armenian,Anatolia
+0.6425,10,7,-100,0,Seleucid,Armenian,Anatolia,-1800,-1600,Middle Bronze Age,Amorite,Levant
+0.625,10,9,-100,0,Seleucid,Armenian,Anatolia,-100,0,Seleucid,Armenian,Anatolia
+0.6075,2,5,-500,-400,Achaemenid,Achaemenid,Iran,-500,-400,Achaemenid,Achaemenid,Iran
+0.6075,5,6,-500,-400,Achaemenid,Achaemenid,Iran,-500,-400,Achaemenid,Achaemenid,Iran
+0.5575,10,8,-100,0,Seleucid,Armenian,Anatolia,-1400,-1300,Late Bronze,Hittite,Anatolia
+0.5425,8,9,-1400,-1300,Late Bronze,Hittite,Anatolia,-100,0,Seleucid,Armenian,Anatolia

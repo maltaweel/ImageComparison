@@ -14,6 +14,7 @@ opencv-python 4.2.0.32
 Pillow 6.2.1  
 pysal 2.1.0  
 pyshp 2.1.0
+cv2
 
 _Description_
 
@@ -26,6 +27,14 @@ This is a data folder that contains images and descriptor file about the images 
 doc/: 
 
 Folder contains documentation about the src/ folder, that is the Python code, used in the project. This provides method and variable information about the code. The doc/ folder is organised by having an html/ sub-folder, with sub-folders under this that correspond to the sub-folder of the src/. These sub-folders contain .html files that discuss the relevant modules with the same name except without the .py extension. For example, in the /lsh sub-folder, detect.html discusses the detect.py module in /src/lsh/.
+
+faces_output/:
+
+This folder outputs faces cropped and detectd from statue data.
+
+haar_cascade/:
+
+This is input data used to inform the face recognition algorithm used in the img/ folder (opencv-segmentation.py).
 
 image_data/:
 
@@ -49,7 +58,7 @@ This folder contains the same structure and output file types as 9-4/, except th
 
 pre9th/:
 
-This folder contains the same structure and output file types as 9-4/, except the sculptures (images) date to the pre-9th century BCE. The network_output folder contains the relevant files for networks for this period. The imageLink.csv file describes the sculptures for this folder.
+This folder contains the same structure and output file types as 9-4/, except the sculptures (images used) date to the pre-9th century BCE. The network_output folder contains the relevant files for networks for this period. The imageLink.csv file describes the sculptures for this folder.
 
 shp/:
 
@@ -62,7 +71,7 @@ This is the folder that contains the code. The following are the sub-folders wit
      img/:
    
      The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error. This module is not currently used. It was initially tested to compare 
-     to the LSH method. The module uses the images folder, but this folder is empty, although it can be used as needed by users. The module works b having images of the same size applied in analysis.
+     to the LSH method. The module uses the images folder, but this folder is empty, although it can be used as needed by users. The module works by having images of the same size applied in analysis. Another module is the opencv-segmentation.py, which can be run to detect (segment) and crop faces from statues. It outputs data to the face_output folder.
      
      lsh/:
      
@@ -77,6 +86,7 @@ This is the folder that contains the code. The following are the sub-folders wit
      countries (i.e., representing regions in the past). This module should be run after running detect.py in order to create the shapefile output. The graph.py module creates a degree 
      centrality network, but this is not currently used. The output files created are  centrality.csv and points.shp.
 
+test_data/: Folder containing the test data and imageLink.csv meta-data file in image_data sub-folder. Test data are used to test the LSH algorithm to test that it works.
 
 _Running the Alogirthms_
 
@@ -92,4 +102,3 @@ These two modules are the only ones that need to be run, although others can be 
 _imageLink.csv_
 
 This file is used as a descriptor for the data. The main file is found in the image_data/ folder. The file contains the following columns:  file, time, period, culture, region, and modern country. In the image_data/ folder, the imageLink.csv file also has the category 'source.' The other imageLink.csv files do not have the category source, as the data are found in the imageLink.csv in /image_data. The file is the name of the file. The time column reflects the time range in which the data falls. Negative values are used for BCE dates, while positive values are CE dates. The range of time is given using a colon between the end dates of the range. The period is the local period scheme used for the time range. The culture is the ancient culture in reference. The region is the ancient region, as indicated by common archaeological literature, that the sculpture relates to. The modern country is the approximate or actual country an object is found within. The modern country could simply represent the ancient region, even if the ancient region may extend into other countries. This is mostly used so the image can be mapped to a node in the network analysis. The source is the source of the object, such as museum or if unknown from Google Images.
-

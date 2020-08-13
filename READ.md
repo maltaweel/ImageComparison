@@ -86,6 +86,7 @@ This is the folder that contains the code. The following are the sub-folders wit
      countries (i.e., representing regions in the past). This module should be run after running detect.py in order to create the shapefile output. The graph.py module creates a degree 
      centrality network, but this is not currently used. The output files created are  centrality.csv and points.shp.
 
+test_data/: Folder containing the test data and imageLink.csv meta-data file in image_data sub-folder. Test data are used to test the LSH algorithm to test that it works.
 
 _Running the Alogirthms_
 
@@ -96,8 +97,7 @@ assumed to be the input/ folder, with imageData/ as the location of the metadata
 After running detect.py, shapefileMaker.py can be launched in the network/ folder, which requires no inputs from the user. It will produce the network outputs in the /network_output folder. A network.csv file, 
 points.shp, and network.shp files created.
 
-These two modules are the only ones that need to be run, although others can be used in this project as described here.
-
+These two modules are the only ones that need to be run, although others can be used in this project (e.g., opencv-segmentation.py) as described here.
 _imageLink.csv_
 
 This file is used as a descriptor for the data. The main file is found in the image_data/ folder. The file contains the following columns:  file, time, period, culture, region, and modern country. In the image_data/ folder, the imageLink.csv file also has the category 'source.' The other imageLink.csv files do not have the category source, as the data are found in the imageLink.csv in /image_data. The file is the name of the file. The time column reflects the time range in which the data falls. Negative values are used for BCE dates, while positive values are CE dates. The range of time is given using a colon between the end dates of the range. The period is the local period scheme used for the time range. The culture is the ancient culture in reference. The region is the ancient region, as indicated by common archaeological literature, that the sculpture relates to. The modern country is the approximate or actual country an object is found within. The modern country could simply represent the ancient region, even if the ancient region may extend into other countries. This is mostly used so the image can be mapped to a node in the network analysis. The source is the source of the object, such as museum or if unknown from Google Images.

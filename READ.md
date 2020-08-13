@@ -58,7 +58,7 @@ This folder contains the same structure and output file types as 9-4/, except th
 
 pre9th/:
 
-This folder contains the same structure and output file types as 9-4/, except the sculptures (images) date to the pre-9th century BCE. The network_output folder contains the relevant files for networks for this period. The imageLink.csv file describes the sculptures for this folder.
+This folder contains the same structure and output file types as 9-4/, except the sculptures (images used) date to the pre-9th century BCE. The network_output folder contains the relevant files for networks for this period. The imageLink.csv file describes the sculptures for this folder.
 
 shp/:
 

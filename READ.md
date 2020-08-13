@@ -71,7 +71,7 @@ This is the folder that contains the code. The following are the sub-folders wit
      img/:
    
      The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error. This module is not currently used. It was initially tested to compare 
-     to the LSH method. The module uses the images folder, but this folder is empty, although it can be used as needed by users. The module works b having images of the same size applied in analysis. Another module is the opencv-segmentation.py, which can be run to detect (segment) and crop faces from statues. It outputs data to the face_output folder.
+     to the LSH method. The module uses the images folder, but this folder is empty, although it can be used as needed by users. The module works by having images of the same size applied in analysis. Another module is the opencv-segmentation.py, which can be run to detect (segment) and crop faces from statues. It outputs data to the face_output folder.
      
      lsh/:
      

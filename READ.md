@@ -9,12 +9,14 @@ matplotlib 3.1.1
 numpy 1.17.4  
 networkx 2.4  
 geopandas 0.6.2  
-ImageHash 4.0 \n
+ImageHash 4.0 
 opencv-python 4.2.0.32  
 Pillow 6.2.1  
 pysal 2.1.0  
 pyshp 2.1.0
 cv2
+
+for full list: see requirements.txt
 
 _Description_
 
@@ -98,7 +100,7 @@ After running detect.py, shapefileMaker.py can be launched in the network/ folde
 points.shp, and network.shp files created.
 
 These two modules are the only ones that need to be run, although others can be used in this project (e.g., opencv-segmentation.py) as described here.
+
 _imageLink.csv_
 
 This file is used as a descriptor for the data. The main file is found in the image_data/ folder. The file contains the following columns:  file, time, period, culture, region, and modern country. In the image_data/ folder, the imageLink.csv file also has the category 'source.' The other imageLink.csv files do not have the category source, as the data are found in the imageLink.csv in /image_data. The file is the name of the file. The time column reflects the time range in which the data falls. Negative values are used for BCE dates, while positive values are CE dates. The range of time is given using a colon between the end dates of the range. The period is the local period scheme used for the time range. The culture is the ancient culture in reference. The region is the ancient region, as indicated by common archaeological literature, that the sculpture relates to. The modern country is the approximate or actual country an object is found within. The modern country could simply represent the ancient region, even if the ancient region may extend into other countries. This is mostly used so the image can be mapped to a node in the network analysis. The source is the source of the object, such as museum or if unknown from Google Images.
-

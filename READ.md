@@ -16,6 +16,8 @@ pysal 2.1.0
 pyshp 2.1.0
 cv2
 
+see requirements.txt for more on install libraries
+
 _Description_
 
 The following describes the key functions of the modules incorporated. This includes key data and data folders. All code can be found in the /src folder included within ImageComparsion. The code in the /src folder also contains comments about individuals methods and variables used to create the output. The code in scr/lsh/detect.py runs the LSH algorithm and can be launched to run on images. Users can change the folder for data or move images to the /input folder. The code in scr/network/shapefileMaker.py creates the network_output results, including the network.shp, network.csv and points.shp outputs. All relevant outputs discussed in the paper can be found in either the period-relevant folders with the image data (e.g., 9-4/) or the output/ and network-output/ folders for the overall image analysis. 

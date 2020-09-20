@@ -72,15 +72,11 @@ This is the folder that contains the code. The following are the sub-folders wit
 
      img/:
    
-     The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error. This module is not currently used. It was initially tested to compare 
-     to the LSH method. The module uses the images folder, but this folder is empty, although it can be used as needed by users. The module works by having images of the same size applied in analysis. Another module is the opencv-segmentation.py, which can be run to detect (segment) and crop faces from statues. It outputs data to the face_output folder.
+     The img/ folder contains the comparison.py module. This module deploys structural similarity and mean squared error. This module is not currently used. It was initially tested to compare to the LSH method. The module uses the images folder, but this folder is empty, although it can be used as needed by users. The module works by having images of the same size applied in analysis. Another module is the opencv-segmentation.py, which can be run to detect (segment) and crop faces from statues. It outputs data to the face_output folder.
      
      lsh/:
      
-     This sub-folder contains the main module for the LSH, or local sensitive hashing, method. The detect.py module applies the LSH algorithm that compares similarity of images. 
- This module can be run by setting the number of bands (-b;  10-100), hash size (-s; 10-100), and threshold (-t; 0-1.0) in the runtime arguments. The other module is imageFileDataLoader.py, 
- which loads images and applies comparisons between multiple images.Data in the imageLink.csv files allow images to be referenced and matched to given regions, which are then used
- for comparisons. This module does not need to be executed by the user but is called by detect.py.
+     This sub-folder contains the main module for the LSH, or local sensitive hashing, method. The detect.py module applies the LSH algorithm that compares similarity of images. This module can be run by setting the number of bands (-b;  10-100), hash size (-s; 10-100), and threshold (-t; 0-1.0) in the runtime arguments. The other module is imageFileDataLoader.py, which loads images and applies comparisons between multiple images.Data in the imageLink.csv files allow images to be referenced and matched to given regions, which are then used for comparisons. This module does not need to be executed by the user but is called by detect.py.
      
      network/:
      

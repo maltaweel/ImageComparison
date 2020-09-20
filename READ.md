@@ -78,9 +78,9 @@ This is the folder that contains the code. The following are the sub-folders wit
      lsh/:
      
      This sub-folder contains the main module for the LSH, or local sensitive hashing, method. The detect.py module applies the LSH algorithm that compares similarity of images. 
-     This module can be run by setting the number of bands (10-100), hash size (10-100), and threshold (0-1.0) in the runtime arguments. The other module is imageFileDataLoader.py, 
-     which loads images and applies comparisons between multiple images.Data in the imageLink.csv files allow images to be referenced and matched to given regions, which are then used
-     for comparisons. This module does not need to be executed by the user but is called by detect.py.
+ This module can be run by setting the number of bands (-b;  10-100), hash size (-s; 10-100), and threshold (-t; 0-1.0) in the runtime arguments. The other module is imageFileDataLoader.py, 
+ which loads images and applies comparisons between multiple images.Data in the imageLink.csv files allow images to be referenced and matched to given regions, which are then used
+ for comparisons. This module does not need to be executed by the user but is called by detect.py.
      
      network/:
      

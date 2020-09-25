@@ -124,7 +124,7 @@ python-dateutil==2.8.1
 python-debian==0.1.32
 pytz==2020.1
 PyWavelets==1.1.1
-pyxdg==0.25
+pyxdg==0.26
 PyYAML==3.12
 pyzmq==19.0.2
 regex==2020.7.14

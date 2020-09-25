@@ -232,11 +232,11 @@ def printResults(near_duplicates,imageFile):
         print ("Could not read file:", IOError)
     
 '''
-Main run method to launch algorithm
+Main run method to launch algorithm.
 
-@param:  argv:  the input from the run arguments. that includes threshold, hash_size, and bands
+Note: this assume -t (threshold), -s (hash size), and -b (bands) are set.
 '''  
-def run(argv):
+def run():
     # Argument parser
 
     parser = argparse.ArgumentParser(description="Efficient detection of near-duplicate images using locality sensitive hashing")
@@ -276,4 +276,4 @@ def run(argv):
 #   printHistorical(imageFile)               
 #launch the main
 if __name__ == "__main__":
-    run(sys.argv)
+    run()

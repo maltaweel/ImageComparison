@@ -86,7 +86,7 @@ nest-asyncio==1.4.0
 netifaces==0.10.4
 networkx==2.5
 nltk==3.5
-notebook==6.1.4
+notebook==6.1.5
 numpy==1.19.2
 oauth==1.0.1
 olefile==0.45.1

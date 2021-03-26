@@ -125,7 +125,7 @@ python-debian==0.1.32
 pytz==2020.1
 PyWavelets==1.1.1
 pyxdg==0.25
-PyYAML==3.12
+PyYAML==5.4
 pyzmq==19.0.2
 regex==2020.7.14
 reportlab==3.4.0

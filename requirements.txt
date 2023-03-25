@@ -4,7 +4,7 @@ networkx==2.4
 opencv_python==4.5.1.48
 geopandas==0.9.0
 Keras==2.4.3
-tensorflow==2.4.1
+tensorflow==2.11.1
 pysal==2.0.0
 matplotlib==3.2.2
 imagehash==4.2.0
